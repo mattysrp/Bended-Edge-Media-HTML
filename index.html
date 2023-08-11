@@ -46,150 +46,6 @@
          box-shadow:0 -100vh 0 100vh #5128f5;//magic
        }
     </style>
-    <style>
-
-        .popUpContainer {
-            display: none;
-            width: 100%;
-            height: 100%;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 150;
-            width: fit-content;
-            height: fit-content;
-            box-sizing: border-box;
-        }
-        .newsLetterContainer {
-            position: relative;
-            display: flex;
-            align-items: center;
-            align-self: center;
-            justify-content: center;
-            width: 500px;
-            height: 400px;
-            /* left: 35%; */
-            /* top: 25%; */
-            z-index: 151;
-            box-sizing: border-box;
-            border-style:solid;
-            border-width: 5px;
-            border-radius: 10%;
-            background-color: #7AA7EF;
-            border-color: black;
-            text-align: center;
-        }
-
-        .stop-scrolling {
-          height: 100%;
-          overflow: hidden;
-        }
-
-        .buttonsContainerLow {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .buttonsContainerHigh {
-            position: relative;
-            align-items: center;
-        }
-
-        .home-text093popup {
-            color: #ffffff;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 600;
-            user-select: none; /* supported by Chrome and Opera */
-            -webkit-user-select: none; /* Safari */
-            -khtml-user-select: none; /* Konqueror HTML */
-            -moz-user-select: none; /* Firefox */
-            -ms-user-select: none; /* Internet Explorer/Edge */
-        }
-
-        .home-subscribepopup {
-            position: relative;
-            cursor: pointer;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            transition: 0.3s;
-            width: fit-content;
-            /* left: 38%; */
-            margin-top: 15px;
-            padding-top: 16px;
-            padding-left: 32px;
-            border-radius: 56px;
-            padding-right: 32px;
-            padding-bottom: 16px;
-            background-color: #5228F5;
-        }
-        .home-subscribepopup:hover {
-            background-color: #341a9b;
-        }
-
-        .home-subscribe2popup {
-            position: relative;
-            transition: 0.3s;
-            width: fit-content;
-            /* left: 38%; */
-            margin-top: 15px;
-            padding-top: 16px;
-            padding-left: 32px;
-            border-radius: 56px;
-            padding-right: 32px;
-            padding-bottom: 16px;
-            background-color: green;
-        }
-        .home-text094popup {
-            color: rgb(0, 0, 0);
-            font-size: 14px;
-        }
-
-        .home-textinputpopup {
-            position: relative;
-            top: 20%;
-            width: 80%;
-            outline: none;
-            font-size: 14px;
-            text-align: center;
-            border-width: 0px;
-            user-select: none; /* supported by Chrome and Opera */
-            -webkit-user-select: none; /* Safari */
-            -khtml-user-select: none; /* Konqueror HTML */
-            -moz-user-select: none; /* Firefox */
-            -ms-user-select: none; /* Internet Explorer/Edge */
-        }
-
-        .home-subscriptionpopup {
-            position: relative;
-            height: 36px;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin-top: 20%;
-            width: 180px;
-            border-radius: 50px;
-            background-color: #ffffff;
-        }
-
-        .closePopUp {
-            position: absolute;
-            right: 40px;
-            top: 20px;
-            font-size: 24px;
-            cursor: pointer;
-            user-select: none; /* supported by Chrome and Opera */
-            -webkit-user-select: none; /* Safari */
-            -khtml-user-select: none; /* Konqueror HTML */
-            -moz-user-select: none; /* Firefox */
-            -ms-user-select: none; /* Internet Explorer/Edge */
-        }
-
-    </style>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -472,14 +328,14 @@ closeButton.addEventListener('click', function() {
                 <span class="home-text029">Platinum</span>
                 <span class="home-text030">
                   <span>
-                    Custom-built lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed doliqua.
+                    This is the special one, with this package, you have all the
+                    tools you need to achieve success.
                   </span>
                   <br />
                 </span>
                 <div class="home-get-started3 template-button">
                   <span class="home-text033">
-                    <span>Contact us</span>
+                    <span>More Info</span>
                     <br />
                   </span>
                 </div>
@@ -539,93 +395,97 @@ closeButton.addEventListener('click', function() {
                   </div>
                 </div>
               </div>
-              <div class="home-card1">
-                <span class="home-text041">Platinum</span>
-                <span class="home-text042">
-                  <span>
-                    Custom-built lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed doliqua.
-                  </span>
-                  <br />
-                </span>
-                <div class="home-get-started4 template-button">
-                  <span class="home-text045">
-                    <span>Contact us</span>
+              <div class="home-container6">
+                <div class="home-card1">
+                  <div class="home-container7">
+                    <span class="home-text041">Gold</span>
+                  </div>
+                  <span class="home-text042">
+                    <span>This is our standard option,</span>
                     <br />
+                    <span>The Gold Pack takes it to the next level.</span>
                   </span>
-                </div>
-                <span class="home-text048">What's included</span>
-                <div class="home-bullet-points1">
-                  <div class="home-point04">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      class="home-icon14"
-                    >
-                      <path
-                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
-                      ></path>
-                    </svg>
-                    <span class="home-text049">
-                      Sed ut pespiciatis unde omnis
+                  <img
+                    src="public/icons8-stars-48-200h.png"
+                    alt="image"
+                    class="home-image2"
+                  />
+                  <div class="home-get-started4 template-button">
+                    <span class="home-text046">
+                      <span>More Info</span>
+                      <br />
                     </span>
                   </div>
-                  <div class="home-point05">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      class="home-icon16"
-                    >
-                      <path
-                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
-                      ></path>
-                    </svg>
-                    <span class="home-text050">
-                      Sed ut pespiciatis unde omnis
-                    </span>
-                  </div>
-                  <div class="home-point06">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      class="home-icon18"
-                    >
-                      <path
-                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
-                      ></path>
-                    </svg>
-                    <span class="home-text051">
-                      Sed ut pespiciatis unde omnis
-                    </span>
-                  </div>
-                  <div class="home-point07">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      class="home-icon20"
-                    >
-                      <path
-                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
-                      ></path>
-                    </svg>
-                    <span class="home-text052">
-                      Sed ut pespiciatis unde omnis
-                    </span>
+                  <span class="home-text049">What's included</span>
+                  <div class="home-bullet-points1">
+                    <div class="home-point04">
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="home-icon14"
+                      >
+                        <path
+                          d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                        ></path>
+                      </svg>
+                      <span class="home-text050">
+                        Sed ut pespiciatis unde omnis
+                      </span>
+                    </div>
+                    <div class="home-point05">
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="home-icon16"
+                      >
+                        <path
+                          d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                        ></path>
+                      </svg>
+                      <span class="home-text051">
+                        Sed ut pespiciatis unde omnis
+                      </span>
+                    </div>
+                    <div class="home-point06">
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="home-icon18"
+                      >
+                        <path
+                          d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                        ></path>
+                      </svg>
+                      <span class="home-text052">
+                        Sed ut pespiciatis unde omnis
+                      </span>
+                    </div>
+                    <div class="home-point07">
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="home-icon20"
+                      >
+                        <path
+                          d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                        ></path>
+                      </svg>
+                      <span class="home-text053">
+                        Sed ut pespiciatis unde omnis
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="home-card2">
-                <span class="home-text053">Platinum</span>
-                <span class="home-text054">
-                  <span>
-                    Custom-built lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed doliqua.
-                  </span>
-                  <br />
+                <span class="home-text054">Silver</span>
+                <span class="home-text055">
+                  This is our most affordable option, it works but there's
+                  something better.
                 </span>
                 <div class="home-get-started5 template-button">
-                  <span class="home-text057">
-                    <span>Contact us</span>
+                  <span class="home-text056">
+                    <span>More Info</span>
                     <br />
                   </span>
                 </div>
-                <span class="home-text060">What's included</span>
+                <span class="home-text059">What's included</span>
                 <div class="home-bullet-points2">
                   <div class="home-point08">
                     <svg
@@ -636,7 +496,7 @@ closeButton.addEventListener('click', function() {
                         d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
                       ></path>
                     </svg>
-                    <span class="home-text061">
+                    <span class="home-text060">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -649,7 +509,7 @@ closeButton.addEventListener('click', function() {
                         d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
                       ></path>
                     </svg>
-                    <span class="home-text062">
+                    <span class="home-text061">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -662,7 +522,7 @@ closeButton.addEventListener('click', function() {
                         d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
                       ></path>
                     </svg>
-                    <span class="home-text063">
+                    <span class="home-text062">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -675,7 +535,7 @@ closeButton.addEventListener('click', function() {
                         d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
                       ></path>
                     </svg>
-                    <span class="home-text064">
+                    <span class="home-text063">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -685,13 +545,13 @@ closeButton.addEventListener('click', function() {
           </div>
         </section>
         <section class="home-testimonals">
-          <span class="home-text065">
+          <span class="home-text064">
             <span>Show more</span>
             <br />
           </span>
           <section id="hiw" class="home-how-it-works1">
             <div class="home-schedule4 card">
-              <span class="home-text068 title">
+              <span class="home-text067 title">
                 What people say about Active
               </span>
             </div>
@@ -699,12 +559,12 @@ closeButton.addEventListener('click', function() {
         </section>
         <section class="home-faq">
           <div class="home-heading2">
-            <span class="home-text069 title">Frequently asked questions</span>
+            <span class="home-text068 title">Frequently asked questions</span>
           </div>
           <div class="home-accordion">
             <div data-faq="closed" class="accordionContainer">
               <div class="home-header1">
-                <span class="home-text070">
+                <span class="home-text069">
                   — What is sit amet, consectetur adipiscing elit, sed do?
                 </span>
                 <svg viewBox="0 0 1024 1024" class="accordionIcon">
@@ -714,7 +574,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text071">
+                <span class="home-text070">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -724,7 +584,7 @@ closeButton.addEventListener('click', function() {
             </div>
             <div class="accordionContainer">
               <div class="home-header2">
-                <span class="home-text072">
+                <span class="home-text071">
                   — Why is dolore magna aliqua excepteur sint
                 </span>
                 <svg viewBox="0 0 1024 1024" class="accordionIcon">
@@ -734,7 +594,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text073">
+                <span class="home-text072">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -744,7 +604,7 @@ closeButton.addEventListener('click', function() {
             </div>
             <div data-faq="closed" class="accordionContainer">
               <div class="home-header3">
-                <span class="home-text074">
+                <span class="home-text073">
                   — Is excepteur sint occaecat cupidatat non proident, sunt in
                   culpa qui officia deserunt mollit anim id est laborum?
                 </span>
@@ -755,7 +615,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text075">
+                <span class="home-text074">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -765,7 +625,7 @@ closeButton.addEventListener('click', function() {
             </div>
             <div data-faq="closed" class="accordionContainer">
               <div class="home-header4">
-                <span class="home-text076">
+                <span class="home-text075">
                   — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
                   enim ipsam voluptatem quia voluptas sit aspernatur aut odit
                   aut fugit, sed quia consequuntur magni
@@ -777,7 +637,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text077">
+                <span class="home-text076">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -787,7 +647,7 @@ closeButton.addEventListener('click', function() {
             </div>
             <div data-faq="closed" class="accordionContainer">
               <div class="home-header5">
-                <span class="home-text078">
+                <span class="home-text077">
                   — Is minim veniam quis nostrud exercitation ullamco laboris
                   nisi ut aliquip ex ea commodo consequat.
                 </span>
@@ -798,7 +658,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text079">
+                <span class="home-text078">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -867,7 +727,7 @@ Here's what the above is doing:
         <footer class="home-footer">
           <div class="home-top">
             <div class="home-left2">
-              <span class="home-text080">Subscribe to our newsletter</span>
+              <span class="home-text079">Subscribe to our newsletter</span>
               <div id="home-subscription" class="home-subscription">
                 <input
                   type="email"
@@ -876,15 +736,15 @@ Here's what the above is doing:
                   class="home-textinput input"
                 />
                 <div id="subscribeNewsLetter" class="home-subscribe">
-                  <span id="subscribeText" class="home-text081">Subscribe</span>
+                  <span id="subscribeText" class="home-text080">Subscribe</span>
                 </div>
               </div>
-              <span class="home-text082">
+              <span class="home-text081">
                 By subscribing to our newsletter you agree with our Terms and
                 Conditions.
               </span>
               <div class="home-contact">
-                <span class="home-text083">Contact</span>
+                <span class="home-text082">Contact</span>
                 <a
                   href="mailto:use@active-app.com?subject=Support"
                   class="home-link4"
@@ -901,34 +761,34 @@ Here's what the above is doing:
             </div>
             <div class="home-right1">
               <div class="home-category">
-                <span class="home-text084">Solutions</span>
+                <span class="home-text083">Solutions</span>
                 <div class="home-links2">
-                  <span class="home-text085">Responsive Web Design</span>
-                  <span class="home-text086">Responsive Prototypesv</span>
-                  <span class="home-text087">Design to Code</span>
-                  <span class="home-text088">Static Website Builder</span>
-                  <span class="home-text089">Static Website Generator</span>
+                  <span class="home-text084">Responsive Web Design</span>
+                  <span class="home-text085">Responsive Prototypesv</span>
+                  <span class="home-text086">Design to Code</span>
+                  <span class="home-text087">Static Website Builder</span>
+                  <span class="home-text088">Static Website Generator</span>
                 </div>
               </div>
               <div class="home-category1">
-                <span class="home-text090">Company</span>
+                <span class="home-text089">Company</span>
                 <div class="home-links3">
-                  <span class="home-text091">About</span>
-                  <span class="home-text092">Team</span>
-                  <span class="home-text093">News</span>
-                  <span class="home-text094">Partners</span>
-                  <span class="home-text095">Careers</span>
-                  <span class="home-text096">Press &amp; Media</span>
+                  <span class="home-text090">About</span>
+                  <span class="home-text091">Team</span>
+                  <span class="home-text092">News</span>
+                  <span class="home-text093">Partners</span>
+                  <span class="home-text094">Careers</span>
+                  <span class="home-text095">Press &amp; Media</span>
                 </div>
               </div>
               <div class="home-category2">
-                <span class="home-text097">Solutions</span>
+                <span class="home-text096">Solutions</span>
                 <div class="home-links4">
-                  <span class="home-text098">Twitter</span>
-                  <span class="home-text099">Linkedin</span>
-                  <span class="home-text100">Crunchbase</span>
-                  <span class="home-text101">Instagram</span>
-                  <span class="home-text102">Facebook</span>
+                  <span class="home-text097">Twitter</span>
+                  <span class="home-text098">Linkedin</span>
+                  <span class="home-text099">Crunchbase</span>
+                  <span class="home-text100">Instagram</span>
+                  <span class="home-text101">Facebook</span>
                 </div>
               </div>
             </div>
@@ -939,104 +799,11 @@ Here's what the above is doing:
               src="public/bianco-700h.png"
               class="home-branding"
             />
-            <span class="home-text103">Copyright © BendedEdge - 2023</span>
+            <span class="home-text102">Copyright © BendedEdge - 2023</span>
           </div>
         </footer>
       </div>
     </div>
-    <div id="popup" class="popUpContainer">
-        <div class="newsLetterContainer">
-            <div id= "closePopUp" class="closePopUp">X</div>
-            <div class="buttonsContainerLow">
-                <h1>Subscribe to our newsletter</h1>
-                <div class="home-subscriptionpopup" id="home-subscriptionpopup">
-                    <input
-                      type="email"
-                      id="newsletterInputpopup"
-                      placeholder="Enter your email"
-                      class="home-textinputpopup"
-                    />
-                  </div>
-                </br>
-                <span class="home-text094popup">
-                    By subscribing to our newsletter you agree with our <a style="text-decoration: none; color: white;" href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Terms and
-                        Conditions</a>.
-                </span>
-                <div id="subscribeNewsLetterpopup" class="home-subscribepopup">
-                    <span id="subscribeTextpopup" class="home-text093popup">Subscribe</span>
-                </div>
-            </div>
-    
-        </div>
-    </div>
     <script type="text/javascript"></script>
   </body>
-  <script>
-    const subButton = document.querySelector('#subscribeNewsLetterpopup');
-    const show = setTimeout(showPupUp, 3000);
-    const email  = document.querySelector('#newsletterInputpopup');
-    const subButtonText  = document.querySelector('#subscribeTextpopup');
-    const closePopUp = document.querySelector('#closePopUp')
-    const popup = document.querySelector('#popup')
-    var changed = false;
-    var done = false
-
-    subButton.addEventListener('click', function() {
-        if (!done) {
-            console.log(email.value)
-            if (!email.value || email.value == "" || email.value.search("@") == -1 || email.value.search(".") == -1) {
-                if (!changed) {
-                    changed = true
-                    subButtonText.innerHTML = "Invalid";
-                    subButton.style.background = "red";
-                    const myTimeout = setTimeout(resetsubButtonText, 2000);
-                }
-
-                return;
-            }
-            var data = data = {
-                members: []
-            }
-            // try {
-            //   fetch('./database.json')
-            //     .then((json) => data = json);
-            // } catch(error){
-            //   data = {
-            //     members: []
-            //   }
-            // }
-            const postData = JSON.stringify(data);
-            console.log(postData)
-            email.remove();
-            subButtonText.innerHTML = "Subscribed!";
-            subButton.classList.remove("home-subscribepopup");
-            subButton.classList.add("home-subscribe2popup");
-            const element = document.querySelector("#home-subscriptionpopup");
-            element.classList.remove("home-subscriptionpopup");
-            const myTimeout2 = setTimeout(removePopUp, 2000);
-            done = true;
-        }
-    })
-
-    closePopUp.addEventListener('click', function() {
-        removePopUp()
-    })
-
-    function resetsubButtonText() {
-        changed = false;
-        subButton.style.background = "green";
-        subButtonText.innerHTML = "Subscribe"
-    }
-
-    function removePopUp() {
-        popup.remove()
-        document.body.classList.remove("stop-scrolling")
-    }
-
-    function showPupUp() {
-      document.body.classList.add("stop-scrolling")
-      console.log("PORC")
-        popup.style.display = "flex";
-    }
-</script>
 </html>
