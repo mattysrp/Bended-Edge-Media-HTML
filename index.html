@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bended Edge Media</title>
+    <meta property="og:title" content="Bended Edge Media" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+       body::-webkit-scrollbar {
+         width: 0.5em;
+         z-index: 100;
+         background-color:black;
+       }
+
+
+      body::-webkit-scrollbar-thumb {
+         background-color:black;
+         box-shadow:0 -100vh 0 100vh #5128f5;//magic
+       }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+      ></script>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <section class="home-hero">
+          <div class="home-menu">
+            <div id="mobile-menu" class="home-mobile-navigation">
+              <img
+                alt="pastedImage"
+                src="public/pastedimage-no9b-1500h.png"
+                class="home-logo"
+              />
+              <div class="home-links">
+                <span class="Link">Solutions</span>
+                <span class="Link">How it works</span>
+                <span class="Link">Prices</span>
+              </div>
+              <div id="close-mobile-menu" class="home-close-mobile-menu">
+                <svg viewBox="0 0 804.5714285714286 1024" class="home-icon">
+                  <path
+                    d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="home-desktop-navigation">
+              <nav class="home-centered">
+                <div class="home-left">
+                  <img
+                    alt="pastedImage"
+                    src="public/bianco-700h.png"
+                    class="home-logo1"
+                  />
+                  <div class="home-links1">
+                    <span class="Link">Solutions</span>
+                    <a href="#hiw" class="home-link Link">How it works</a>
+                    <a href="#prc" class="home-link1 Link">Prices</a>
+                  </div>
+                </div>
+                <div class="home-right">
+                  <a href="#getstar" class="home-link2">
+                    <div class="home-get-started">
+                      <span class="home-text004">Get started</span>
+                    </div>
+                  </a>
+                  <div id="open-mobile-menu" class="home-burger-menu">
+                    <img
+                      alt="pastedImage"
+                      src="public/pastedimage-yxbd.svg"
+                      class="home-mobile-menu-button"
+                    />
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div>
+              <dangerous-html
+                html="<script>
+/*
+Mobile menu - Code Embed
+*/
+
+// Mobile menu
+const mobileMenu = document.querySelector('#mobile-menu')
+
+// Buttons
+const closeButton = document.querySelector('#close-mobile-menu')
+const openButton = document.querySelector('#open-mobile-menu')
+
+// On openButton click, set the mobileMenu position left to -100vw
+openButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(0%)'
+})
+
+// On closeButton click, set the mobileMenu position to 0vw
+closeButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(100%)'
+})
+</script>"
+              ></dangerous-html>
+            </div>
+          </div>
+          <header class="home-header">
+            <h1 class="home-text005">Take Control of Your Social Media</h1>
+            <p class="home-text006">
+              Utilize all the online resources provided by Bended Edge to
+              maximize the potential of your social media
+            </p>
+          </header>
+          <a href="#getstar" class="home-link3">
+            <div class="home-get-started1">
+              <span class="home-text007">Get started</span>
+            </div>
+          </a>
+          <img alt="image" src="public/bianco-700h.png" class="home-image" />
+        </section>
+        <section id="getstar" class="home-features">
+          <div class="home-cards">
+            <span class="home-text008">Grow with us&nbsp;</span>
+            <div class="home-container1">
+              <div class="home-schedule card">
+                <img
+                  alt="pastedImage"
+                  src="public/pastedimage-fii6m-200h.png"
+                  class="home-icon02"
+                />
+                <span class="home-text009">Schedule</span>
+                <span class="home-text010">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </span>
+              </div>
+              <div class="home-publish card">
+                <img
+                  alt="pastedImage"
+                  src="public/pastedimage-mimg-200h.png"
+                  class="home-icon03"
+                />
+                <span class="home-text011">Publish</span>
+                <span class="home-text012">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
+                </span>
+              </div>
+            </div>
+            <div class="home-container2">
+              <div class="home-analyze card">
+                <img
+                  alt="pastedImage"
+                  src="public/pastedimage-l6p-200h.png"
+                  class="home-icon04"
+                />
+                <span class="home-text013">Analyze</span>
+                <span class="home-text014">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </span>
+              </div>
+              <div class="home-get-leads card">
+                <img
+                  alt="pastedImage"
+                  src="public/pastedimage-vyi5-200h.png"
+                  class="home-icon05"
+                />
+                <span class="home-text015">Get leads</span>
+                <span class="home-text016">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-banners">
+          <div class="home-banner-manage">
+            <div class="home-container3">
+              <div class="home-left1">
+                <span class="home-text017 sub-title">Content Management</span>
+                <span class="home-text018 title">
+                  Manage all your platforms in just one place.
+                </span>
+                <span class="home-text019">
+                  With our agency you'll be free to manage
+                </span>
+                <div class="home-get-started2 template-button">
+                  <span class="home-text020">Get started</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-quote-container">
+          <div class="home-quote">
+            <span class="home-message">
+              “In our agency Bended Edge, we take your business to another
+              level. You'll be at the top of every ranking, and your advantage
+              over others will be immense.”
+            </span>
+            <div class="home-author">
+              <img
+                alt="image"
+                src="public/diego-200w.jpg"
+                class="home-image1"
+              />
+              <span class="home-quote1">
+                <span class="home-text021">—&nbsp; Diego De Filippis</span>
+                <span>, Founder, BendedEdge</span>
+              </span>
+            </div>
+          </div>
+        </section>
+        <section class="home-integrations">
+          <div class="home-centered-container">
+            <div class="home-heading">
+              <span class="home-text023 sub-title">Integrations</span>
+              <span class="title">
+                Integrated with the tools you know and love
+              </span>
+              <span class="home-text025">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
+              </span>
+            </div>
+            <div class="home-pills-container">
+              <div class="home-pills">
+                <div class="home-container4">
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/logos/group%201015-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/logos/group%201012-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/logos/group-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/logos/pinterest%20logo-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/logos/pastedimage-smjb.svg"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/logos/group%201014-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                </div>
+                <div class="home-container5"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="hiw" class="home-how-it-works">
+          <span class="home-text026">How it works</span>
+          <div class="home-schedule1 card"></div>
+          <div class="home-schedule2 card"></div>
+          <div class="home-schedule3 card"></div>
+        </section>
+        <section id="prc" class="home-pricing">
+          <div class="home-centered-container1">
+            <div class="home-heading1">
+              <span class="home-text027 title">
+                Pricing for all kind of businesses
+              </span>
+              <span class="home-text028">
+                Create next-generation solutions for small business customers
+                with pricing options that accommodate everyone.
+              </span>
+              <div class="home-selection">
+                <span class="home-text029">Monthly</span>
+                <span class="home-text030">Yearly</span>
+              </div>
+            </div>
+            <div class="home-cards1">
+              <div class="home-card">
+                <span class="home-text031">Free</span>
+                <span class="home-text032">
+                  Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed doliqua.
+                </span>
+                <div class="home-get-started3 template-button">
+                  <span class="home-text033">Start for free</span>
+                </div>
+                <span class="home-text034">What's included</span>
+                <div class="home-bullet-points">
+                  <div class="home-point">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon06"
+                    >
+                      <path
+                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                      ></path>
+                    </svg>
+                    <span class="home-text035">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div class="home-point01">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon08"
+                    >
+                      <path
+                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                      ></path>
+                    </svg>
+                    <span class="home-text036">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="home-card1">
+                <span class="home-text037">Pay as you go</span>
+                <span class="home-text038">
+                  <span>Launch your lorem for $49/mo</span>
+                  <br />
+                  <span>
+                    lorem ipsum dolor sit amet, consectetur adipiscing.
+                  </span>
+                </span>
+                <div class="home-get-started4 template-button">
+                  <span class="home-text042">
+                    <span>Upgrade now</span>
+                    <br />
+                  </span>
+                </div>
+                <span class="home-text045">What's included</span>
+                <div class="home-bullet-points1">
+                  <div class="home-point02">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon10"
+                    >
+                      <path
+                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                      ></path>
+                    </svg>
+                    <span class="home-text046">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div class="home-point03">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon12"
+                    >
+                      <path
+                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                      ></path>
+                    </svg>
+                    <span class="home-text047">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div class="home-point04">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon14"
+                    >
+                      <path
+                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                      ></path>
+                    </svg>
+                    <span class="home-text048">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div class="home-point05">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon16"
+                    >
+                      <path
+                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                      ></path>
+                    </svg>
+                    <span class="home-text049">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="home-card2">
+                <span class="home-text050">Enterprise</span>
+                <span class="home-text051">
+                  <span>
+                    Custom-built lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed doliqua.
+                  </span>
+                  <br />
+                </span>
+                <div class="home-get-started5 template-button">
+                  <span class="home-text054">
+                    <span>Contact us</span>
+                    <br />
+                  </span>
+                </div>
+                <span class="home-text057">What's included</span>
+                <div class="home-bullet-points2">
+                  <div class="home-point06">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon18"
+                    >
+                      <path
+                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                      ></path>
+                    </svg>
+                    <span class="home-text058">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div class="home-point07">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon20"
+                    >
+                      <path
+                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                      ></path>
+                    </svg>
+                    <span class="home-text059">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div class="home-point08">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon22"
+                    >
+                      <path
+                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                      ></path>
+                    </svg>
+                    <span class="home-text060">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div class="home-point09">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon24"
+                    >
+                      <path
+                        d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                      ></path>
+                    </svg>
+                    <span class="home-text061">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-testimonals">
+          <span class="home-text062">
+            <span>Show more</span>
+            <br />
+          </span>
+          <section id="hiw" class="home-how-it-works1">
+            <div class="home-schedule4 card">
+              <span class="home-text065 title">
+                What people say about Active
+              </span>
+            </div>
+          </section>
+        </section>
+        <section class="home-faq">
+          <div class="home-heading2">
+            <span class="home-text066 title">Frequently asked questions</span>
+          </div>
+          <div class="home-accordion">
+            <div data-faq="closed" class="accordionContainer">
+              <div class="home-header1">
+                <span class="home-text067">
+                  — What is sit amet, consectetur adipiscing elit, sed do?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text068">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </span>
+              </div>
+            </div>
+            <div class="accordionContainer">
+              <div class="home-header2">
+                <span class="home-text069">
+                  — Why is dolore magna aliqua excepteur sint
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text070">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="home-header3">
+                <span class="home-text071">
+                  — Is excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text072">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="home-header4">
+                <span class="home-text073">
+                  — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                  enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                  aut fugit, sed quia consequuntur magni
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text074">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="home-header5">
+                <span class="home-text075">
+                  — Is minim veniam quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat.
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text076">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <dangerous-html
+              html="<script>
+// Accordion - Code Embed
+
+const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
+const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
+const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
+
+accordionContents.forEach((accordionContent) => {
+    accordionContent.style.display = 'none'; //Hides all accordion contents
+});
+
+accordionContainers.forEach((accordionContainer, index) => {
+    accordionContainer.addEventListener('click', () => {
+        accordionContents.forEach((accordionContent) => {
+            accordionContent.style.display = 'none'; //Hides all accordion contents
+        });
+
+        accordionIcons.forEach((accordionIcon) => {
+            accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
+        });
+
+        if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
+            accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
+        } else {
+            accordionContainers.forEach((accordionContainer) => {
+                accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
+            });
+
+            accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
+            accordionContents[index].style.display = 'flex'; // Shows accordion content
+            accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
+        }
+    });
+});
+
+/*
+Here's what the above is doing:
+    1. Selects all accordion containers, contents, and icons
+    2. Hides all accordion contents
+    3. Adds an event listener to each accordion container
+    4. When an accordion container is clicked, it:
+        - Hides all accordion contents
+        - Resets all icon transforms to 0deg (default)
+        - Checks if this container has class 'accordion-open'
+            - If it does, it removes class 'accordion-open'
+            - If it doesn't, it:
+                - Removes class 'accordion-open' from all containers
+                - Adds class 'accordion-open' to this container
+                - Shows accordion content
+                - Rotates accordion icon 180deg
+*/
+</script>"
+            ></dangerous-html>
+          </div>
+        </section>
+        <footer class="home-footer">
+          <div class="home-top">
+            <div class="home-left2">
+              <span class="home-text077">Subscribe to our newsletter</span>
+              <div id="home-subscription" class="home-subscription">
+                <input
+                  type="email"
+                  id="newsletterInput"
+                  placeholder="Enter your email"
+                  class="home-textinput input"
+                />
+                <div id="subscribeNewsLetter" class="home-subscribe">
+                  <span id="subscribeText" class="home-text078">Subscribe</span>
+                </div>
+              </div>
+              <span class="home-text079">
+                By subscribing to our newsletter you agree with our Terms and
+                Conditions.
+              </span>
+              <div class="home-contact">
+                <span class="home-text080">Contact</span>
+                <a
+                  href="mailto:use@active-app.com?subject=Support"
+                  class="home-link4"
+                >
+                  contact@bendededge.com
+                </a>
+                <a
+                  href="mailto:use@active-app.com?subject=Support"
+                  class="home-link5"
+                >
+                  support@bendededge.com
+                </a>
+              </div>
+            </div>
+            <div class="home-right1">
+              <div class="home-category">
+                <span class="home-text081">Solutions</span>
+                <div class="home-links2">
+                  <span class="home-text082">Responsive Web Design</span>
+                  <span class="home-text083">Responsive Prototypesv</span>
+                  <span class="home-text084">Design to Code</span>
+                  <span class="home-text085">Static Website Builder</span>
+                  <span class="home-text086">Static Website Generator</span>
+                </div>
+              </div>
+              <div class="home-category1">
+                <span class="home-text087">Company</span>
+                <div class="home-links3">
+                  <span class="home-text088">About</span>
+                  <span class="home-text089">Team</span>
+                  <span class="home-text090">News</span>
+                  <span class="home-text091">Partners</span>
+                  <span class="home-text092">Careers</span>
+                  <span class="home-text093">Press &amp; Media</span>
+                </div>
+              </div>
+              <div class="home-category2">
+                <span class="home-text094">Solutions</span>
+                <div class="home-links4">
+                  <span class="home-text095">Twitter</span>
+                  <span class="home-text096">Linkedin</span>
+                  <span class="home-text097">Crunchbase</span>
+                  <span class="home-text098">Instagram</span>
+                  <span class="home-text099">Facebook</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-bottom">
+            <img
+              alt="pastedImage"
+              src="public/bianco-700h.png"
+              class="home-branding"
+            />
+            <span class="home-text100">Copyright © BendedEdge - 2023</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script type="text/javascript"></script>
+  </body>
+</html>
