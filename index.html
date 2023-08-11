@@ -46,6 +46,133 @@
          box-shadow:0 -100vh 0 100vh #5128f5;//magic
        }
     </style>
+    <style>
+
+        .popUpContainer {
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            align-items: center;
+            justify-content: center;
+        }
+        .newsLetterContainer {
+            position: relative;
+            display: flex;
+            align-items: center;
+            align-self: center;
+            justify-content: center;
+            width: 500px;
+            height: 400px;
+            /* left: 35%; */
+            /* top: 25%; */
+            z-index: 100;
+            box-sizing: border-box;
+            border-style:solid;
+            border-width: 5px;
+            border-radius: 10%;
+            background-color: #b9b9b9;
+            border-color: black;
+            text-align: center;
+        }
+        .buttonsContainerLow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .buttonsContainerHigh {
+            position: relative;
+            align-items: center;
+        }
+
+        .home-text093popup {
+            color: #ffffff;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        .home-subscribepopup {
+            position: relative;
+            cursor: pointer;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s;
+            width: fit-content;
+            /* left: 38%; */
+            margin-top: 15px;
+            padding-top: 16px;
+            padding-left: 32px;
+            border-radius: 56px;
+            padding-right: 32px;
+            padding-bottom: 16px;
+            background-color: #5228F5;
+        }
+        .home-subscribepopup:hover {
+            background-color: #341a9b;
+        }
+
+        .home-subscribe2popup {
+            position: relative;
+            transition: 0.3s;
+            width: fit-content;
+            /* left: 38%; */
+            margin-top: 15px;
+            padding-top: 16px;
+            padding-left: 32px;
+            border-radius: 56px;
+            padding-right: 32px;
+            padding-bottom: 16px;
+            background-color: green;
+        }
+        .home-text094popup {
+            color: rgb(0, 0, 0);
+            font-size: 14px;
+        }
+
+        .home-textinputpopup {
+            position: relative;
+            top: 20%;
+            width: 80%;
+            outline: none;
+            font-size: 14px;
+            text-align: center;
+            border-width: 0px;
+            user-select: none; /* supported by Chrome and Opera */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+        }
+
+        .home-subscriptionpopup {
+            position: relative;
+            height: 36px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            width: 180px;
+            border-radius: 50px;
+            background-color: #ffffff;
+        }
+
+        .closePopup {
+            position: absolute;
+            right: 40px;
+            top: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            user-select: none; /* supported by Chrome and Opera */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+        }
+
+    </style>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -800,6 +927,96 @@ Here's what the above is doing:
         </footer>
       </div>
     </div>
+    <div id="popup" class="popUpContainer">
+        <div class="newsLetterContainer">
+            <div id= "closePopup" class="closePopup">X</div>
+            <div class="buttonsContainerLow">
+                <h1>Subscribe to our newsletter</h1>
+                <div class="home-subscriptionpopup" id="home-subscriptionpopup">
+                    <input
+                      type="email"
+                      id="newsletterInput"
+                      placeholder="Enter your email"
+                      class="home-textinputpopup input"
+                    />
+                  </div>
+                </br>
+                <span class="home-text094popup">
+                    By subscribing to our newsletter you agree with our <a style="text-decoration: none;" href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Terms and
+                        Conditions</a>.
+                </span>
+                <div id="subscribeNewsLetter" class="home-subscribepopup">
+                    <span id="subscribeText" class="home-text093popup">Subscribe</span>
+                </div>
+            </div>
+    
+        </div>
+    </div>
     <script type="text/javascript"></script>
   </body>
+  <script>
+    const subButton = document.querySelector('#subscribeNewsLetter');
+    const show = setTimeout(showPupUp, 3000);
+    const email  = document.querySelector('#newsletterInput');
+    const subButtonText  = document.querySelector('#subscribeText');
+    const closePopUp = document.querySelector('#closePopUp')
+    const popup = document.querySelector('#popup')
+    var changed = false;
+    var done = false
+
+    subButton.addEventListener('click', function() {
+        if (!done) {
+            console.log(email.value)
+            if (!email.value || email.value == "" || email.value.search("@") == -1 || email.value.search(".") == -1) {
+                if (!changed) {
+                    changed = true
+                    subButtonText.innerHTML = "Invalid";
+                    subButton.style.background = "red";
+                    const myTimeout = setTimeout(resetsubButtonText, 2000);
+                }
+
+                return;
+            }
+            var data = data = {
+                members: []
+            }
+            // try {
+            //   fetch('./database.json')
+            //     .then((json) => data = json);
+            // } catch(error){
+            //   data = {
+            //     members: []
+            //   }
+            // }
+            const postData = JSON.stringify(data);
+            console.log(postData)
+            email.remove();
+            subButtonText.innerHTML = "Subscribed!";
+            subButton.classList.remove("home-subscribepopup");
+            subButton.classList.add("home-subscribe2popup");
+            const element = document.querySelector("#home-subscriptionpopup");
+            element.classList.remove("home-subscriptionpopup");
+            const myTimeout2 = setTimeout(removePopUp, 2000);
+            done = true;
+        }
+    })
+
+    closePopUp.addEventListener('click', function() {
+        removePopUp()
+    })
+
+    function resetsubButtonText() {
+        changed = false;
+        subButton.style.background = "green";
+        subButtonText.innerHTML = "Subscribe"
+    }
+
+    function removePopUp() {
+        popup.remove()
+    }
+
+    function showPupUp() {
+        popup.style.display = "flex";
+    }
+</script>
 </html>
