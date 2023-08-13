@@ -231,7 +231,7 @@
 }
 .home-features {
   width: 100%;
-  height: 800px;
+  height: 952px;
   display: flex;
   z-index: 1;
   position: relative;
@@ -316,20 +316,6 @@
   margin-top: var(--dl-space-space-oneandhalfunits);
   font-weight: 600;
 }
-.home-testimonals {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 1100px;
-  display: flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-sixunits);
-  padding-left: var(--dl-space-space-sevenunits);
-  padding-right: var(--dl-space-space-sevenunits);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-sixunits);
-  justify-content: center;
-  background-color: #7AA7EF;
-}
 .home-quote-container {
   width: 100%;
   display: flex;
@@ -362,10 +348,14 @@
   align-items: center;
   flex-direction: row;
 }
+.home-link3 {
+  display: contents;
+}
 .home-image03 {
   width: 79px;
   height: 56px;
   object-fit: cover;
+  text-decoration: none;
 }
 .home-quote1 {
   color: #7AA7EF;
@@ -509,7 +499,7 @@
   line-height: 2;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-link3 {
+.home-link4 {
   display: contents;
 }
 .home-schedule3 {
@@ -1000,6 +990,7 @@
   color: #000000;
   font-size: 15px;
   font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
   font-weight: 600;
   line-height: 27px;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1513,7 +1504,7 @@
   font-weight: 400;
   margin-left: var(--dl-space-space-halfunit);
 }
-.home-testimonals1 {
+.home-testimonals {
   width: 100%;
   height: fit-content;
   display: flex;
@@ -1765,12 +1756,12 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-link4 {
+.home-link5 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   text-decoration: underline;
 }
-.home-link5 {
+.home-link6 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   margin-top: var(--dl-space-space-halfunit);
@@ -1943,6 +1934,7 @@
     height: 941px;
   }
   .home-features {
+    width: 1196px;
     z-index: 0;
     align-items: center;
     flex-direction: column;
@@ -1966,10 +1958,6 @@
     height: 308px;
     position: static;
   }
-  .home-testimonals {
-    height: 969px;
-    background-color: #7AA7EF;
-  }
   .home-image03 {
     width: 125px;
     height: 79px;
@@ -1988,6 +1976,10 @@
     margin-top: 320px;
     font-weight: 700;
     line-height: 80px;
+  }
+  .home-text017 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
   }
   .home-how-it-works {
     height: 649px;
@@ -2081,7 +2073,7 @@
   .home-pricing {
     background-color: #7AA7EF;
   }
-  .home-testimonals1 {
+  .home-testimonals {
     height: 969px;
     background-color: #7AA7EF;
   }
@@ -2130,6 +2122,13 @@
     width: 100%;
     max-width: 1200px;
   }
+  .home-text006 {
+    color: rgb(255, 255, 255);
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+  }
   .home-features {
     display: none;
   }
@@ -2143,10 +2142,6 @@
     flex-wrap: wrap;
     align-items: center;
   }
-  .home-testimonals {
-    align-items: center;
-    flex-direction: column;
-  }
   .home-quote-container {
     padding-top: var(--dl-space-space-sevenunits);
     padding-bottom: var(--dl-space-space-sevenunits);
@@ -2159,6 +2154,16 @@
     width: 100%;
     max-width: 800px;
   }
+  .home-integrations {
+    height: 1004px;
+  }
+  .home-text016 {
+    color: rgb(255, 255, 255);
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+  }
   .home-container02 {
     margin-left: 0px;
   }
@@ -2167,6 +2172,9 @@
     display: none;
     flex-wrap: wrap;
     align-items: center;
+  }
+  .home-schedule2 {
+    display: flex;
   }
   .home-pricing {
     height: 2000px;
@@ -2240,7 +2248,7 @@
     font-style: normal;
     font-weight: 700;
   }
-  .home-testimonals1 {
+  .home-testimonals {
     align-items: center;
     flex-direction: column;
   }
@@ -2275,10 +2283,10 @@
   .home-text118 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-link4 {
+  .home-link5 {
     text-decoration: underline none;
   }
-  .home-link5 {
+  .home-link6 {
     text-decoration: underline none;
   }
   .home-right1 {
@@ -2309,7 +2317,7 @@
     height: 620px;
     position: relative;
     padding-bottom: 180px;
-    background-color: var(--dl-color-template-blue-bg);
+    background-color: #7AA7EF;
   }
   .home-desktop-navigation {
     padding-left: 0px;
@@ -2365,11 +2373,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
-  }
-  .home-testimonals {
-    padding-left: var(--dl-space-space-fourunits);
-    padding-right: var(--dl-space-space-fourunits);
-    padding-bottom: 0px;
   }
   .home-quote-container {
     padding-top: var(--dl-space-space-fourunits);
@@ -2478,7 +2481,7 @@
   .home-text091 {
     font-size: 28px;
   }
-  .home-testimonals1 {
+  .home-testimonals {
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     padding-bottom: 0px;
@@ -2508,6 +2511,7 @@
 }
 @media(max-width: 479px) {
   .home-hero {
+    height: 771px;
     padding-bottom: 160px;
     background-color: #7AA7EF;
   }
@@ -2518,13 +2522,42 @@
     align-items: center;
     justify-content: center;
   }
+  .home-header {
+    height: 155px;
+    margin-top: 0px;
+    padding-top: var(--dl-space-space-unit);
+  }
+  .home-text006 {
+    color: rgb(255, 255, 255);
+    width: 479px;
+    height: 345px;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+  }
   .home-text007 {
-    color: #EEE9FE;
+    color: rgb(238, 233, 254);
+    width: 479px;
+    height: 181px;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 0px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .home-get-started1 {
+    position: relative;
+    align-self: center;
+    margin-top: var(--dl-space-space-sevenunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
   }
   .home-image {
     width: 479px;
-    height: 448px;
+    height: 342px;
     z-index: 0;
+    align-self: center;
   }
   .home-features {
     padding-top: 200px;
@@ -2534,20 +2567,63 @@
     display: flex;
     flex-direction: column;
   }
-  .home-testimonals {
-    height: 50%;
-    padding-top: 0;
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
-    padding-bottom: 0;
+  .home-quote-container {
+    height: 408px;
+    margin-top: 0px;
+  }
+  .home-integrations {
+    height: 914px;
+  }
+  .home-text016 {
+    color: rgb(255, 255, 255);
+    height: 44px;
+    font-size: 21px;
+    font-style: normal;
+    margin-top: 0px;
+    font-weight: 700;
+    line-height: 80px;
+  }
+  .home-text017 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-style: normal;
+    margin-top: var(--dl-space-space-threeunits);
+    font-weight: 300;
+  }
+  .home-how-it-works {
+    height: 1594px;
   }
   .home-cards1 {
     grid: inherit;
+    height: 1031px;
     display: flex;
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
+  }
+  .home-schedule2 {
+    width: 402px;
+    margin-top: 673px;
+    margin-left: 213px;
+  }
+  .home-schedule3 {
+    width: 401px;
+    height: 639px;
+    margin-left: 213px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-bottom: 61px;
+  }
+  .home-schedule4 {
+    align-self: center;
+    margin-top: 11px;
+    padding-left: 29px;
+    padding-bottom: var(--dl-space-space-fourunits);
+    justify-content: flex-start;
   }
   .home-pricing {
-    height: fit;
+    height: 2686px;
+    padding-top: 248px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
@@ -2610,7 +2686,7 @@
   .home-get-started7 {
     background-color: var(--dl-color-gray-white);
   }
-  .home-testimonals1 {
+  .home-testimonals {
     height: 50%;
     padding-top: 0;
     padding-left: var(--dl-space-space-oneandhalfunits);
@@ -2635,5 +2711,12 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .home-text133 {
+    color: rgb(196, 196, 196);
+    font-size: 14px;
+  }
+  .home-branding {
+    width: 154px;
   }
 }
