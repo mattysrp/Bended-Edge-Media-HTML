@@ -2182,9 +2182,11 @@
     margin-left: 0px;
   }
   .home-cards1 {
+    height: 602px;
     display: grid;
     align-self: center;
     align-items: center;
+    padding-bottom: 0px;
   }
   .home-schedule2 {
     width: 300;
@@ -2205,6 +2207,9 @@
     height: 2000px;
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
+  }
+  .home-heading1 {
+    margin-top: 244px;
   }
   .home-text030 {
     width: 100%;
