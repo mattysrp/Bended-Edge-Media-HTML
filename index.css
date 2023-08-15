@@ -2569,7 +2569,7 @@
     padding-right: var(--dl-space-space-twounits);
   }
 }
-@media(max-width: 800px) {
+@media(max-width: 479px) {
   .home-container {
     background-color: #7AA7EF;
   }
