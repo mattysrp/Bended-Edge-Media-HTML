@@ -425,15 +425,6 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-container02 {
-  gap: var(--dl-space-space-twounits);
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: var(--dl-space-space-fiveunits);
-  flex-direction: row;
-  justify-content: center;
-}
 .home-how-it-works {
   width: 100%;
   height: fit-content;
@@ -456,7 +447,7 @@
   font-family: Inter;
   font-weight: 700;
 }
-.home-container03 {
+.home-container02 {
   flex: 0 0 auto;
   width: auto;
   height: fit-content;
@@ -645,7 +636,7 @@
   justify-content: flex-start;
   background-color: #ffffff;
 }
-.home-container04 {
+.home-container03 {
   width: auto;
   height: 96px;
   display: flex;
@@ -791,7 +782,7 @@
   justify-content: flex-start;
   background-color: #ffffff;
 }
-.home-container05 {
+.home-container04 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -799,7 +790,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.home-container06 {
+.home-container05 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -825,7 +816,7 @@
   line-height: 24px;
   margin-bottom: var(--dl-space-space-threeunits);
 }
-.home-container07 {
+.home-container06 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -962,7 +953,7 @@
   justify-content: flex-start;
   background-color: #ffffff;
 }
-.home-container08 {
+.home-container07 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -1243,7 +1234,7 @@
   justify-content: flex-start;
   background-color: #ffffff;
 }
-.home-container09 {
+.home-container08 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -1263,7 +1254,7 @@
   line-height: 24px;
   margin-bottom: 26px;
 }
-.home-container10 {
+.home-container09 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -2146,9 +2137,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
-  }
-  .home-container02 {
-    margin-left: 0px;
   }
   .home-cards1 {
     height: 602px;
