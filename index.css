@@ -179,6 +179,9 @@
   height: 40px;
   display: none;
 }
+.home-menu-code {
+  display: contents;
+}
 .home-header {
   height: 469px;
   display: flex;
@@ -1626,6 +1629,9 @@
   max-width: 760px;
   line-height: 24px;
 }
+.home-accordion-code {
+  display: contents;
+}
 .home-footer {
   width: 100%;
   display: flex;
@@ -2516,6 +2522,10 @@
     height: 746px;
     padding-bottom: var(--dl-space-space-halfunit);
     background-color: #7AA7EF;
+  }
+  .home-mobile-navigation {
+    height: 9638px;
+    margin-bottom: 0px;
   }
   .home-logo {
     margin-left: 0px;
