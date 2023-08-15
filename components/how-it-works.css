@@ -1,0 +1,23 @@
+.how-it-works-how-it-works {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 834px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sevenunits);
+  padding-right: var(--dl-space-space-sevenunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+  background-color: #211062;
+}
+@media(max-width: 767px) {
+  .how-it-works-how-it-works {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+}
