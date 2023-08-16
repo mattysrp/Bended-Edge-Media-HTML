@@ -2070,7 +2070,7 @@
     color: rgb(255, 255, 255);
     width: fit-content;
     height: fit-content;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     margin-top: 0px;
     font-weight: 700;
@@ -2103,11 +2103,9 @@
     justify-content: center;
   }
   .home-schedule2 {
-    width: 80%;
+    width: fit-content;
     height: 80%;
-    margin-left: 10%;
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-left: 0;
   }
   .home-text018 {
     color: rgb(0, 0, 0);
@@ -2119,10 +2117,9 @@
     width: fit-content;
   }
   .home-schedule3 {
-    width: 80%;
+    width: fit-content;
     height: 80%;
     margin-top: 20%;
-    margin-left: 10%;
   }
   .home-text020 {
     margin-top: -20;
@@ -2138,11 +2135,10 @@
     margin-top: 10;
   }
   .home-schedule4 {
-    width: 80%;
+    width: fit-content;
     height: 80%;
     align-self: center;
     margin-top: 20%;
-    margin-left: 10%;
   }
   .home-text022 {
     margin-top: -20;
