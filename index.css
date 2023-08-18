@@ -1701,24 +1701,23 @@
     height: fit-content;
   }
   .home-container2 {
-    width: 100%;
+    width: 125%;
   }
   .home-cards1 {
     width: fit-content;
-    height: fit-content;
-    display: grid;
+    display: flex;
   }
   .home-schedule2 {
-    width: 300;
+    width: fit-content;
     margin-top: 0px;
   }
   .home-schedule3 {
-    width: 300;
+    width: fit-content;
     margin-left: 0;
     margin-right: 0px;
   }
   .home-schedule4 {
-    width: 300;
+    width: fit-content;
   }
   .home-image06 {
     margin-top: 85px;
@@ -1765,6 +1764,7 @@
   }
   .home-footer {
     padding: var(--dl-space-space-sixunits);
+    background-color: #395b81;
   }
   .home-top {
     flex-direction: column;
@@ -1774,9 +1774,11 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
   }
+  .home-subscribe {
+    background-color: #395b81;
+  }
   .home-text082 {
-    color: rgb(104, 104, 104);
-    font-size: 14px;
+    color: #a29f9f;
   }
   .home-text083 {
     margin-bottom: var(--dl-space-space-unit);
