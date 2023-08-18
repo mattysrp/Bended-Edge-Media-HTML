@@ -599,12 +599,7 @@
   height: fit-content;
   display: flex;
   grid-gap: var(--dl-space-space-twounits);
-  position: relative;
   margin-top: var(--dl-space-space-fiveunits);
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 .home-card {
   width: 335px;
@@ -1609,7 +1604,7 @@
     width: 35%;
   }
   .home-card1 {
-    width: 35%;
+    width: fit-content;
   }
   .home-card2 {
     width: 35%;
@@ -1617,6 +1612,13 @@
   .home-text060 {
     color: rgb(0, 0, 0);
     line-height: 24px;
+  }
+  .home-text066 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+  .home-bullet-points2 {
+    margin-top: 2%;
   }
 }
 @media(max-width: 991px) {
@@ -1757,7 +1759,7 @@
   }
   .home-card {
     flex: 1 0 35%;
-    width: 46%;
+    width: fit-content;
     align-items: center;
     margin-left: 30px;
   }
@@ -1770,7 +1772,7 @@
     align-items: center;
   }
   .home-card2 {
-    width: 46%;
+    width: fit-content;
     align-items: center;
     padding-right: 4%;
   }
