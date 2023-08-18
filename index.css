@@ -1603,8 +1603,28 @@
   .home-card {
     width: 35%;
   }
+  .home-text040 {
+    margin-bottom: 2%;
+  }
+  .home-text041 {
+    color: rgb(0, 0, 0);
+    font-style: normal;
+  }
   .home-card1 {
-    width: fit-content;
+    width: 35%;
+  }
+  .home-text054 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+  .home-bullet-points1 {
+    margin-top: 2%;
+  }
+  .home-text055 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
   }
   .home-card2 {
     width: 35%;
@@ -1619,6 +1639,7 @@
   }
   .home-bullet-points2 {
     margin-top: 2%;
+    margin-bottom: 5%;
   }
 }
 @media(max-width: 991px) {
@@ -1755,11 +1776,10 @@
   }
   .home-cards2 {
     width: fit-content;
-    grid-gap: 2%;
   }
   .home-card {
     flex: 1 0 35%;
-    width: fit-content;
+    width: 46%;
     align-items: center;
     margin-left: 30px;
   }
@@ -1772,7 +1792,7 @@
     align-items: center;
   }
   .home-card2 {
-    width: fit-content;
+    width: 46%;
     align-items: center;
     padding-right: 4%;
   }
@@ -2137,6 +2157,9 @@
   .home-text019 {
     color: rgb(255, 255, 255);
   }
+  .home-container2 {
+    width: fit-content;
+  }
   .home-cards1 {
     width: fit-content;
     height: fit-content;
@@ -2221,6 +2244,7 @@
   }
   .home-cards2 {
     height: fit-content;
+    display: table-column;
   }
   .home-card {
     width: fit-content;
