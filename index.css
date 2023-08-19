@@ -1419,7 +1419,7 @@
     color: rgb(255, 255, 255);
     width: fit-content;
     height: 216px;
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px;
@@ -1502,7 +1502,7 @@
   }
   .home-text020 {
     color: rgb(0, 0, 0);
-    font-size: 19;
+    font-size: 19px;
     margin-top: 0px;
     margin-bottom: var(--dl-space-space-fiveunits);
   }
@@ -1690,7 +1690,7 @@
   .home-text006 {
     color: rgb(255, 255, 255);
     width: fit-content;
-    font-size: 40;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
