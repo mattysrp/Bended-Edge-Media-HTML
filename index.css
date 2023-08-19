@@ -1417,12 +1417,12 @@
   }
   .home-text006 {
     color: rgb(255, 255, 255);
-    width: 1200px;
+    width: fit-content;
     height: 216px;
     font-size: 60;
     font-style: normal;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 50px;
   }
   .home-text009 {
     width: fit-content;
@@ -1689,8 +1689,8 @@
   }
   .home-text006 {
     color: rgb(255, 255, 255);
-    width: 991px;
-    font-size: 50;
+    width: fit-content;
+    font-size: 40;
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
@@ -1798,6 +1798,10 @@
   }
   .home-heading {
     margin-top: 244px;
+  }
+  .home-text033 {
+    color: var(--dl-color-gray-white);
+    font-size: 40px;
   }
   .home-text034 {
     width: 100%;
