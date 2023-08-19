@@ -1419,7 +1419,7 @@
     color: rgb(255, 255, 255);
     width: 1200px;
     height: 216px;
-    font-size: 68px;
+    font-size: 60;
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
@@ -1690,7 +1690,7 @@
   .home-text006 {
     color: rgb(255, 255, 255);
     width: 991px;
-    font-size: 57px;
+    font-size: 50;
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
@@ -1757,6 +1757,10 @@
   .home-text020 {
     margin-bottom: 0%;
   }
+  .home-image04 {
+    margin-top: 51px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
   .home-schedule3 {
     width: fit-content;
     margin-left: 0;
@@ -1764,8 +1768,7 @@
   }
   .home-text022 {
     color: rgb(0, 0, 0);
-    font-size: 19px;
-    line-height: 2;
+    font-size: 17;
   }
   .home-schedule4 {
     width: fit-content;
