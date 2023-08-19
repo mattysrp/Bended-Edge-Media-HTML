@@ -1527,7 +1527,7 @@
   }
   .home-text022 {
     color: rgb(0, 0, 0);
-    font-size: 19;
+    font-size: 18;
     font-style: normal;
     margin-top:  0px;
     font-weight: 700;
@@ -1764,13 +1764,25 @@
   }
   .home-text022 {
     color: rgb(0, 0, 0);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
+    font-size: 19px;
     line-height: 2;
   }
   .home-schedule4 {
     width: fit-content;
+  }
+  .home-text027 {
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    line-height: 2;
+  }
+  .home-text028 {
+    font-size: 19px;
+  }
+  .home-text029 {
+    font-size: 19px;
+  }
+  .home-text030 {
+    font-size: 19px;
   }
   .home-image06 {
     margin-top: 85px;
