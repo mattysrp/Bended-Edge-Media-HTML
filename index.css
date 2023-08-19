@@ -607,7 +607,9 @@
   display: flex;
   box-shadow: 5px 5px 10px 0px #000000;
   align-items: flex-start;
+  margin-left: 0px;
   padding-top: var(--dl-space-space-fiveunits);
+  margin-right: 0px;
   padding-left: 40px;
   border-radius: 50px;
   padding-right: 40px;
@@ -747,10 +749,12 @@
   display: flex;
   box-shadow: 5px 5px 10px 0px #000000;
   align-items: flex-start;
+  margin-left: 0px;
   padding-top: var(--dl-space-space-fiveunits);
+  margin-right: 0px;
   padding-left: 40px;
   border-radius: 50px;
-  padding-right: 40;
+  padding-right: 40px;
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: flex-start;
@@ -919,7 +923,9 @@
   display: flex;
   box-shadow: 5px 5px 10px 0px #000000;
   align-items: flex-start;
+  margin-left: 0px;
   padding-top: var(--dl-space-space-fiveunits);
+  margin-right: 0px;
   padding-left: 40px;
   border-radius: 50px;
   padding-right: 40px;
