@@ -687,7 +687,7 @@
   height: 8px;
 }
 .home-text047 {
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -705,7 +705,7 @@
   height: 8px;
 }
 .home-text048 {
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -723,7 +723,7 @@
   height: 8px;
 }
 .home-text049 {
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -834,7 +834,7 @@
   height: 8px;
 }
 .home-text062 {
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -852,7 +852,7 @@
   height: 8px;
 }
 .home-text063 {
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -870,7 +870,7 @@
   height: 8px;
 }
 .home-text064 {
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -981,7 +981,7 @@
   height: 8px;
 }
 .home-text075 {
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1606,6 +1606,18 @@
   .home-bullet-points {
     margin-top: 2%;
   }
+  .home-text049 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .home-text050 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
   .home-card1 {
     width: 35%;
   }
@@ -1627,8 +1639,30 @@
   .home-bullet-points1 {
     margin-top: 2%;
   }
+  .home-text062 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .home-text063 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .home-text064 {
+    color: rgb(0, 0, 0);
+  }
+  .home-text065 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
   .home-card2 {
     width: 35%;
+    height: auto;
   }
   .home-text067 {
     color: rgb(0, 0, 0);
@@ -1639,7 +1673,7 @@
     display: none;
   }
   .home-get-started4 {
-    margin-top: 20%;
+    margin-top: 1px;
     margin-bottom: 17%;
   }
   .home-text074 {
@@ -1648,6 +1682,24 @@
   }
   .home-bullet-points2 {
     margin-top: 2%;
+  }
+  .home-text075 {
+    color: rgb(0, 0, 0);
+  }
+  .home-text076 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .home-text077 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .home-text078 {
+    color: rgb(0, 0, 0);
   }
 }
 @media(max-width: 991px) {
@@ -1817,6 +1869,7 @@
   .home-cards2 {
     width: fit-content;
     height: fit-content;
+    margin-left: 1%;
   }
   .home-card {
     width: 30%;
