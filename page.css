@@ -40,7 +40,7 @@
   grid-template-columns: 1fr 1fr;
 }
 .page-container01:hover {
-  padding: 2%;
+  transform: scale(1.05);
 }
 .page-feature-card {
   color: var(--dl-color-gray-black);
