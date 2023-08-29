@@ -24,18 +24,6 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width: 767px) {
   .feature-card2-feature-card {
     flex-direction: row;
