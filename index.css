@@ -646,9 +646,13 @@
 .home-text042 {
   display: none;
 }
+.home-navlink {
+  display: contents;
+}
 .home-get-started2 {
   color: var(--dl-color-gray-black);
   transition: 0.3s;
+  text-decoration: none;
   background-color: #000000;
 }
 .home-get-started2:hover {
@@ -793,9 +797,13 @@
 .home-text055 {
   display: none;
 }
+.home-navlink1 {
+  display: contents;
+}
 .home-get-started3 {
   color: var(--dl-color-gray-black);
   transition: 0.3s;
+  text-decoration: none;
   background-color: #000000;
 }
 .home-get-started3:hover {
@@ -940,9 +948,13 @@
 .home-text070 {
   display: none;
 }
+.home-navlink2 {
+  display: contents;
+}
 .home-get-started4 {
   color: var(--dl-color-gray-black);
   transition: 0.3s;
+  text-decoration: none;
   background-color: #000000;
 }
 .home-get-started4:hover {
