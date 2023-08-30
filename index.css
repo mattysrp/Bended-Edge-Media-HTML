@@ -605,6 +605,7 @@
   height: fit-content;
   display: flex;
   box-shadow: 5px 5px 10px 0px #000000;
+  transition: 0.3s;
   align-items: flex-start;
   margin-left: 0px;
   padding-top: var(--dl-space-space-fiveunits);
@@ -616,6 +617,9 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: flex-start;
   background-color: #ffffff;
+}
+.home-card:hover {
+  transform: scale(1.05);
 }
 .home-container4 {
   flex: 0 0 auto;
@@ -756,6 +760,7 @@
   height: fit-content;
   display: flex;
   box-shadow: 5px 5px 10px 0px #000000;
+  transition: 0.3s;
   align-items: flex-start;
   margin-left: 0px;
   padding-top: var(--dl-space-space-fiveunits);
@@ -767,6 +772,9 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: flex-start;
   background-color: #ffffff;
+}
+.home-card1:hover {
+  transform: scale(1.05);
 }
 .home-container5 {
   flex: 0 0 auto;
@@ -907,6 +915,7 @@
   height: fit-content;
   display: flex;
   box-shadow: 5px 5px 10px 0px #000000;
+  transition: 0.3s;
   align-items: flex-start;
   margin-left: 0px;
   padding-top: var(--dl-space-space-fiveunits);
@@ -918,6 +927,9 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: flex-start;
   background-color: #ffffff;
+}
+.home-card2:hover {
+  transform: scale(1.05);
 }
 .home-container6 {
   flex: 0 0 auto;
@@ -1507,7 +1519,7 @@
   .home-schedule2 {
     top: 310px;
     left: 119px;
-    width: 460px;
+    width: fit-content;
     height: 100%;
     position: static;
     border-color: #ffffff;
@@ -1532,7 +1544,7 @@
     margin-bottom: var(--dl-space-space-twounits);
   }
   .home-schedule3 {
-    width: 448px;
+    width: fit-content;
     height: 100%;
     position: static;
     margin-left: 0px;
@@ -1561,7 +1573,7 @@
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
   .home-schedule4 {
-    width: 399px;
+    width: fit-content;
     height: 100%;
     position: static;
     padding-left: var(--dl-space-space-unit);
