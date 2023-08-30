@@ -134,11 +134,10 @@
   position: relative;
   transition: 0.3s;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-unit);
   border-radius: 30px;
   flex-direction: row;
   justify-content: flex-start;
-  background-color: white;
+  background-color: #ffffff;
 }
 .page-feature-card2:hover {
   transform: scale(1.05);
@@ -153,7 +152,6 @@
 }
 .page-container05 {
   display: flex;
-  transition: 0.3s;
   align-items: flex-start;
   padding-top: 2%;
   padding-right: 2%;
@@ -572,7 +570,7 @@
   font-weight: 300;
 }
 .page-text114 {
-  width: fit-content;
+  width: 100%;
   margin: var(--dl-space-space-halfunit);
   font-size: 2rem;
   font-style: normal;
@@ -852,6 +850,12 @@
   }
   .page-text021 {
     font-size: 3rem;
+  }
+  .page-text022 {
+    color: var(--dl-color-gray-black);
+  }
+  .page-text023 {
+    color: var(--dl-color-gray-black);
   }
   .page-text051 {
     font-size: 3rem;
