@@ -39,26 +39,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
-      data-tag="font"
-    />
     <style>
        body::-webkit-scrollbar {
          width: 0.5em;
@@ -76,299 +56,288 @@
   </head>
   <body>
     <div>
-      <script
-        type="text/javascript"
-        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
-      ></script>
       <link href="./page.css" rel="stylesheet" />
 
       <div class="page-container">
         <h1 class="page-text">Solutions</h1>
         <div class="page-pricing">
-          <div class="page-pricing1">
-            <div class="page-card">
-              <div class="page-container1">
-                <span class="page-text01">SILVER</span>
-                <span class="page-text02">$699</span>
-                <span class="page-text03">Per month</span>
-                <button class="page-button button">Learn More</button>
-              </div>
-              <div class="page-accordion">
-                <div
-                  data-faq="closed"
-                  class="page-accordion-container accordionContainer"
-                >
-                  <div class="page-header">
-                    <span class="page-text04">
-                      — What is included in the silver pack?
-                    </span>
-                    <svg viewBox="0 0 1024 1024" class="accordionIcon">
-                      <path
-                        d="M316 366l196 196 196-196 60 60-256 256-256-256z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="accordionContent">
-                    <span class="page-text05">
-                      <span class="page-text06">Advertising Services</span>
-                      <br class="page-text07" />
-                      <br />
-                      <span>
-                        -Creation of 2-3 targeted advertising campaigns per
-                        month on social media platforms.
-                      </span>
-                      <br class="page-text10" />
-                      <br />
-                      <span>
-                        -Basic audience targeting to reach the desired
-                        demographic.
-                      </span>
-                      <br class="page-text13" />
-                      <br />
-                      <span>
-                        -Monitoring key metrics such as views, clicks, and
-                        interactions to gauge campaign performance.
-                      </span>
-                      <br class="page-text16" />
-                      <br />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <dangerous-html
-                    html="<script>
-// Accordion - Code Embed
-
-const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
-const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
-const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
-
-accordionContents.forEach((accordionContent) => {
-    accordionContent.style.display = 'none'; //Hides all accordion contents
-});
-
-accordionContainers.forEach((accordionContainer, index) => {
-    accordionContainer.addEventListener('click', () => {
-        accordionContents.forEach((accordionContent) => {
-            accordionContent.style.display = 'none'; //Hides all accordion contents
-        });
-
-        accordionIcons.forEach((accordionIcon) => {
-            accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
-        });
-
-        if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
-            accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
-        } else {
-            accordionContainers.forEach((accordionContainer) => {
-                accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
-            });
-
-            accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
-            accordionContents[index].style.display = 'flex'; // Shows accordion content
-            accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
-        }
-    });
-});
-
-/*
-Here's what the above is doing:
-    1. Selects all accordion containers, contents, and icons
-    2. Hides all accordion contents
-    3. Adds an event listener to each accordion container
-    4. When an accordion container is clicked, it:
-        - Hides all accordion contents
-        - Resets all icon transforms to 0deg (default)
-        - Checks if this container has class 'accordion-open'
-            - If it does, it removes class 'accordion-open'
-            - If it doesn't, it:
-                - Removes class 'accordion-open' from all containers
-                - Adds class 'accordion-open' to this container
-                - Shows accordion content
-                - Rotates accordion icon 180deg
-*/
-</script>"
-                  ></dangerous-html>
-                </div>
-              </div>
+          <div class="page-features">
+            <h1 class="page-text01">Silver</h1>
+            <div class="page-container1">
+              <span class="page-text02">
+                <span class="page-text03">Advertising Services:</span>
+                <br class="page-text04" />
+                <br />
+                <span class="page-text06">
+                  Creation of 2-3 targeted advertising campaigns per month on
+                  social media platforms.
+                </span>
+                <br class="page-text07" />
+                <br class="page-text08" />
+                <span class="page-text09">
+                  Basic audience targeting to reach the desired demographic.
+                </span>
+                <br class="page-text10" />
+                <br class="page-text11" />
+                <span class="page-text12">
+                  Monitoring key metrics such as views, clicks, and interactions
+                  to gauge campaign performance.
+                </span>
+                <br />
+                <br />
+                <span></span>
+                <span></span>
+              </span>
+              <span class="page-text17">
+                <span class="page-text18">Enhance your visibility:</span>
+                <br class="page-text19" />
+                <br class="page-text20" />
+                <span class="page-text21">
+                  Development of engaging visual content for social media
+                  campaigns.
+                </span>
+                <br />
+                <br class="page-text23" />
+                <span class="page-text24">
+                  Creation of eye-catching graphics and visuals to enhance ad
+                  effectiveness.
+                </span>
+                <br />
+                <br />
+                <span></span>
+                <span></span>
+              </span>
             </div>
-            <div class="page-card1">
-              <div class="page-container2">
-                <span class="page-text18">Gold</span>
-                <span class="page-text19">$999</span>
-                <span class="page-text20">Per month</span>
-                <button class="page-button1 button">Learn More</button>
-              </div>
-              <div class="page-accordion1">
-                <div
-                  data-faq="closed"
-                  class="page-accordion-container1 accordionContainer"
-                >
-                  <div class="page-header1">
-                    <span class="page-text21">
-                      — What is included in the gold pack?
-                    </span>
-                    <svg viewBox="0 0 1024 1024" class="accordionIcon">
-                      <path
-                        d="M316 366l196 196 196-196 60 60-256 256-256-256z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="page-container3">
-                    <div class="page-content1 accordionContent">
-                      <span class="page-text22">
-                        <span class="page-text23">Advertising Services</span>
-                        <br class="page-text24" />
-                        <br />
-                        <span class="page-text26">-Creation</span>
-                        <span class="page-text27">
-                          &nbsp;of 4-5 advertising campaigns per month across
-                          social media and Google Ads.
-                        </span>
-                        <br class="page-text28" />
-                        <br class="page-text29" />
-                        <span class="page-text30">
-                          -Advanced targeting based on interests, demographics,
-                          and behaviors to enhance campaign effectiveness.
-                        </span>
-                        <br class="page-text31" />
-                        <br />
-                        <br class="page-text33" />
-                        <br />
-                      </span>
-                      <span class="page-text35">
-                        <span class="page-text36">Web Creation</span>
-                        <br />
-                        <br />
-                        <span class="page-text39">-</span>
-                        <span class="page-text40">
-                          Creation of a comprehensive website comprising 8-10
-                          pages.
-                        </span>
-                        <br class="page-text41" />
-                        <br class="page-text42" />
-                        <span class="page-text43">-</span>
-                        <span class="page-text44">
-                          Inclusion of additional features like galleries,
-                          testimonials, or blogs for enhanced user engagement.
-                        </span>
-                        <br class="page-text45" />
-                        <br class="page-text46" />
-                        <span class="page-text47">
-                          -Basic SEO optimization for improved visibility on
-                          search engines.
-                        </span>
-                        <br />
-                      </span>
-                      <span class="page-text49">
-                        <span class="page-text50">
-                          &nbsp;Newsletter Creation
-                        </span>
-                        <br class="page-text51" />
-                        <br class="page-text52" />
-                        <span class="page-text53">
-                          -Design and execution of an email marketing campaign
-                          to nurture leads and drive conversions.
-                        </span>
-                        <br class="page-text54" />
-                        <br class="page-text55" />
-                        <span class="page-text56">
-                          -Creation of engaging email content and management of
-                          subscriber lists.
-                        </span>
-                        <br class="page-text57" />
-                        <br class="page-text58" />
-                        <br class="page-text59" />
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <dangerous-html
-                    html="<script>
-// Accordion - Code Embed
-
-const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
-const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
-const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
-
-accordionContents.forEach((accordionContent) => {
-    accordionContent.style.display = 'none'; //Hides all accordion contents
-});
-
-accordionContainers.forEach((accordionContainer, index) => {
-    accordionContainer.addEventListener('click', () => {
-        accordionContents.forEach((accordionContent) => {
-            accordionContent.style.display = 'none'; //Hides all accordion contents
-        });
-
-        accordionIcons.forEach((accordionIcon) => {
-            accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
-        });
-
-        if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
-            accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
-        } else {
-            accordionContainers.forEach((accordionContainer) => {
-                accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
-            });
-
-            accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
-            accordionContents[index].style.display = 'flex'; // Shows accordion content
-            accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
-        }
-    });
-});
-
-/*
-Here's what the above is doing:
-    1. Selects all accordion containers, contents, and icons
-    2. Hides all accordion contents
-    3. Adds an event listener to each accordion container
-    4. When an accordion container is clicked, it:
-        - Hides all accordion contents
-        - Resets all icon transforms to 0deg (default)
-        - Checks if this container has class 'accordion-open'
-            - If it does, it removes class 'accordion-open'
-            - If it doesn't, it:
-                - Removes class 'accordion-open' from all containers
-                - Adds class 'accordion-open' to this container
-                - Shows accordion content
-                - Rotates accordion icon 180deg
-*/
-</script>"
-                  ></dangerous-html>
-                </div>
-              </div>
+          </div>
+          <div class="page-card">
+            <div class="page-container2">
+              <span class="page-text29">Free</span>
+              <span class="page-text30">$699</span>
+              <span class="page-text31">Per month</span>
             </div>
-            <div class="page-card2">
-              <div class="page-container4">
-                <span class="page-text60">DIAMOND</span>
-                <span class="page-text61">$29</span>
-                <span class="page-text62">Per month</span>
-              </div>
-              <span class="page-text63">
-                <span class="page-text64">
+            <span class="page-text32">
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                lorem lorem, malesuada in metus vitae, scelerisque accumsan
+                ipsum.
+              </span>
+              <span></span>
+            </span>
+            <button class="page-button button">Learn More</button>
+          </div>
+          <div class="page-features1">
+            <h1 class="page-text35">
+              <span>Gold</span>
+              <br />
+            </h1>
+            <div class="page-container3">
+              <div
+                class="feature-card21-feature-card feature-card21-root-class-name8"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card21-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-card21-container">
+                  <h2 class="feature-card21-text"><span>Lorem ipsum</span></h2>
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    lorem lorem, malesuada in metus vitae, scelerisque accumsan
-                    ipsum.
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In lorem lorem, malesuada in metus vitae, scelerisque
+                      accumsan ipsum.
+                    </span>
                   </span>
-                  <span></span>
+                </div>
+              </div>
+              <div
+                class="feature-card21-feature-card feature-card21-root-class-name9"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card21-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-card21-container">
+                  <h2 class="feature-card21-text"><span>Lorem ipsum</span></h2>
+                  <span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In lorem lorem, malesuada in metus vitae, scelerisque
+                      accumsan ipsum.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="feature-card21-feature-card feature-card21-root-class-name10"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card21-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-card21-container">
+                  <h2 class="feature-card21-text"><span>Lorem ipsum</span></h2>
+                  <span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In lorem lorem, malesuada in metus vitae, scelerisque
+                      accumsan ipsum.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="feature-card21-feature-card feature-card21-root-class-name11"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card21-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-card21-container">
+                  <h2 class="feature-card21-text"><span>Lorem ipsum</span></h2>
+                  <span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In lorem lorem, malesuada in metus vitae, scelerisque
+                      accumsan ipsum.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-card1">
+            <div class="page-container4">
+              <span class="page-text38">basic</span>
+              <span class="page-text39">$999</span>
+              <span class="page-text40">Per month</span>
+            </div>
+            <span class="page-text41">
+              <span class="page-text42">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  lorem lorem, malesuada in metus vitae, scelerisque accumsan
+                  ipsum.
                 </span>
                 <span></span>
               </span>
-              <button class="page-button2 button">Learn More</button>
+              <span></span>
+            </span>
+            <button class="page-button1 button">Learn More</button>
+          </div>
+          <div class="page-features2">
+            <h1 class="page-text46">Diamond</h1>
+            <div class="page-container5">
+              <div
+                class="feature-card21-feature-card feature-card21-root-class-name4"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card21-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-card21-container">
+                  <h2 class="feature-card21-text"><span>Lorem ipsum</span></h2>
+                  <span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In lorem lorem, malesuada in metus vitae, scelerisque
+                      accumsan ipsum.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="feature-card21-feature-card feature-card21-root-class-name5"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card21-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-card21-container">
+                  <h2 class="feature-card21-text"><span>Lorem ipsum</span></h2>
+                  <span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In lorem lorem, malesuada in metus vitae, scelerisque
+                      accumsan ipsum.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="feature-card21-feature-card feature-card21-root-class-name6"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card21-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-card21-container">
+                  <h2 class="feature-card21-text"><span>Lorem ipsum</span></h2>
+                  <span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In lorem lorem, malesuada in metus vitae, scelerisque
+                      accumsan ipsum.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="feature-card21-feature-card feature-card21-root-class-name7"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card21-icon">
+                  <path
+                    d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                  ></path>
+                </svg>
+                <div class="feature-card21-container">
+                  <h2 class="feature-card21-text"><span>Lorem ipsum</span></h2>
+                  <span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In lorem lorem, malesuada in metus vitae, scelerisque
+                      accumsan ipsum.
+                    </span>
+                  </span>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="page-card2">
+            <div class="page-container6">
+              <div class="page-container7">
+                <span class="page-text47">Pro</span>
+                <span class="page-text48">$1799</span>
+                <span class="page-text49">Per month</span>
+              </div>
+            </div>
+            <span class="page-text50">
+              <span class="page-text51">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  lorem lorem, malesuada in metus vitae, scelerisque accumsan
+                  ipsum.
+                </span>
+                <span></span>
+              </span>
+              <span></span>
+            </span>
+            <button class="page-button2 button">Learn More</button>
           </div>
         </div>
         <div class="page-banner">
-          <h1 class="page-text68">Learn to keep it simple</h1>
-          <span class="page-text69">
+          <h1 class="page-text55">Learn to keep it simple</h1>
+          <span class="page-text56">
             Subscribe to our newsletter to stay updated on every offer we are
             prepared to provide you with.
           </span>
-          <div class="page-container5">
+          <div class="page-container8">
             <input
               type="text"
               placeholder="Email here..."
@@ -381,34 +350,34 @@ Here's what the above is doing:
           <div class="page-top">
             <div class="page-right">
               <div class="page-category">
-                <span class="page-text70">Solutions</span>
+                <span class="page-text57">Solutions</span>
                 <div class="page-links">
-                  <span class="page-text71">Responsive Web Design</span>
-                  <span class="page-text72">Responsive Prototypesv</span>
-                  <span class="page-text73">Design to Code</span>
-                  <span class="page-text74">Static Website Builder</span>
-                  <span class="page-text75">Static Website Generator</span>
+                  <span class="page-text58">Responsive Web Design</span>
+                  <span class="page-text59">Responsive Prototypesv</span>
+                  <span class="page-text60">Design to Code</span>
+                  <span class="page-text61">Static Website Builder</span>
+                  <span class="page-text62">Static Website Generator</span>
                 </div>
               </div>
               <div class="page-category1">
-                <span class="page-text76">Company</span>
+                <span class="page-text63">Company</span>
                 <div class="page-links1">
-                  <span class="page-text77">About</span>
-                  <span class="page-text78">Team</span>
-                  <span class="page-text79">News</span>
-                  <span class="page-text80">Partners</span>
-                  <span class="page-text81">Careers</span>
-                  <span class="page-text82">Press &amp; Media</span>
+                  <span class="page-text64">About</span>
+                  <span class="page-text65">Team</span>
+                  <span class="page-text66">News</span>
+                  <span class="page-text67">Partners</span>
+                  <span class="page-text68">Careers</span>
+                  <span class="page-text69">Press &amp; Media</span>
                 </div>
               </div>
               <div class="page-category2">
-                <span class="page-text83">Solutions</span>
+                <span class="page-text70">Solutions</span>
                 <div class="page-links2">
-                  <span class="page-text84">Twitter</span>
-                  <span class="page-text85">Linkedin</span>
-                  <span class="page-text86">Crunchbase</span>
-                  <span class="page-text87">Instagram</span>
-                  <span class="page-text88">Facebook</span>
+                  <span class="page-text71">Twitter</span>
+                  <span class="page-text72">Linkedin</span>
+                  <span class="page-text73">Crunchbase</span>
+                  <span class="page-text74">Instagram</span>
+                  <span class="page-text75">Facebook</span>
                 </div>
               </div>
             </div>
@@ -419,7 +388,7 @@ Here's what the above is doing:
               src="public/bianco-200h.png"
               class="page-branding"
             />
-            <span class="page-text89">Copyright © BendedEdge - 2023</span>
+            <span class="page-text76">Copyright © BendedEdge - 2023</span>
           </div>
         </footer>
       </div>
