@@ -174,31 +174,162 @@ Here's what the above is doing:
             </div>
             <div class="page-card1">
               <div class="page-container2">
-                <span class="page-text18">basic</span>
-                <span class="page-text19">$9</span>
+                <span class="page-text18">Gold</span>
+                <span class="page-text19">$999</span>
                 <span class="page-text20">Per month</span>
+                <button class="page-button1 button">Learn More</button>
               </div>
-              <span class="page-text21">
-                <span class="page-text22">
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    lorem lorem, malesuada in metus vitae, scelerisque accumsan
-                    ipsum.
-                  </span>
-                  <span></span>
-                </span>
-                <span></span>
-              </span>
-              <button class="page-button1 button">Learn More</button>
+              <div class="page-accordion1">
+                <div
+                  data-faq="closed"
+                  class="page-accordion-container1 accordionContainer"
+                >
+                  <div class="page-header1">
+                    <span class="page-text21">
+                      — What is included in the gold pack?
+                    </span>
+                    <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                      <path
+                        d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="page-container3">
+                    <div class="page-content1 accordionContent">
+                      <span class="page-text22">
+                        <span class="page-text23">Advertising Services</span>
+                        <br class="page-text24" />
+                        <br />
+                        <span class="page-text26">-</span>
+                        <span class="page-text27">Developme</span>
+                        <span class="page-text28">
+                          nt of 4-5 advertising campaigns per month across
+                          social media and Google Ads.
+                        </span>
+                        <br class="page-text29" />
+                        <br class="page-text30" />
+                        <span class="page-text31">
+                          -Advanced targeting based on interests, demographics,
+                          and behaviors to enhance campaign effectiveness.
+                        </span>
+                        <br class="page-text32" />
+                        <br />
+                        <br class="page-text34" />
+                        <br />
+                      </span>
+                      <span class="page-text36">
+                        <span class="page-text37">Web Creation</span>
+                        <br />
+                        <br />
+                        <span class="page-text40">-</span>
+                        <span class="page-text41">
+                          Creation of a comprehensive website comprising 8-10
+                          pages.
+                        </span>
+                        <br class="page-text42" />
+                        <br class="page-text43" />
+                        <span class="page-text44">-</span>
+                        <span class="page-text45">
+                          Inclusion of additional features like galleries,
+                          testimonials, or blogs for enhanced user engagement.
+                        </span>
+                        <br class="page-text46" />
+                        <br class="page-text47" />
+                        <span class="page-text48">
+                          -Basic SEO optimization for improved visibility on
+                          search engines.
+                        </span>
+                        <br />
+                      </span>
+                      <span class="page-text50">
+                        <span class="page-text51">
+                          &nbsp;Newsletter Creation
+                        </span>
+                        <br class="page-text52" />
+                        <br class="page-text53" />
+                        <span class="page-text54">
+                          -Design and execution of an email marketing campaign
+                          to nurture leads and drive conversions.
+                        </span>
+                        <br class="page-text55" />
+                        <br class="page-text56" />
+                        <span class="page-text57">
+                          -Creation of engaging email content and management of
+                          subscriber lists.
+                        </span>
+                        <br class="page-text58" />
+                        <br class="page-text59" />
+                        <br class="page-text60" />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <dangerous-html
+                    html="<script>
+// Accordion - Code Embed
+
+const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
+const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
+const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
+
+accordionContents.forEach((accordionContent) => {
+    accordionContent.style.display = 'none'; //Hides all accordion contents
+});
+
+accordionContainers.forEach((accordionContainer, index) => {
+    accordionContainer.addEventListener('click', () => {
+        accordionContents.forEach((accordionContent) => {
+            accordionContent.style.display = 'none'; //Hides all accordion contents
+        });
+
+        accordionIcons.forEach((accordionIcon) => {
+            accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
+        });
+
+        if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
+            accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
+        } else {
+            accordionContainers.forEach((accordionContainer) => {
+                accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
+            });
+
+            accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
+            accordionContents[index].style.display = 'flex'; // Shows accordion content
+            accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
+        }
+    });
+});
+
+/*
+Here's what the above is doing:
+    1. Selects all accordion containers, contents, and icons
+    2. Hides all accordion contents
+    3. Adds an event listener to each accordion container
+    4. When an accordion container is clicked, it:
+        - Hides all accordion contents
+        - Resets all icon transforms to 0deg (default)
+        - Checks if this container has class 'accordion-open'
+            - If it does, it removes class 'accordion-open'
+            - If it doesn't, it:
+                - Removes class 'accordion-open' from all containers
+                - Adds class 'accordion-open' to this container
+                - Shows accordion content
+                - Rotates accordion icon 180deg
+*/
+</script>"
+                  ></dangerous-html>
+                </div>
+              </div>
             </div>
             <div class="page-card2">
-              <div class="page-container3">
-                <span class="page-text26">Pro</span>
-                <span class="page-text27">$29</span>
-                <span class="page-text28">Per month</span>
+              <div class="page-container4">
+                <span class="page-text61">DIAMOND</span>
+                <span class="page-text62">$29</span>
+                <span class="page-text63">Per month</span>
               </div>
-              <span class="page-text29">
-                <span class="page-text30">
+              <span class="page-text64">
+                <span class="page-text65">
                   <span>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                     lorem lorem, malesuada in metus vitae, scelerisque accumsan
@@ -213,12 +344,12 @@ Here's what the above is doing:
           </div>
         </div>
         <div class="page-banner">
-          <h1 class="page-text34">Learn to keep it simple</h1>
-          <span class="page-text35">
+          <h1 class="page-text69">Learn to keep it simple</h1>
+          <span class="page-text70">
             Subscribe to our newsletter to stay updated on every offer we are
             prepared to provide you with.
           </span>
-          <div class="page-container4">
+          <div class="page-container5">
             <input
               type="text"
               placeholder="Email here..."
@@ -231,34 +362,34 @@ Here's what the above is doing:
           <div class="page-top">
             <div class="page-right">
               <div class="page-category">
-                <span class="page-text36">Solutions</span>
+                <span class="page-text71">Solutions</span>
                 <div class="page-links">
-                  <span class="page-text37">Responsive Web Design</span>
-                  <span class="page-text38">Responsive Prototypesv</span>
-                  <span class="page-text39">Design to Code</span>
-                  <span class="page-text40">Static Website Builder</span>
-                  <span class="page-text41">Static Website Generator</span>
+                  <span class="page-text72">Responsive Web Design</span>
+                  <span class="page-text73">Responsive Prototypesv</span>
+                  <span class="page-text74">Design to Code</span>
+                  <span class="page-text75">Static Website Builder</span>
+                  <span class="page-text76">Static Website Generator</span>
                 </div>
               </div>
               <div class="page-category1">
-                <span class="page-text42">Company</span>
+                <span class="page-text77">Company</span>
                 <div class="page-links1">
-                  <span class="page-text43">About</span>
-                  <span class="page-text44">Team</span>
-                  <span class="page-text45">News</span>
-                  <span class="page-text46">Partners</span>
-                  <span class="page-text47">Careers</span>
-                  <span class="page-text48">Press &amp; Media</span>
+                  <span class="page-text78">About</span>
+                  <span class="page-text79">Team</span>
+                  <span class="page-text80">News</span>
+                  <span class="page-text81">Partners</span>
+                  <span class="page-text82">Careers</span>
+                  <span class="page-text83">Press &amp; Media</span>
                 </div>
               </div>
               <div class="page-category2">
-                <span class="page-text49">Solutions</span>
+                <span class="page-text84">Solutions</span>
                 <div class="page-links2">
-                  <span class="page-text50">Twitter</span>
-                  <span class="page-text51">Linkedin</span>
-                  <span class="page-text52">Crunchbase</span>
-                  <span class="page-text53">Instagram</span>
-                  <span class="page-text54">Facebook</span>
+                  <span class="page-text85">Twitter</span>
+                  <span class="page-text86">Linkedin</span>
+                  <span class="page-text87">Crunchbase</span>
+                  <span class="page-text88">Instagram</span>
+                  <span class="page-text89">Facebook</span>
                 </div>
               </div>
             </div>
@@ -269,7 +400,7 @@ Here's what the above is doing:
               src="public/bianco-200h.png"
               class="page-branding"
             />
-            <span class="page-text55">Copyright © BendedEdge - 2023</span>
+            <span class="page-text90">Copyright © BendedEdge - 2023</span>
           </div>
         </footer>
       </div>
