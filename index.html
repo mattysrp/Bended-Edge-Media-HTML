@@ -41,16 +41,6 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
       data-tag="font"
     />
@@ -726,36 +716,33 @@ Here's what the above is doing:
           <div class="home-top">
             <div class="home-left1">
               <span class="home-text081">Subscribe to our newsletter</span>
+              <form
+                enctype="text/plain"
+                name="form"
+                id="form"
+                method="post"
+                action="https://formsubmit.co1c0bbbb29b7763791b6de03f2b58a71d"
+                class="home-form"
+              ></form>
               <div class="home-container08">
                 <div id="home-subscription" class="home-subscription">
-                  <form
-                    enctype="multipart/form-data"
+                  <input
+                    type="email"
+                    id="newsletterInput"
+                    placeholder="Enter your email"
+                    required=""
                     name="email"
-                    id="em"
-                    method="post"
-                    target="email"
-                    action="https://formsubmit.co/your@email.com"
-                    class="home-form"
+                    class="home-textinput input"
+                  />
+                  <div
+                    id="subscribeNewsLetter"
+                    type="submit"
+                    class="home-subscribe button"
                   >
-                    <input
-                      type="email"
-                      id="newsletterInput"
-                      placeholder="Enter your email"
-                      required=""
-                      name="email"
-                      class="home-textinput input"
-                    />
-                    <div
-                      id="subscribeNewsLetter"
-                      type="submit"
-                      for="email"
-                      class="home-subscribe button"
-                    >
-                      <span id="subscribeText" class="home-text082">
-                        Subscribe
-                      </span>
-                    </div>
-                  </form>
+                    <span id="subscribeText" class="home-text082">
+                      Subscribe
+                    </span>
+                  </div>
                 </div>
               </div>
               <div class="home-container09">
