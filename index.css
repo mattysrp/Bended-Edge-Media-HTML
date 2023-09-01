@@ -786,7 +786,7 @@
 .home-text046 {
   color: rgb(0, 0, 0);
   line-height: 24px;
-  margin-bottom: 7%;
+  margin-bottom: 15%;
 }
 .home-text047 {
   display: none;
@@ -2144,9 +2144,10 @@
     top: -154px;
     left: -22px;
     width: 767px;
-    height: 549px;
+    height: 595px;
   }
   .home-features {
+    height: 2031px;
     padding-top: 350px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
@@ -2176,6 +2177,7 @@
     max-width: 800px;
   }
   .home-integrations {
+    height: 1187px;
     padding-top: var(--dl-space-space-fourunits);
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);

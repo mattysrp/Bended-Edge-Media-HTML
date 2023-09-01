@@ -413,8 +413,7 @@ closeButton.addEventListener('click', function() {
                 </div>
                 <span class="home-text046">
                   Choose the Gold Pack to elevate your brand, expand reach, and
-                  maximize ROI. It's the ideal choice for businesses aiming for
-                  online excellence.
+                  maximize ROI. It's your path to online excellence.
                 </span>
                 <span class="home-text047">
                   <span>
@@ -730,12 +729,12 @@ Here's what the above is doing:
               <div class="home-container08">
                 <div id="home-subscription" class="home-subscription">
                   <form
-                    enctype="text/plain"
+                    enctype="multipart/form-data"
                     name="email"
                     id="em"
                     method="post"
                     target="email"
-                    action="https://formsubmit.co/darkdool1200@gmail.com"
+                    action="https://formsubmit.co/your@email.com"
                     class="home-form"
                   >
                     <input
@@ -743,11 +742,13 @@ Here's what the above is doing:
                       id="newsletterInput"
                       placeholder="Enter your email"
                       required=""
+                      name="email"
                       class="home-textinput input"
                     />
                     <div
                       id="subscribeNewsLetter"
                       type="submit"
+                      for="email"
                       class="home-subscribe button"
                     >
                       <span id="subscribeText" class="home-text082">
@@ -758,7 +759,7 @@ Here's what the above is doing:
                 </div>
               </div>
               <div class="home-container09">
-                <input type="checkbox" required="" />
+                <input type="checkbox" required="" id="trms" name="trms" />
                 <span class="home-text083">
                   <span>
                     By subscribing to our newsletter you agree with our
