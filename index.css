@@ -213,14 +213,23 @@
   font-weight: 700;
   line-height: 40px;
 }
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: 5%;
+  align-items: flex-start;
+  margin-bottom: 5%;
+  justify-content: center;
+}
 .home-link3 {
   display: contents;
 }
 .home-get-started1 {
-  margin-top: 5%;
+  margin: 0%;
   transition: 0.3s;
   align-items: center;
-  margin-bottom: 5%;
   justify-content: center;
   text-decoration: none;
 }
@@ -419,7 +428,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-container1 {
+.home-container2 {
   gap: var(--dl-space-space-twounits);
   height: 294px;
   display: flex;
@@ -447,7 +456,7 @@
   font-style: normal;
   font-weight: 700;
 }
-.home-container2 {
+.home-container3 {
   flex: 0 0 auto;
   width: auto;
   height: fit-content;
@@ -595,7 +604,7 @@
   font-size: 22px;
   text-align: center;
 }
-.home-container3 {
+.home-container4 {
   flex: 0 0 auto;
   width: fit-content;
   height: fit-content;
@@ -630,7 +639,7 @@
 .home-card:hover {
   transform: scale(1.05);
 }
-.home-container4 {
+.home-container5 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -749,7 +758,7 @@
 .home-card1:hover {
   transform: scale(1.05);
 }
-.home-container5 {
+.home-container6 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -886,7 +895,7 @@
 .home-card2:hover {
   transform: scale(1.05);
 }
-.home-container6 {
+.home-container7 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -1757,7 +1766,7 @@
   .home-how-it-works {
     height: fit-content;
   }
-  .home-container2 {
+  .home-container3 {
     width: 125%;
   }
   .home-cards1 {
@@ -1821,7 +1830,7 @@
     width: 100%;
     max-width: 600px;
   }
-  .home-container3 {
+  .home-container4 {
     width: fit-content;
     height: fit-content;
     display: flex;
@@ -1841,7 +1850,7 @@
     padding-right: 2%;
     padding-bottom: 2%;
   }
-  .home-container4 {
+  .home-container5 {
     margin-top: 10px;
   }
   .home-text036 {
@@ -1892,7 +1901,7 @@
     padding-right: 2%;
     padding-bottom: 2%;
   }
-  .home-container5 {
+  .home-container6 {
     margin-top: 10px;
   }
   .home-text047 {
@@ -1950,7 +1959,7 @@
     padding-right: 2%;
     padding-bottom: 2%;
   }
-  .home-container6 {
+  .home-container7 {
     margin-top: 10%;
   }
   .home-text061 {
@@ -2354,7 +2363,7 @@
   .home-pills {
     margin-bottom: 68px;
   }
-  .home-container1 {
+  .home-container2 {
     height: fit-content;
   }
   .home-how-it-works {
@@ -2363,7 +2372,7 @@
   .home-text017 {
     color: rgb(255, 255, 255);
   }
-  .home-container2 {
+  .home-container3 {
     width: fit-content;
   }
   .home-cards1 {
@@ -2444,7 +2453,7 @@
     width: fit-content;
     font-size: 12px;
   }
-  .home-container3 {
+  .home-container4 {
     width: fit-content;
     height: fit-content;
   }
