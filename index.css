@@ -162,7 +162,7 @@
   background-color: #000000;
 }
 .home-get-started:hover {
-  background-color: #5228F5;
+  background-color: #7AA7EF;
 }
 .home-text005 {
   color: #ffffff;
@@ -219,7 +219,9 @@
 }
 .home-get-started1:hover {
   color: var(--dl-color-gray-white);
-  background-color: var(--dl-color-template-blue-bg);
+  border-color: var(--dl-color-gray-black);
+  border-width: 2px;
+  background-color: #7AA7EF;
 }
 .home-text010 {
   font-size: 18px;

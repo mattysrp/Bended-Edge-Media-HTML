@@ -755,7 +755,7 @@
 }
 .page-banner {
   width: 100%;
-  height: 281px;
+  height: 409px;
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-fourunits);
@@ -795,6 +795,7 @@
   font-size: 0.75rem;
   border-color: var(--dl-color-gray-500);
   border-radius: 20px;
+  margin-bottom: 5%;
 }
 .page-button3 {
   color: var(--dl-color-gray-white);
