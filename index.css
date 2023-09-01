@@ -31,7 +31,7 @@
 }
 .home-hero {
   width: 100%;
-  height: fit-content;
+  height: 885px;
   display: flex;
   position: relative;
   align-items: center;
@@ -187,10 +187,15 @@
   display: none;
 }
 .home-header {
-  height: 469px;
+  width: 1600px;
+  height: 300%;
   display: flex;
+  margin-top: 15%;
   align-items: center;
+  padding-top: 40px;
+  margin-bottom: 15%;
   flex-direction: column;
+  background-image: linear-gradient(0deg, rgb(189, 195, 199) 0.00%,rgba(122, 167, 239, 0.82) 100.00%);
 }
 .home-text004 {
   color: rgb(255, 255, 255);
@@ -198,7 +203,7 @@
   z-index: 100;
   font-size: 72px;
   font-style: normal;
-  margin-top: 20%;
+  margin-top: 0%;
   text-align: center;
   font-weight: 700;
   line-height: 80px;
@@ -233,9 +238,12 @@
   display: contents;
 }
 .home-get-started1 {
-  margin: 0%;
+  margin-top: 0%;
   transition: 0.3s;
   align-items: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 50%;
   justify-content: center;
   text-decoration: none;
 }
@@ -249,6 +257,17 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
+}
+.home-hero1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgb(189, 195, 199) 0.00%,rgb(122, 167, 239) 100.00%);
 }
 .home-image {
   width: 589px;
@@ -1198,6 +1217,7 @@
   justify-content: flex-start;
 }
 .home-subscription {
+  width: 20000000000000000000000000000000000000000000000000000px;
   height: 66px;
   display: flex;
   align-items: center;
@@ -1728,6 +1748,9 @@
     font-weight: 700;
     line-height: 80px;
   }
+  .home-hero1 {
+    flex-direction: column;
+  }
   .home-features {
     height: 851px;
     padding-top: var(--dl-space-space-sevenunits);
@@ -2121,6 +2144,10 @@
   .home-text008 {
     font-size: 120%;
   }
+  .home-hero1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
   .home-image {
     top: -154px;
     left: -22px;
@@ -2317,6 +2344,13 @@
   .home-text008 {
     font-size: 16px;
     font-weight: 600;
+  }
+  .home-hero1 {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
   }
   .home-image {
     width: fit-content;
