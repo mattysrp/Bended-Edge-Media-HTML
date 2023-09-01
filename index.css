@@ -261,6 +261,7 @@
   z-index: 1;
   position: relative;
   align-items: center;
+  padding-top: 100px;
   padding-left: var(--dl-space-space-sevenunits);
   padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
@@ -272,7 +273,6 @@
   height: 547px;
   z-index: 100;
   align-self: center;
-  margin-top: 5%;
   object-fit: cover;
 }
 .home-text009 {
@@ -1231,6 +1231,7 @@
   background-color: rgb(122, 167, 239);
 }
 .home-button:hover {
+  color: var(--dl-color-gray-black);
   background-color: #395b81;
 }
 .home-container09 {
