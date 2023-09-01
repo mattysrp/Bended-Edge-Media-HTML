@@ -17,7 +17,7 @@
   justify-content: center;
 }
 .page404-image {
-  width: 223px;
+  width: 30%;
   height: 189px;
   align-self: flex-start;
   margin-top: 8%;
@@ -278,13 +278,37 @@
   }
 }
 @media(max-width: 479px) {
+  .page404-image {
+    width: 20%;
+    margin-left: 5%;
+  }
+  .page404-text {
+    color: var(--dl-color-gray-white);
+    width: 29%;
+    font-size: 35px;
+    font-style: normal;
+    font-family: Tahoma;
+    font-weight: 600;
+  }
+  .page404-navlink {
+    margin-top: 15%;
+    margin-bottom: 30%;
+  }
   .page404-footer {
+    height: 975px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
+  }
+  .page404-right {
+    width: 455px;
+    height: 732px;
   }
   .page404-text17 {
     color: rgb(196, 196, 196);
     font-size: 14px;
+  }
+  .page404-bottom {
+    margin-top: 90%;
   }
   .page404-branding {
     width: 154px;
