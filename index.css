@@ -275,6 +275,7 @@
   align-self: center;
   margin-top: 5%;
   object-fit: cover;
+  margin-bottom: 20%;
 }
 .home-text009 {
   color: #ffffff;
@@ -796,7 +797,7 @@
   color: rgb(0, 0, 0);
   width: 95%;
   line-height: 24px;
-  margin-bottom: 12%;
+  margin-bottom: 22%;
 }
 .home-text047 {
   display: none;
@@ -807,7 +808,7 @@
 .home-get-started3 {
   color: var(--dl-color-gray-black);
   transition: 0.3s;
-  margin-bottom: 25%;
+  margin-bottom: 26%;
   text-decoration: none;
   background-color: #000000;
 }
