@@ -143,6 +143,9 @@
 .home-link1 {
   text-decoration: none;
 }
+.home-navlink2 {
+  text-decoration: none;
+}
 .home-right {
   height: 100%;
   display: flex;
@@ -273,9 +276,8 @@
   height: 547px;
   z-index: 100;
   align-self: center;
-  margin-top: 5%;
   object-fit: cover;
-  margin-bottom: 20%;
+  margin-bottom: 25%;
 }
 .home-text009 {
   color: #ffffff;
@@ -284,7 +286,7 @@
   text-align: center;
   font-weight: 700;
   line-height: 72px;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .home-cards {
   width: fit-content;
@@ -292,7 +294,8 @@
   display: flex;
   grid-gap: var(--dl-space-space-twounits);
   position: relative;
-  margin-top: var(--dl-space-space-fiveunits);
+  margin-top: 5%;
+  margin-bottom: 15%;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .home-schedule {
@@ -468,6 +471,7 @@
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
+  margin-bottom: 2%;
 }
 .home-container03 {
   flex: 0 0 auto;
@@ -552,7 +556,7 @@
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
   line-height: 2;
-  margin-bottom: 0px;
+  margin-bottom: 5%;
 }
 .home-schedule4 {
   width: 408px;
@@ -681,7 +685,7 @@
 .home-text038 {
   display: none;
 }
-.home-navlink2 {
+.home-navlink3 {
   display: contents;
 }
 .home-get-started2 {
@@ -802,7 +806,7 @@
 .home-text047 {
   display: none;
 }
-.home-navlink3 {
+.home-navlink4 {
   display: contents;
 }
 .home-get-started3 {
@@ -940,7 +944,7 @@
 .home-text061 {
   display: none;
 }
-.home-navlink4 {
+.home-navlink5 {
   display: contents;
 }
 .home-get-started4 {
@@ -1231,6 +1235,7 @@
   height: fit-content;
   font-size: 13px;
   transition: 0.3s;
+  border-width: 0px;
   border-radius: 30px;
   background-color: rgb(122, 167, 239);
 }
@@ -2112,7 +2117,7 @@
     display: none;
   }
   .home-header {
-    height: 100%;
+    height: 348px;
     margin-top: var(--dl-space-space-fourunits);
     justify-content: center;
   }
@@ -2204,18 +2209,31 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-fourunits);
   }
+  .home-container03 {
+    width: 125%;
+  }
   .home-cards1 {
-    width: 80%;
+    width: fit-content;
+  }
+  .home-schedule2 {
+    width: 218px;
+    height: 573px;
+    padding-left: var(--dl-space-space-fourunits);
   }
   .home-text019 {
-    width: 80%;
+    color: rgb(0, 0, 0);
+    width: 60%;
+    font-size: 90%;
     margin-top: 0px;
+    line-height: 2;
     margin-bottom: 0px;
   }
   .home-schedule3 {
     align-self: center;
   }
   .home-schedule4 {
+    width: 100%;
+    height: 100%;
     align-self: center;
     margin-left: 0px;
     margin-right: 0px;
@@ -2347,6 +2365,7 @@
   }
   .home-text009 {
     color: rgb(255, 255, 255);
+    margin-bottom: 10%;
   }
   .home-cards {
     grid: inherit;
@@ -2372,6 +2391,7 @@
     width: fit-content;
     margin-left: 0px;
     padding-top: 10%;
+    margin-bottom: 20%;
   }
   .home-text012 {
     font-size: 28px;
