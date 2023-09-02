@@ -675,7 +675,7 @@
 .home-text037 {
   color: rgb(0, 0, 0);
   line-height: 24px;
-  margin-bottom: 15%;
+  margin-bottom: 20%;
 }
 .home-text038 {
   display: none;
@@ -685,7 +685,6 @@
 }
 .home-get-started2 {
   color: var(--dl-color-gray-black);
-  margin-top: 5%;
   transition: 0.3s;
   margin-bottom: 20%;
   text-decoration: none;
@@ -795,9 +794,9 @@
 }
 .home-text046 {
   color: rgb(0, 0, 0);
-  width: 100%;
+  width: 95%;
   line-height: 24px;
-  margin-bottom: 15%;
+  margin-bottom: 12%;
 }
 .home-text047 {
   display: none;
@@ -807,9 +806,8 @@
 }
 .home-get-started3 {
   color: var(--dl-color-gray-black);
-  margin-top: 5%;
   transition: 0.3s;
-  margin-bottom: 27%;
+  margin-bottom: 25%;
   text-decoration: none;
   background-color: #000000;
 }
@@ -936,7 +934,7 @@
 .home-text058 {
   color: rgb(0, 0, 0);
   line-height: 24px;
-  margin-bottom: 25%;
+  margin-bottom: 32%;
 }
 .home-text061 {
   display: none;
@@ -946,9 +944,8 @@
 }
 .home-get-started4 {
   color: var(--dl-color-gray-black);
-  margin-top: 5%;
   transition: 0.3s;
-  margin-bottom: 28%;
+  margin-bottom: 26%;
   text-decoration: none;
   background-color: #000000;
 }
