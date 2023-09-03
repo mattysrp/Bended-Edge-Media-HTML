@@ -146,6 +146,9 @@
 .home-navlink2 {
   text-decoration: none;
 }
+.home-navlink3 {
+  text-decoration: none;
+}
 .home-right {
   height: 100%;
   display: flex;
@@ -685,7 +688,7 @@
 .home-text038 {
   display: none;
 }
-.home-navlink3 {
+.home-navlink4 {
   display: contents;
 }
 .home-get-started2 {
@@ -806,7 +809,7 @@
 .home-text047 {
   display: none;
 }
-.home-navlink4 {
+.home-navlink5 {
   display: contents;
 }
 .home-get-started3 {
@@ -944,7 +947,7 @@
 .home-text061 {
   display: none;
 }
-.home-navlink5 {
+.home-navlink6 {
   display: contents;
 }
 .home-get-started4 {
