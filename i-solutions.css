@@ -1029,12 +1029,13 @@
   align-items: stretch;
   flex-direction: column;
 }
-.isolutions-text146 {
+.isolutions-navlink3 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .isolutions-links2 {
   gap: var(--dl-space-space-unit);
@@ -1042,9 +1043,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.isolutions-text147 {
+.isolutions-text146 {
   color: rgb(196, 196, 196);
   cursor: pointer;
+  font-size: 14px;
+}
+.isolutions-text147 {
+  color: rgb(196, 196, 196);
   font-size: 14px;
 }
 .isolutions-text148 {
@@ -1059,17 +1064,13 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
-.isolutions-text151 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .isolutions-category1 {
   width: 240px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.isolutions-text152 {
+.isolutions-text151 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -1082,10 +1083,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.isolutions-navlink3 {
+.isolutions-navlink4 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   text-decoration: none;
+}
+.isolutions-text152 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
 }
 .isolutions-text153 {
   color: rgb(196, 196, 196);
@@ -1103,16 +1108,12 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
-.isolutions-text157 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .isolutions-category2 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.isolutions-text158 {
+.isolutions-text157 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -1125,6 +1126,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.isolutions-text158 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
 .isolutions-text159 {
   color: rgb(196, 196, 196);
   font-size: 14px;
@@ -1133,15 +1138,12 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
+.isolutions-link {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+  text-decoration: none;
+}
 .isolutions-text161 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.isolutions-text162 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.isolutions-text163 {
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
@@ -1160,7 +1162,7 @@
   height: 131px;
   margin-bottom: 0px;
 }
-.isolutions-text164 {
+.isolutions-text162 {
   color: rgb(104, 104, 104);
   font-size: 14px;
   line-height: 30px;
@@ -1303,7 +1305,7 @@
     width: var(--dl-size-size-medium);
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .isolutions-text164 {
+  .isolutions-text162 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -1575,7 +1577,7 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .isolutions-text159 {
+  .isolutions-text158 {
     color: rgb(196, 196, 196);
     font-size: 14px;
   }
