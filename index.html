@@ -724,6 +724,22 @@ Here's what the above is doing:
                   html="<iframe name='dummyframe' id='dummyframe' style='display: none;'></iframe>"
                 ></dangerous-html>
               </div>
+              <div>
+                <dangerous-html
+                  html="<form action='code'>
+  <div class='container'>
+    <input type='text' placeholder='Email address' name='mail' required>
+    <label>
+      <input type='checkbox' checked='checked' name='subscribe'> Daily Newsletter
+    </label>
+  </div>
+
+  <div class='container'>
+    <input type='submit' value='Subscribe'>
+  </div>
+</form>"
+                ></dangerous-html>
+              </div>
               <form
                 id="form"
                 name="form"

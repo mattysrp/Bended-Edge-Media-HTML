@@ -1201,7 +1201,7 @@
 .home-form {
   width: fit-content;
   height: fit-content;
-  display: flex;
+  display: none;
 }
 .home-container08 {
   flex: 0 0 auto;
