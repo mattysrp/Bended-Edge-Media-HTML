@@ -1198,13 +1198,10 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-code-embed {
-  display: none;
-}
 .home-form {
   width: fit-content;
   height: fit-content;
-  display: flex;
+  display: none;
 }
 .home-container08 {
   flex: 0 0 auto;
