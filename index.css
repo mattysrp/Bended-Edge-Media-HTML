@@ -28,6 +28,7 @@
   min-height: 100vh;
   overflow-x: hidden;
   flex-direction: column;
+  background-color: rgb(100, 149, 235);
 }
 .home-hero {
   width: 100%;
@@ -215,11 +216,11 @@
 }
 .home-text007 {
   color: rgb(238, 233, 254);
-  width: 602px;
+  width: 909px;
   height: 175px;
   z-index: 100;
   font-size: 25px;
-  max-width: 600px;
+  max-width: 800px;
   align-self: center;
   font-style: normal;
   text-align: center;
@@ -269,6 +270,7 @@
   align-items: center;
   padding-top: 100px;
   padding-left: var(--dl-space-space-sevenunits);
+  margin-bottom: 20%;
   padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
   justify-content: center;
@@ -1448,11 +1450,15 @@
   }
   .home-text007 {
     width: fit-content;
-    height: 941px;
+    height: 67px;
   }
   .home-features {
     height: 814px;
     padding-top: 182px;
+  }
+  .home-image {
+    height: 476px;
+    margin-top: 316px;
   }
   .home-text009 {
     color: rgb(255, 255, 255);
@@ -1559,7 +1565,7 @@
   .home-image05 {
     margin-top: 0px;
     padding-top: var(--dl-space-space-twounits);
-    margin-bottom: 0px;
+    margin-bottom: 5%;
   }
   .home-text024 {
     color: rgb(0, 0, 0);
@@ -1752,9 +1758,16 @@
     font-weight: 700;
     line-height: 80px;
   }
+  .home-text007 {
+    height: 225px;
+    max-width: 600px;
+  }
   .home-features {
     height: 851px;
     padding-top: var(--dl-space-space-sevenunits);
+  }
+  .home-image {
+    margin-top: 0px;
   }
   .home-text009 {
     font-size: 36px;
@@ -2120,7 +2133,7 @@
     display: none;
   }
   .home-header {
-    height: 348px;
+    height: 641px;
     margin-top: var(--dl-space-space-fourunits);
     justify-content: center;
   }
@@ -2156,7 +2169,7 @@
     left: -22px;
     width: 767px;
     height: 595px;
-    margin-top: 0px;
+    margin-top: -200;
     margin-bottom: 4%;
   }
   .home-text009 {
@@ -2446,9 +2459,10 @@
     justify-content: center;
   }
   .home-schedule2 {
-    width: fit-content;
+    width: 100%;
     height: 80%;
     margin-left: 0;
+    padding-left: 24px;
   }
   .home-text018 {
     color: rgb(0, 0, 0);

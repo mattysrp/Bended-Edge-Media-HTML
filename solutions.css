@@ -496,8 +496,8 @@
   font-weight: 600;
 }
 .solutions-text065 {
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
+  padding-left: 8%;
+  padding-right: 8%;
 }
 .solutions-text066 {
   color: var(--dl-color-gray-white);
