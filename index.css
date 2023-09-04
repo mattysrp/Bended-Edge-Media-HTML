@@ -482,7 +482,7 @@
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
-  margin-top: 20%;
+  margin-top: 10%;
   align-items: center;
   background-size: cover;
   justify-content: center;
@@ -1014,7 +1014,7 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-code-embed2 {
+.home-code-embed {
   display: none;
 }
 .home-form {
