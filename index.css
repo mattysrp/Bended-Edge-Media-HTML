@@ -135,7 +135,7 @@
   margin-left: 33px;
   flex-direction: row;
 }
-.home-navlink1 {
+.home-navlink01 {
   text-decoration: none;
 }
 .home-link {
@@ -144,10 +144,10 @@
 .home-link1 {
   text-decoration: none;
 }
-.home-navlink2 {
+.home-navlink02 {
   text-decoration: none;
 }
-.home-navlink3 {
+.home-navlink03 {
   text-decoration: none;
 }
 .home-right {
@@ -994,7 +994,7 @@
 .home-top {
   width: 100%;
   display: flex;
-  max-width: 1200px;
+  max-width: 105%;
   border-color: #3B3B3B;
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
@@ -1229,6 +1229,86 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
+.home-category3 {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+.home-text97 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 2%;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-links5 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-ul {
+  width: 150%;
+  align-self: flex-start;
+  margin-right: 0px;
+  padding-left: 2%;
+  margin-bottom: 10%;
+}
+.home-navlink04 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-li1 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.home-navlink05 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-navlink06 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-li3 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.home-navlink07 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-navlink08 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-li5 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.home-navlink09 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-navlink10 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-li7 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.home-navlink11 {
+  color: #c4c4c4;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-decoration: underline;
+}
+.home-navlink12 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
 .home-bottom {
   width: 100%;
   display: flex;
@@ -1244,7 +1324,7 @@
   height: 131px;
   margin-bottom: 0px;
 }
-.home-text97 {
+.home-text98 {
   color: rgb(104, 104, 104);
   font-size: 14px;
   line-height: 30px;
@@ -1545,11 +1625,14 @@
   .home-links4 {
     gap: var(--dl-space-space-unit);
   }
+  .home-links5 {
+    gap: var(--dl-space-space-unit);
+  }
   .home-branding {
     width: var(--dl-size-size-medium);
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .home-text97 {
+  .home-text98 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
