@@ -162,20 +162,20 @@
   background-color: #f5f5f5ff;
 }
 .solutions-container1 {
-  width: 1190px;
+  width: 70%;
   height: 100%;
   padding: 2%;
   align-self: flex-end;
 }
 .solutions-text05 {
-  width: fit-content;
+  width: 100%;
   font-size: 70px;
   align-self: flex-start;
   margin-bottom: 2%;
 }
 .solutions-text06 {
   color: rgb(0, 0, 0);
-  width: fit-content;
+  width: 70%;
   font-size: 23px;
   font-weight: 500;
 }
@@ -664,6 +664,9 @@
   .solutions-container1 {
     align-items: center;
     flex-direction: column;
+  }
+  .solutions-text05 {
+    font-size: 70px;
   }
   .solutions-container2 {
     align-items: center;
