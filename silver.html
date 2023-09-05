@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Silver - Bended Edge Media</title>
+    <meta property="og:title" content="Silver - Bended Edge Media" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/bianco1.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+       body::-webkit-scrollbar {
+         width: 0.5em;
+         z-index: 100;
+         background-color:black;
+       }
+
+
+      body::-webkit-scrollbar-thumb {
+         background-color:black;
+         box-shadow:0 -100vh 0 100vh #5128f5;//magic
+       }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+      ></script>
+      <link href="./silver.css" rel="stylesheet" />
+
+      <div class="silver-container">
+        <div class="silver-menu">
+          <div id="mobile-menu" class="silver-mobile-navigation">
+            <img
+              alt="pastedImage"
+              src="public/pastedimage-no9b-9700h.png"
+              class="silver-logo"
+            />
+            <div class="silver-links">
+              <span class="Link">Solutions</span>
+              <span class="Link">How it works</span>
+              <span class="Link">Prices</span>
+            </div>
+            <div id="close-mobile-menu" class="silver-close-mobile-menu">
+              <svg viewBox="0 0 804.5714285714286 1024" class="silver-icon">
+                <path
+                  d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="silver-desktop-navigation">
+            <nav class="silver-centered">
+              <div class="silver-left">
+                <a href="index.html" class="silver-navlink">
+                  <img
+                    alt="pastedImage"
+                    src="public/bianco-300w.png"
+                    class="silver-logo1"
+                  />
+                </a>
+                <div class="silver-links1">
+                  <a href="silver.html" class="silver-navlink01 Link">
+                    Solutions
+                  </a>
+                  <a href="silver.html" class="silver-navlink02 Link">
+                    Subscribe
+                  </a>
+                  <a
+                    href="terms-and-conditions.html"
+                    class="silver-navlink03 Link"
+                  >
+                    Terms and Conditions
+                  </a>
+                </div>
+              </div>
+              <div class="silver-right">
+                <div id="open-mobile-menu" class="silver-burger-menu">
+                  <img
+                    alt="pastedImage"
+                    src="public/pastedimage-yxbd.svg"
+                    class="silver-mobile-menu-button"
+                  />
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div>
+            <dangerous-html
+              html="<script>
+/*
+Mobile menu - Code Embed
+*/
+
+// Mobile menu
+const mobileMenu = document.querySelector('#mobile-menu')
+
+// Buttons
+const closeButton = document.querySelector('#close-mobile-menu')
+const openButton = document.querySelector('#open-mobile-menu')
+
+// On openButton click, set the mobileMenu position left to -100vw
+openButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(0%)'
+})
+
+// On closeButton click, set the mobileMenu position to 0vw
+closeButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(100%)'
+})
+</script>"
+            ></dangerous-html>
+          </div>
+        </div>
+        <h1 class="silver-text03">Silver</h1>
+        <span class="silver-text04">
+          It's your starting point for your digital success
+        </span>
+        <div class="silver-pricing">
+          <div class="silver-container1">
+            <h1 class="silver-text05">Advertising Services</h1>
+            <span class="silver-text06">
+              <span>
+                -Creation of 2-3 targeted advertising campaigns per month on
+                social media platforms.
+              </span>
+              <br />
+              <br />
+              <span>
+                -Basic audience targeting to reach the desired demographic.
+              </span>
+              <br />
+              <br />
+              <span>
+                -Monitoring key metrics such as views, clicks, and interactions
+                to gauge campaign performance.
+              </span>
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="https://i.imgur.com/DRCeaUJ.png"
+            class="silver-image"
+          />
+        </div>
+        <div class="silver-pricing1">
+          <img
+            alt="image"
+            src="https://i.imgur.com/CpKdKqo.png"
+            class="silver-image1"
+          />
+          <div class="silver-container2">
+            <h1 class="silver-text14">Enhance your visibility</h1>
+            <span class="silver-text15">
+              <span>
+                -Development of engaging visual content for social media
+                campaigns.
+              </span>
+              <br />
+              <br />
+              <span>
+                -Creation of eye-catching graphics and visuals to enhance ad
+                effectiveness.
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="silver-banner">
+          <h1 class="silver-text20">Learn to keep it simple</h1>
+          <span class="silver-text21">
+            Subscribe to our newsletter to stay updated on every offer we are
+            prepared to provide you with.
+          </span>
+          <div class="silver-container3">
+            <input
+              type="text"
+              placeholder="Email here..."
+              class="silver-textinput input"
+            />
+            <button class="silver-button button">Subscribe</button>
+          </div>
+        </div>
+        <footer class="silver-footer">
+          <div class="silver-top">
+            <div class="silver-right1">
+              <div class="silver-category">
+                <a href="silver.html" class="silver-navlink04">Solutions</a>
+                <div class="silver-links2">
+                  <span class="silver-text22">Responsive Web Design</span>
+                  <span class="silver-text23">Responsive Prototypesv</span>
+                  <span class="silver-text24">Design to Code</span>
+                  <span class="silver-text25">Static Website Builder</span>
+                  <span class="silver-text26">Static Website Generator</span>
+                </div>
+              </div>
+              <div class="silver-category1">
+                <span class="silver-text27">Company</span>
+                <div class="silver-links3">
+                  <a href="about-us.html" class="silver-navlink05">About</a>
+                  <span class="silver-text28">Team</span>
+                  <span class="silver-text29">News</span>
+                  <span class="silver-text30">Partners</span>
+                  <span class="silver-text31">Careers</span>
+                  <span class="silver-text32">Press &amp; Media</span>
+                </div>
+              </div>
+              <div class="silver-category2">
+                <span class="silver-text33">Social</span>
+                <div class="silver-links4">
+                  <span class="silver-text34">Twitter</span>
+                  <span class="silver-text35">Linkedin</span>
+                  <span class="silver-text36">Crunchbase</span>
+                  <a
+                    href="https://www.instagram.com/bendededge/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="silver-link"
+                  >
+                    Instagram
+                  </a>
+                  <span class="silver-text37">Facebook</span>
+                </div>
+              </div>
+              <div class="silver-category3">
+                <span class="silver-text38">Our Policy</span>
+                <div class="silver-links5">
+                  <ul class="silver-ul list">
+                    <li class="list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="silver-navlink06"
+                      >
+                        Terms and Conditions
+                      </a>
+                    </li>
+                    <li class="silver-li1 list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="silver-navlink07"
+                      >
+                        Privacy Policy
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="silver-navlink08"
+                      >
+                        Policy of Refund or Restitution
+                      </a>
+                    </li>
+                    <li class="silver-li3 list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="silver-navlink09"
+                      >
+                        Data Handling Policy
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="silver-navlink10"
+                      >
+                        Content and Copyright Management Policy
+                      </a>
+                    </li>
+                    <li class="silver-li5 list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="silver-navlink11"
+                      >
+                        Marketing and Advertising Policy
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="silver-navlink12"
+                      >
+                        Corporate Social Responsibility Policy
+                      </a>
+                    </li>
+                    <li class="silver-li7 list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="silver-navlink13"
+                      >
+                        Information Security Policy
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="silver-navlink14"
+                      >
+                        Review and Feedback Management Policy
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="silver-bottom">
+            <img
+              alt="pastedImage"
+              src="public/bianco-300w.png"
+              class="silver-branding"
+            />
+            <span class="silver-text39">Copyright © BendedEdge - 2023</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script type="text/javascript"></script>
+  </body>
+</html>
