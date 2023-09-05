@@ -68,16 +68,89 @@
             <div id="mobile-menu" class="home-mobile-navigation">
               <img
                 alt="pastedImage"
-                src="public/pastedimage-no9b-9700h.png"
+                src="public/bianco-600h.png"
                 class="home-logo"
               />
               <div class="home-links">
-                <span class="Link">Solutions</span>
-                <span class="Link">How it works</span>
-                <span class="Link">Prices</span>
+                <div class="home-links1">
+                  <a href="#hiw" class="home-link Link">How it works</a>
+                </div>
+                <div data-faq="closed" class="accordionContainer">
+                  <div class="home-header">
+                    <span class="home-text">Packages</span>
+                    <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                      <path
+                        d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-content accordionContent">
+                    <a href="#prices" class="home-link01 Link">Silver</a>
+                    <a href="gold.html" class="home-navlink Link">Gold</a>
+                    <a href="diamond.html" class="home-navlink01 Link">
+                      Diamond
+                    </a>
+                  </div>
+                </div>
+                <div>
+                  <dangerous-html
+                    html="<script>
+// Accordion - Code Embed
+
+const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
+const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
+const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
+
+accordionContents.forEach((accordionContent) => {
+    accordionContent.style.display = 'none'; //Hides all accordion contents
+});
+
+accordionContainers.forEach((accordionContainer, index) => {
+    accordionContainer.addEventListener('click', () => {
+        accordionContents.forEach((accordionContent) => {
+            accordionContent.style.display = 'none'; //Hides all accordion contents
+        });
+
+        accordionIcons.forEach((accordionIcon) => {
+            accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
+        });
+
+        if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
+            accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
+        } else {
+            accordionContainers.forEach((accordionContainer) => {
+                accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
+            });
+
+            accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
+            accordionContents[index].style.display = 'flex'; // Shows accordion content
+            accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
+        }
+    });
+});
+
+/*
+Here's what the above is doing:
+    1. Selects all accordion containers, contents, and icons
+    2. Hides all accordion contents
+    3. Adds an event listener to each accordion container
+    4. When an accordion container is clicked, it:
+        - Hides all accordion contents
+        - Resets all icon transforms to 0deg (default)
+        - Checks if this container has class 'accordion-open'
+            - If it does, it removes class 'accordion-open'
+            - If it doesn't, it:
+                - Removes class 'accordion-open' from all containers
+                - Adds class 'accordion-open' to this container
+                - Shows accordion content
+                - Rotates accordion icon 180deg
+*/
+</script>"
+                  ></dangerous-html>
+                </div>
               </div>
               <div id="close-mobile-menu" class="home-close-mobile-menu">
-                <svg viewBox="0 0 804.5714285714286 1024" class="home-icon">
+                <svg viewBox="0 0 804.5714285714286 1024" class="home-icon02">
                   <path
                     d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
                   ></path>
@@ -87,31 +160,31 @@
             <div class="home-desktop-navigation">
               <nav class="home-centered">
                 <div class="home-left">
-                  <a href="index.html" class="home-navlink">
+                  <a href="index.html" class="home-navlink02">
                     <img
                       alt="pastedImage"
                       src="public/bianco-600h.png"
                       class="home-logo1"
                     />
                   </a>
-                  <div class="home-links1">
-                    <a href="#hiw" class="home-link Link">How it works</a>
-                    <a href="#prc" class="home-link1 Link">Prices</a>
-                    <a href="about-us.html" class="home-navlink01 Link">
+                  <div class="home-links2">
+                    <a href="#hiw" class="home-link02 Link">How it works</a>
+                    <a href="#prc" class="home-link03 Link">Prices</a>
+                    <a href="about-us.html" class="home-navlink03 Link">
                       About Us
                     </a>
                     <a
                       href="terms-and-conditions.html"
-                      class="home-navlink02 Link"
+                      class="home-navlink04 Link"
                     >
                       Policy
                     </a>
                   </div>
                 </div>
                 <div class="home-right">
-                  <a href="#getstar" class="home-link2">
+                  <a href="#getstar" class="home-link04">
                     <div class="home-get-started">
-                      <span class="home-text03">Get started</span>
+                      <span class="home-text01">Get started</span>
                     </div>
                   </a>
                   <div id="open-mobile-menu" class="home-burger-menu">
@@ -151,19 +224,19 @@ closeButton.addEventListener('click', function() {
               ></dangerous-html>
             </div>
           </div>
-          <header class="home-header">
-            <h1 class="home-text04">
+          <header class="home-header1">
+            <h1 class="home-text02">
               <span>Take control of your social media</span>
               <br />
             </h1>
-            <p class="home-text07">
+            <p class="home-text05">
               Utilize all the online resources provided by Bended Edge to
               maximize the potential of your social media
             </p>
             <div class="home-container01">
-              <a href="#prc" class="home-link3">
+              <a href="#prc" class="home-link05">
                 <div class="home-get-started1 template-button">
-                  <span class="home-text08">Get started</span>
+                  <span class="home-text06">Get started</span>
                 </div>
               </a>
             </div>
@@ -171,7 +244,7 @@ closeButton.addEventListener('click', function() {
         </section>
         <section id="getstar" class="home-features">
           <img alt="image" src="public/bianco-600h.png" class="home-image" />
-          <span class="home-text09">Grow with us&nbsp;</span>
+          <span class="home-text07">Grow with us&nbsp;</span>
           <div class="home-cards">
             <div class="home-schedule card">
               <img
@@ -179,20 +252,20 @@ closeButton.addEventListener('click', function() {
                 src="public/3550b2ef-9fa5-4847-8833-c091ca4a08ef-200h.png"
                 class="home-image1"
               />
-              <span class="home-text10">Schedule</span>
-              <span class="home-text11">
+              <span class="home-text08">Schedule</span>
+              <span class="home-text09">
                 Schedule a video conference with us.
               </span>
             </div>
-            <a href="#prc" class="home-link4">
+            <a href="#prc" class="home-link06">
               <div class="home-schedule1 card">
                 <img
                   alt="image"
                   src="public/logos/cardboard-box-packaging-isometric-cartoon-illustration_725118-292-1300h.jpg"
                   class="home-image2"
                 />
-                <span class="home-text12">Take a look at our packages</span>
-                <span class="home-text13">
+                <span class="home-text10">Take a look at our packages</span>
+                <span class="home-text11">
                   Discover the perfect one for your needs.
                 </span>
               </div>
@@ -213,14 +286,14 @@ closeButton.addEventListener('click', function() {
                 class="home-image3"
               />
               <span class="home-quote1">
-                <span class="home-text14">—&nbsp; Diego De Filippis</span>
+                <span class="home-text12">—&nbsp; Diego De Filippis</span>
                 <span>, Founder, BendedEdge</span>
               </span>
             </div>
           </div>
         </section>
         <section class="home-integrations">
-          <h1 class="home-text16">
+          <h1 class="home-text14">
             Manage all your platforms in just one place
           </h1>
           <div class="home-centered-container">
@@ -275,10 +348,10 @@ closeButton.addEventListener('click', function() {
           </div>
         </section>
         <section id="hiw" class="home-how-it-works">
-          <span class="home-text17">How it works</span>
+          <span class="home-text15">How it works</span>
           <div class="home-container03">
             <div class="home-pricing-card">
-              <span class="home-text18">Schedule a call with us</span>
+              <span class="home-text16">Schedule a call with us</span>
               <img
                 alt="image"
                 src="public/zoom-1300h.png"
@@ -286,7 +359,7 @@ closeButton.addEventListener('click', function() {
               />
             </div>
             <div class="home-pricing-card1">
-              <span class="home-text19">Select your package</span>
+              <span class="home-text17">Select your package</span>
               <img
                 alt="image"
                 src="public/logos/cardboard-box-packaging-isometric-cartoon-illustration_725118-292-1300h.jpg"
@@ -294,7 +367,7 @@ closeButton.addEventListener('click', function() {
               />
             </div>
             <div class="home-pricing-card2">
-              <span class="home-text20">
+              <span class="home-text18">
                 Now relax we'll take care of the rest
               </span>
               <img
@@ -305,12 +378,12 @@ closeButton.addEventListener('click', function() {
             </div>
           </div>
         </section>
-        <section id="prc" class="home-pricing">
+        <section class="home-pricing">
           <div class="home-heading">
-            <span class="home-text21 title">
+            <span class="home-text19 title">
               Pricing for all kind of businesses
             </span>
-            <span class="home-text22">
+            <span class="home-text20">
               <span>
                 Create next-generation solutions for small business customers
               </span>
@@ -319,65 +392,65 @@ closeButton.addEventListener('click', function() {
             </span>
           </div>
           <div class="home-pricing1">
-            <div class="home-container04">
+            <div id="prices" class="home-container04">
               <div class="home-pricing-card3">
-                <span class="home-text26">SILVER</span>
+                <span class="home-text24">SILVER</span>
                 <div class="home-container05">
-                  <span class="home-text27">
+                  <span class="home-text25">
                     <span>$</span>
                     <span></span>
                   </span>
-                  <span class="home-text30">699</span>
-                  <span class="home-text31"><span>/ monthly</span></span>
+                  <span class="home-text28">699</span>
+                  <span class="home-text29"><span>/ monthly</span></span>
                 </div>
                 <div class="home-container06">
-                  <span class="home-text33">✔ Social Media Ads</span>
-                  <span class="home-text34">✔ Content Creation Service</span>
+                  <span class="home-text31">✔ Social Media Ads</span>
+                  <span class="home-text32">✔ Content Creation Service</span>
                 </div>
-                <a href="silver.html" class="home-navlink03 button">
+                <a href="silver.html" class="home-navlink05 button">
                   Learn More
                 </a>
               </div>
               <div class="home-pricing-card4">
-                <span class="home-text35">GOLD</span>
+                <span class="home-text33">GOLD</span>
                 <div class="home-container07">
-                  <span class="home-text36">
+                  <span class="home-text34">
                     <span>$</span>
                     <span></span>
                   </span>
-                  <span class="home-text39">999</span>
-                  <span class="home-text40"><span>/ monthly</span></span>
+                  <span class="home-text37">999</span>
+                  <span class="home-text38"><span>/ monthly</span></span>
                 </div>
                 <div class="home-container08">
-                  <span class="home-text42">✔ Google SEO Optimization</span>
-                  <span class="home-text43">
+                  <span class="home-text40">✔ Google SEO Optimization</span>
+                  <span class="home-text41">
                     ✔ Social Media Managing &amp; Ads
                   </span>
-                  <span class="home-text44">✔ Website Creation</span>
+                  <span class="home-text42">✔ Website Creation</span>
                 </div>
-                <a href="gold.html" class="home-navlink04 button">Learn More</a>
+                <a href="gold.html" class="home-navlink06 button">Learn More</a>
               </div>
               <div class="home-pricing-card5">
-                <span class="home-text45">DIAMOND</span>
+                <span class="home-text43">DIAMOND</span>
                 <div class="home-container09">
-                  <span class="home-text46">
+                  <span class="home-text44">
                     <span>$</span>
                     <span></span>
                   </span>
-                  <span class="home-text49">1799</span>
-                  <span class="home-text50"><span>/ monthly</span></span>
+                  <span class="home-text47">1799</span>
+                  <span class="home-text48"><span>/ monthly</span></span>
                 </div>
                 <div class="home-container10">
-                  <span class="home-text52">✔ Google SEO Optimization</span>
-                  <span class="home-text53">
+                  <span class="home-text50">✔ Google SEO Optimization</span>
+                  <span class="home-text51">
                     ✔ Social Media Managing &amp; Ads
                   </span>
-                  <span class="home-text54">✔ Website Creation</span>
-                  <span class="home-text55">
+                  <span class="home-text52">✔ Website Creation</span>
+                  <span class="home-text53">
                     ✔ Chat Integration in your Website
                   </span>
                 </div>
-                <a href="diamond.html" class="home-navlink05 button">
+                <a href="diamond.html" class="home-navlink07 button">
                   Learn More
                 </a>
               </div>
@@ -386,12 +459,12 @@ closeButton.addEventListener('click', function() {
         </section>
         <section class="home-faq">
           <div class="home-heading1">
-            <span class="home-text56 title">Frequently asked questions</span>
+            <span class="home-text54 title">Frequently asked questions</span>
           </div>
           <div class="home-accordion">
             <div data-faq="closed" class="accordionContainer">
-              <div class="home-header1">
-                <span class="home-text57">
+              <div class="home-header2">
+                <span class="home-text55">
                   — What is Bended Edge and what services does it provide?
                 </span>
                 <svg viewBox="0 0 1024 1024" class="accordionIcon">
@@ -401,7 +474,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text58">
+                <span class="home-text56">
                   BendedEdge is a Social Media Marketing Agency that specializes
                   in helping businesses enhance their online presence. We offer
                   a range of services including social media content creation,
@@ -411,8 +484,8 @@ closeButton.addEventListener('click', function() {
               </div>
             </div>
             <div class="accordionContainer">
-              <div class="home-header2">
-                <span class="home-text59">
+              <div class="home-header3">
+                <span class="home-text57">
                   —&nbsp;How can Bended Edge help my business grow on social
                   media?
                 </span>
@@ -423,7 +496,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text60">
+                <span class="home-text58">
                   BendedEdge has a team of experienced professionals who can
                   develop personalized strategies to increase your brand's
                   visibility, engagement, and conversions on various social
@@ -433,8 +506,8 @@ closeButton.addEventListener('click', function() {
               </div>
             </div>
             <div data-faq="closed" class="accordionContainer">
-              <div class="home-header3">
-                <span class="home-text61">
+              <div class="home-header4">
+                <span class="home-text59">
                   — What sets Bended Edge apart from other SMMA services?
                 </span>
                 <svg viewBox="0 0 1024 1024" class="accordionIcon">
@@ -444,7 +517,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text62">
+                <span class="home-text60">
                   We're not just service providers; we're your strategic
                   partner, offering tailored solutions, transparent
                   collaboration, and a commitment to your brand's growth. We're
@@ -453,8 +526,8 @@ closeButton.addEventListener('click', function() {
               </div>
             </div>
             <div data-faq="closed" class="accordionContainer">
-              <div class="home-header4">
-                <span class="home-text63">
+              <div class="home-header5">
+                <span class="home-text61">
                   — How long does it take to see tangible results from
                   BendedEdge's efforts?
                 </span>
@@ -465,7 +538,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text64">
+                <span class="home-text62">
                   While some noticeable improvements might surface within a few
                   weeks, significant and consistent outcomes generally
                   materialize within a few months. We assure you that our
@@ -476,8 +549,8 @@ closeButton.addEventListener('click', function() {
               </div>
             </div>
             <div data-faq="closed" class="accordionContainer">
-              <div class="home-header5">
-                <span class="home-text65">
+              <div class="home-header6">
+                <span class="home-text63">
                   — What kind of reporting can I expect from BendedEdge?
                 </span>
                 <svg viewBox="0 0 1024 1024" class="accordionIcon">
@@ -487,7 +560,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text66">
+                <span class="home-text64">
                   BendedEdge provides regular reports detailing the performance
                   of your social media campaigns. We offer insights into metrics
                   like engagement, reach, follower growth, and more, so you can
@@ -556,7 +629,7 @@ Here's what the above is doing:
         <footer class="home-footer">
           <div class="home-top">
             <div class="home-left1">
-              <span class="home-text67">Subscribe to our newsletter</span>
+              <span class="home-text65">Subscribe to our newsletter</span>
               <div class="home-code-embed">
                 <dangerous-html
                   html="<div id='mc_embed_shell'>
@@ -660,7 +733,7 @@ input [placeholder]{margin-left: 8px;}
                   </div>
                   <div class="home-container12">
                     <input type="checkbox" id="trms" name="trms" required="" />
-                    <span class="home-text68">
+                    <span class="home-text66">
                       <span>
                         &nbsp;By subscribing to our newsletter you agree with
                         our
@@ -669,7 +742,7 @@ input [placeholder]{margin-left: 8px;}
                         href="https://i.imgur.com/LXQmk1i.png"
                         target="_blank"
                         rel="noreferrer noopener"
-                        class="home-link5"
+                        class="home-link07"
                       >
                         Terms and Conditions.
                       </a>
@@ -678,16 +751,16 @@ input [placeholder]{margin-left: 8px;}
                 </div>
               </form>
               <div class="home-contact">
-                <span class="home-text70">Contact</span>
+                <span class="home-text68">Contact</span>
                 <a
                   href="mailto:use@active-app.com?subject=Support"
-                  class="home-link6"
+                  class="home-link08"
                 >
                   contact@bendededge.com
                 </a>
                 <a
                   href="mailto:use@active-app.com?subject=Support"
-                  class="home-link7"
+                  class="home-link09"
                 >
                   support@bendededge.com
                 </a>
@@ -695,44 +768,44 @@ input [placeholder]{margin-left: 8px;}
             </div>
             <div class="home-right1">
               <div class="home-category">
-                <span class="home-text71">Solutions</span>
-                <div class="home-links2">
-                  <span class="home-text72">Responsive Web Design</span>
-                  <span class="home-text73">Responsive Prototypesv</span>
-                  <span class="home-text74">Design to Code</span>
-                  <span class="home-text75">Static Website Builder</span>
-                  <span class="home-text76">Static Website Generator</span>
+                <span class="home-text69">Solutions</span>
+                <div class="home-links3">
+                  <span class="home-text70">Responsive Web Design</span>
+                  <span class="home-text71">Responsive Prototypesv</span>
+                  <span class="home-text72">Design to Code</span>
+                  <span class="home-text73">Static Website Builder</span>
+                  <span class="home-text74">Static Website Generator</span>
                 </div>
               </div>
               <div class="home-category1">
-                <span class="home-text77">Company</span>
-                <div class="home-links3">
-                  <span class="home-text78">About</span>
-                  <span class="home-text79">Team</span>
-                  <span class="home-text80">News</span>
-                  <span class="home-text81">Partners</span>
-                  <span class="home-text82">Careers</span>
-                  <span class="home-text83">Press &amp; Media</span>
+                <span class="home-text75">Company</span>
+                <div class="home-links4">
+                  <span class="home-text76">About</span>
+                  <span class="home-text77">Team</span>
+                  <span class="home-text78">News</span>
+                  <span class="home-text79">Partners</span>
+                  <span class="home-text80">Careers</span>
+                  <span class="home-text81">Press &amp; Media</span>
                 </div>
               </div>
               <div class="home-category2">
-                <span class="home-text84">Solutions</span>
-                <div class="home-links4">
-                  <span class="home-text85">Twitter</span>
-                  <span class="home-text86">Linkedin</span>
-                  <span class="home-text87">Crunchbase</span>
-                  <span class="home-text88">Instagram</span>
-                  <span class="home-text89">Facebook</span>
+                <span class="home-text82">Solutions</span>
+                <div class="home-links5">
+                  <span class="home-text83">Twitter</span>
+                  <span class="home-text84">Linkedin</span>
+                  <span class="home-text85">Crunchbase</span>
+                  <span class="home-text86">Instagram</span>
+                  <span class="home-text87">Facebook</span>
                 </div>
               </div>
               <div class="home-category3">
-                <span class="home-text90">Our Policy</span>
-                <div class="home-links5">
+                <span class="home-text88">Our Policy</span>
+                <div class="home-links6">
                   <ul class="home-ul list">
                     <li class="list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="home-navlink06"
+                        class="home-navlink08"
                       >
                         Terms and Conditions
                       </a>
@@ -740,7 +813,7 @@ input [placeholder]{margin-left: 8px;}
                     <li class="home-li1 list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="home-navlink07"
+                        class="home-navlink09"
                       >
                         Privacy Policy
                       </a>
@@ -748,7 +821,7 @@ input [placeholder]{margin-left: 8px;}
                     <li class="list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="home-navlink08"
+                        class="home-navlink10"
                       >
                         Policy of Refund or Restitution
                       </a>
@@ -756,7 +829,7 @@ input [placeholder]{margin-left: 8px;}
                     <li class="home-li3 list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="home-navlink09"
+                        class="home-navlink11"
                       >
                         Data Handling Policy
                       </a>
@@ -764,7 +837,7 @@ input [placeholder]{margin-left: 8px;}
                     <li class="list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="home-navlink10"
+                        class="home-navlink12"
                       >
                         Content and Copyright Management Policy
                       </a>
@@ -772,7 +845,7 @@ input [placeholder]{margin-left: 8px;}
                     <li class="home-li5 list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="home-navlink11"
+                        class="home-navlink13"
                       >
                         Marketing and Advertising Policy
                       </a>
@@ -780,7 +853,7 @@ input [placeholder]{margin-left: 8px;}
                     <li class="list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="home-navlink12"
+                        class="home-navlink14"
                       >
                         Corporate Social Responsibility Policy
                       </a>
@@ -788,7 +861,7 @@ input [placeholder]{margin-left: 8px;}
                     <li class="home-li7 list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="home-navlink13"
+                        class="home-navlink15"
                       >
                         Information Security Policy
                       </a>
@@ -796,7 +869,7 @@ input [placeholder]{margin-left: 8px;}
                     <li class="list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="home-navlink14"
+                        class="home-navlink16"
                       >
                         Review and Feedback Management Policy
                       </a>
@@ -812,7 +885,7 @@ input [placeholder]{margin-left: 8px;}
               src="public/bianco-600h.png"
               class="home-branding"
             />
-            <span class="home-text91">Copyright © BendedEdge - 2023</span>
+            <span class="home-text89">Copyright © BendedEdge - 2023</span>
           </div>
         </footer>
       </div>
