@@ -358,6 +358,7 @@
   width: 40%;
   height: 76px;
   display: flex;
+  padding: 3%;
   font-style: normal;
   margin-top: 0%;
   transition: 0.3s;
@@ -386,9 +387,13 @@
   transition: 0.3s;
   font-weight: 900;
   margin-left: 0%;
+  padding-top: 1%;
   margin-right: 0%;
+  padding-left: 5%;
   border-radius: 10%;
   margin-bottom: 0%;
+  padding-right: 1%;
+  padding-bottom: 1%;
   text-decoration: none;
 }
 .diamond-navlink05:hover {
