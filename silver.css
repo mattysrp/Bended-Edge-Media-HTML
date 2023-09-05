@@ -200,6 +200,7 @@
   height: 500px;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 15%;
   justify-content: flex-start;
   background-image: linear-gradient(180deg, rgb(186, 186, 186, 1) 0.00%,rgb(122, 167, 239) 100.00%);
 }
@@ -237,21 +238,6 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-}
-.silver-navlink04 {
-  width: 10%;
-  height: 76px;
-  padding: 1%;
-  font-style: normal;
-  margin-top: 13%;
-  transition: 0.3s;
-  font-weight: 900;
-  border-radius: 10%;
-  margin-bottom: 10%;
-  text-decoration: none;
-}
-.silver-navlink04:hover {
-  background-color: #bdbdbd;
 }
 .silver-banner {
   width: 100%;
@@ -347,7 +333,7 @@
   align-items: stretch;
   flex-direction: column;
 }
-.silver-navlink05 {
+.silver-navlink04 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -401,7 +387,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.silver-navlink06 {
+.silver-navlink05 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   text-decoration: none;
@@ -491,7 +477,7 @@
   padding-left: 2%;
   margin-bottom: 10%;
 }
-.silver-navlink07 {
+.silver-navlink06 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -499,11 +485,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.silver-navlink08 {
+.silver-navlink07 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.silver-navlink09 {
+.silver-navlink08 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -511,11 +497,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.silver-navlink10 {
+.silver-navlink09 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.silver-navlink11 {
+.silver-navlink10 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -523,11 +509,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.silver-navlink12 {
+.silver-navlink11 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.silver-navlink13 {
+.silver-navlink12 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -535,13 +521,13 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.silver-navlink14 {
+.silver-navlink13 {
   color: #c4c4c4;
   margin-top: 0%;
   margin-bottom: 0%;
   text-decoration: underline;
 }
-.silver-navlink15 {
+.silver-navlink14 {
   color: #c4c4c4;
   text-decoration: underline;
 }

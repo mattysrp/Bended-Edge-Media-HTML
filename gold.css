@@ -252,6 +252,7 @@
   height: 500px;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 15%;
   padding-bottom: 1%;
   justify-content: flex-start;
   background-image: linear-gradient(180deg, rgb(189, 195, 199) 0.00%,rgb(122, 167, 239) 100.00%);
@@ -294,62 +295,6 @@
 .gold-image2:hover {
   transform: scale(1.05);
 }
-.gold-form {
-  width: auto;
-  height: 100px;
-  display: flex;
-  margin-top: 15%;
-  margin-bottom: 10%;
-}
-.gold-navlink04 {
-  width: 40%;
-  height: 76px;
-  display: flex;
-  padding: 3%;
-  font-style: normal;
-  margin-top: 0%;
-  transition: 0.3s;
-  font-weight: 900;
-  margin-left: 0%;
-  margin-right: 20%;
-  border-radius: 10%;
-  margin-bottom: 0%;
-  flex-direction: row;
-  text-decoration: none;
-}
-.gold-navlink04:hover {
-  background-color: #bdbdbd;
-}
-.gold-icon2 {
-  width: 24px;
-  height: 24px;
-  margin-right: 7%;
-}
-.gold-navlink05 {
-  width: 40%;
-  height: 76px;
-  align-self: flex-start;
-  font-style: normal;
-  margin-top: 0%;
-  transition: 0.3s;
-  font-weight: 900;
-  margin-left: 0%;
-  padding-top: 1%;
-  margin-right: 0%;
-  padding-left: 5%;
-  border-radius: 10%;
-  margin-bottom: 0%;
-  padding-right: 1%;
-  padding-bottom: 1%;
-  text-decoration: none;
-}
-.gold-navlink05:hover {
-  background-color: #bdbdbd;
-}
-.gold-icon4 {
-  width: 24px;
-  height: 24px;
-}
 .gold-banner {
   width: 100%;
   height: 491px;
@@ -365,13 +310,13 @@
   background-image: url('https://images.unsplash.com/photo-1485628390555-1a7bd503f9fe?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxhcmNoaXRlY3R1cmUlMjBtaW5pbWFsfGVufDB8fHx8MTYyNjE4NDA0Mg&ixlib=rb-1.2.1&w=1500');
   background-position: center;
 }
-.gold-text27 {
+.gold-text26 {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   text-align: center;
   margin-bottom: 1%;
 }
-.gold-text28 {
+.gold-text27 {
   color: var(--dl-color-gray-white);
   max-width: var(--dl-size-size-maxwidth);
   text-align: center;
@@ -444,7 +389,7 @@
   align-items: stretch;
   flex-direction: column;
 }
-.gold-navlink06 {
+.gold-navlink04 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -458,9 +403,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.gold-text29 {
+.gold-text28 {
   color: rgb(196, 196, 196);
   cursor: pointer;
+  font-size: 14px;
+}
+.gold-text29 {
+  color: rgb(196, 196, 196);
   font-size: 14px;
 }
 .gold-text30 {
@@ -475,17 +424,13 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
-.gold-text33 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .gold-category1 {
   width: 240px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.gold-text34 {
+.gold-text33 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -498,10 +443,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.gold-navlink07 {
+.gold-navlink05 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   text-decoration: none;
+}
+.gold-text34 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
 }
 .gold-text35 {
   color: rgb(196, 196, 196);
@@ -519,16 +468,12 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
-.gold-text39 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .gold-category2 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.gold-text40 {
+.gold-text39 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -541,6 +486,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.gold-text40 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
 .gold-text41 {
   color: rgb(196, 196, 196);
   font-size: 14px;
@@ -549,16 +498,12 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
-.gold-text43 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .gold-link {
   color: rgb(196, 196, 196);
   font-size: 14px;
   text-decoration: none;
 }
-.gold-text44 {
+.gold-text43 {
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
@@ -567,7 +512,7 @@
   display: flex;
   flex-direction: column;
 }
-.gold-text45 {
+.gold-text44 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -588,11 +533,23 @@
   padding-left: 2%;
   margin-bottom: 10%;
 }
-.gold-navlink08 {
+.gold-navlink06 {
   color: #c4c4c4;
   text-decoration: underline;
 }
 .gold-li1 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.gold-navlink07 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.gold-navlink08 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.gold-li3 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -604,7 +561,7 @@
   color: #c4c4c4;
   text-decoration: underline;
 }
-.gold-li3 {
+.gold-li5 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -616,29 +573,17 @@
   color: #c4c4c4;
   text-decoration: underline;
 }
-.gold-li5 {
+.gold-li7 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
 .gold-navlink13 {
   color: #c4c4c4;
-  text-decoration: underline;
-}
-.gold-navlink14 {
-  color: #c4c4c4;
-  text-decoration: underline;
-}
-.gold-li7 {
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
-.gold-navlink15 {
-  color: #c4c4c4;
   margin-top: 0%;
   margin-bottom: 0%;
   text-decoration: underline;
 }
-.gold-navlink16 {
+.gold-navlink14 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -657,7 +602,7 @@
   height: 131px;
   margin-bottom: 0px;
 }
-.gold-text46 {
+.gold-text45 {
   color: rgb(104, 104, 104);
   font-size: 14px;
   line-height: 30px;
@@ -696,7 +641,7 @@
   .gold-mobile-menu-button {
     display: flex;
   }
-  .gold-text28 {
+  .gold-text27 {
     width: 100%;
   }
   .gold-textinput {
@@ -733,7 +678,7 @@
     width: 20%;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .gold-text46 {
+  .gold-text45 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -770,7 +715,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .gold-text28 {
+  .gold-text27 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -845,7 +790,7 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .gold-text41 {
+  .gold-text40 {
     color: rgb(196, 196, 196);
     font-size: 14px;
   }
