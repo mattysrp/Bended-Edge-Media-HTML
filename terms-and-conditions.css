@@ -3093,6 +3093,9 @@
     padding-right: var(--dl-space-space-twounits);
     background-color: #6495eb;
   }
+  .terms-and-conditions-right1 {
+    margin-left: 2%;
+  }
   .terms-and-conditions-branding {
     width: 20%;
   }
@@ -3128,6 +3131,12 @@
     margin-top: 5%;
     margin-bottom: 15%;
   }
+  .terms-and-conditions-text243 {
+    margin: var(--dl-space-space-halfunit);
+  }
+  .terms-and-conditions-text451 {
+    margin-left: 0;
+  }
   .terms-and-conditions-footer {
     width: 103%;
     padding-left: var(--dl-space-space-unit);
@@ -3146,6 +3155,9 @@
   }
   .terms-and-conditions-link09 {
     text-decoration: underline;
+  }
+  .terms-and-conditions-contact {
+    margin-left: 2%;
   }
   .terms-and-conditions-text640 {
     color: rgb(196, 196, 196);

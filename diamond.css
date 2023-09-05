@@ -116,13 +116,6 @@
 .diamond-navlink02:hover {
   color: #797979;
 }
-.diamond-navlink03 {
-  transition: 0.3s;
-  text-decoration: none;
-}
-.diamond-navlink03:hover {
-  color: #797979;
-}
 .diamond-right {
   height: 100%;
   display: flex;
@@ -167,7 +160,7 @@
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
-  border-bottom-width: 3px;
+  border-bottom-width: 1px;
 }
 .diamond-container1 {
   top: auto;
@@ -213,7 +206,7 @@
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
-  border-bottom-width: 3px;
+  border-bottom-width: 1px;
 }
 .diamond-image1 {
   width: 30%;
@@ -233,7 +226,7 @@
   align-self: flex-end;
 }
 .diamond-text14 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
   font-size: 70px;
@@ -260,7 +253,7 @@
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
-  border-bottom-width: 3px;
+  border-bottom-width: 1pxpx;
 }
 .diamond-container3 {
   top: auto;
@@ -292,6 +285,7 @@
   border-width: 3px;
   margin-right: 2%;
   border-radius: 20%;
+  padding-right: -2%;
 }
 .diamond-pricing3 {
   width: 100%;
@@ -371,7 +365,7 @@
   align-items: stretch;
   flex-direction: column;
 }
-.diamond-navlink04 {
+.diamond-navlink03 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -513,7 +507,7 @@
   padding-left: 2%;
   margin-bottom: 10%;
 }
-.diamond-navlink05 {
+.diamond-navlink04 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -521,11 +515,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink06 {
+.diamond-navlink05 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink07 {
+.diamond-navlink06 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -533,11 +527,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink08 {
+.diamond-navlink07 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink09 {
+.diamond-navlink08 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -545,11 +539,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink10 {
+.diamond-navlink09 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink11 {
+.diamond-navlink10 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -557,13 +551,13 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink12 {
+.diamond-navlink11 {
   color: #c4c4c4;
   margin-top: 0%;
   margin-bottom: 0%;
   text-decoration: underline;
 }
-.diamond-navlink13 {
+.diamond-navlink12 {
   color: #c4c4c4;
   text-decoration: underline;
 }
