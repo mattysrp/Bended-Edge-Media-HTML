@@ -116,6 +116,9 @@
 .diamond-navlink02:hover {
   color: #797979;
 }
+.diamond-navlink03 {
+  text-decoration: none;
+}
 .diamond-right {
   height: 100%;
   display: flex;
@@ -171,9 +174,9 @@
 }
 .diamond-text05 {
   top: auto;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   width: 100%;
-  font-size: 70px;
+  font-size: 60px;
   align-self: flex-start;
   margin-bottom: 7%;
 }
@@ -188,10 +191,14 @@
   height: 500px;
   box-shadow: 5px 5px 10px 0px #000000;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #000000;
   border-width: 3px;
   margin-right: 2%;
   border-radius: 20%;
+}
+.diamond-image:hover {
+  transform: scale(1.05);
 }
 .diamond-pricing1 {
   width: 100%;
@@ -214,9 +221,13 @@
   margin: 0 1% 1% 1%;
   box-shadow: 5px 5px 10px 0px #000000;
   object-fit: cover;
+  transition: 0.3s;
   border-color: var(--dl-color-gray-black);
   border-width: 3px;
   border-radius: 20%;
+}
+.diamond-image1:hover {
+  transform: scale(1.05);
 }
 .diamond-container2 {
   top: auto;
@@ -229,7 +240,7 @@
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 70px;
+  font-size: 60px;
   align-self: center;
   margin-bottom: 5%;
 }
@@ -266,7 +277,7 @@
   top: auto;
   color: rgb(255, 255, 255);
   width: 100%;
-  font-size: 70px;
+  font-size: 60px;
   align-self: flex-start;
   margin-bottom: 7%;
 }
@@ -279,13 +290,18 @@
 .diamond-image2 {
   width: 30%;
   height: 500px;
+  align-self: flex-end;
   box-shadow: 5px 5px 10px 0px #000000;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #000000;
   border-width: 3px;
   margin-right: 2%;
   border-radius: 20%;
-  padding-right: -2%;
+  padding-right: 0%;
+}
+.diamond-image2:hover {
+  transform: scale(1.05);
 }
 .diamond-pricing3 {
   width: 100%;
@@ -302,9 +318,13 @@
   margin: 0 1% 1% 1%;
   box-shadow: 5px 5px 10px 0px #000000;
   object-fit: cover;
+  transition: 0.3s;
   border-color: var(--dl-color-gray-black);
   border-width: 3px;
   border-radius: 20%;
+}
+.diamond-image3:hover {
+  transform: scale(1.05);
 }
 .diamond-container4 {
   top: auto;
@@ -365,7 +385,7 @@
   align-items: stretch;
   flex-direction: column;
 }
-.diamond-navlink03 {
+.diamond-navlink04 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -507,7 +527,7 @@
   padding-left: 2%;
   margin-bottom: 10%;
 }
-.diamond-navlink04 {
+.diamond-navlink05 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -515,11 +535,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink05 {
+.diamond-navlink06 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink06 {
+.diamond-navlink07 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -527,11 +547,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink07 {
+.diamond-navlink08 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink08 {
+.diamond-navlink09 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -539,11 +559,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink09 {
+.diamond-navlink10 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink10 {
+.diamond-navlink11 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -551,13 +571,13 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink11 {
+.diamond-navlink12 {
   color: #c4c4c4;
   margin-top: 0%;
   margin-bottom: 0%;
   text-decoration: underline;
 }
-.diamond-navlink12 {
+.diamond-navlink13 {
   color: #c4c4c4;
   text-decoration: underline;
 }

@@ -116,6 +116,9 @@
 .gold-navlink02:hover {
   color: #797979;
 }
+.gold-navlink03 {
+  text-decoration: none;
+}
 .gold-right {
   height: 100%;
   display: flex;
@@ -137,7 +140,7 @@
 .gold-text03 {
   color: white;
   font-size: 70px;
-  margin-top: 5%;
+  margin-top: 9%;
   margin-bottom: 2%;
 }
 .gold-text04 {
@@ -150,6 +153,7 @@
   width: 100%;
   height: 500px;
   display: flex;
+  margin-top: 2%;
   align-items: flex-end;
   border-color: var(--dl-color-gray-black);
   border-width: 0px;
@@ -168,9 +172,9 @@
 }
 .gold-text05 {
   top: auto;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   width: 100%;
-  font-size: 70px;
+  font-size: 60px;
   align-self: flex-start;
   margin-bottom: 7%;
 }
@@ -185,10 +189,14 @@
   height: 500px;
   box-shadow: 5px 5px 10px 0px #000000;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #000000;
   border-width: 3px;
   margin-right: 2%;
   border-radius: 20%;
+}
+.gold-image:hover {
+  transform: scale(1.05);
 }
 .gold-pricing1 {
   width: 100%;
@@ -207,9 +215,13 @@
   margin: 0 1% 1% 1%;
   box-shadow: 5px 5px 10px 0px #000000;
   object-fit: cover;
+  transition: 0.3s;
   border-color: var(--dl-color-gray-black);
   border-width: 3px;
   border-radius: 20%;
+}
+.gold-image1:hover {
+  transform: scale(1.05);
 }
 .gold-container2 {
   top: auto;
@@ -222,10 +234,10 @@
   padding-bottom: 2%;
 }
 .gold-text14 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 70px;
+  font-size: 60px;
   align-self: center;
   margin-bottom: 5%;
 }
@@ -258,7 +270,7 @@
   top: auto;
   color: rgb(255, 255, 255);
   width: 100%;
-  font-size: 70px;
+  font-size: 60px;
   align-self: flex-start;
   margin-bottom: 7%;
 }
@@ -273,10 +285,14 @@
   height: 500px;
   box-shadow: 5px 5px 10px 0px #000000;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #000000;
   border-width: 3px;
   margin-right: 2%;
   border-radius: 20%;
+}
+.gold-image2:hover {
+  transform: scale(1.05);
 }
 .gold-banner {
   width: 100%;
@@ -372,7 +388,7 @@
   align-items: stretch;
   flex-direction: column;
 }
-.gold-navlink03 {
+.gold-navlink04 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -426,7 +442,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.gold-navlink04 {
+.gold-navlink05 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   text-decoration: none;
@@ -516,7 +532,7 @@
   padding-left: 2%;
   margin-bottom: 10%;
 }
-.gold-navlink05 {
+.gold-navlink06 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -524,11 +540,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.gold-navlink06 {
+.gold-navlink07 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.gold-navlink07 {
+.gold-navlink08 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -536,11 +552,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.gold-navlink08 {
+.gold-navlink09 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.gold-navlink09 {
+.gold-navlink10 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -548,11 +564,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.gold-navlink10 {
+.gold-navlink11 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.gold-navlink11 {
+.gold-navlink12 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -560,13 +576,13 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.gold-navlink12 {
+.gold-navlink13 {
   color: #c4c4c4;
   margin-top: 0%;
   margin-bottom: 0%;
   text-decoration: underline;
 }
-.gold-navlink13 {
+.gold-navlink14 {
   color: #c4c4c4;
   text-decoration: underline;
 }
