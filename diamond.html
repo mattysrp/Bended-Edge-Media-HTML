@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Diamond - Bended Edge Media</title>
+    <meta property="og:title" content="Diamond - Bended Edge Media" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/bianco1.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+       body::-webkit-scrollbar {
+         width: 0.5em;
+         z-index: 100;
+         background-color:black;
+       }
+
+
+      body::-webkit-scrollbar-thumb {
+         background-color:black;
+         box-shadow:0 -100vh 0 100vh #5128f5;//magic
+       }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+      ></script>
+      <link href="./diamond.css" rel="stylesheet" />
+
+      <div class="diamond-container">
+        <div class="diamond-menu">
+          <div id="mobile-menu" class="diamond-mobile-navigation">
+            <img
+              alt="pastedImage"
+              src="public/pastedimage-no9b-9700h.png"
+              class="diamond-logo"
+            />
+            <div class="diamond-links">
+              <span class="Link">Solutions</span>
+              <span class="Link">How it works</span>
+              <span class="Link">Prices</span>
+            </div>
+            <div id="close-mobile-menu" class="diamond-close-mobile-menu">
+              <svg viewBox="0 0 804.5714285714286 1024" class="diamond-icon">
+                <path
+                  d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="diamond-desktop-navigation">
+            <nav class="diamond-centered">
+              <div class="diamond-left">
+                <a href="index.html" class="diamond-navlink">
+                  <img
+                    alt="pastedImage"
+                    src="public/bianco-400w.png"
+                    class="diamond-logo1"
+                  />
+                </a>
+                <div class="diamond-links1">
+                  <a href="silver.html" class="diamond-navlink01 Link">
+                    Solutions
+                  </a>
+                  <a href="silver.html" class="diamond-navlink02 Link">
+                    Subscribe
+                  </a>
+                  <a
+                    href="terms-and-conditions.html"
+                    class="diamond-navlink03 Link"
+                  >
+                    Terms and Conditions
+                  </a>
+                </div>
+              </div>
+              <div class="diamond-right">
+                <div id="open-mobile-menu" class="diamond-burger-menu">
+                  <img
+                    alt="pastedImage"
+                    src="public/pastedimage-yxbd.svg"
+                    class="diamond-mobile-menu-button"
+                  />
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div>
+            <dangerous-html
+              html="<script>
+/*
+Mobile menu - Code Embed
+*/
+
+// Mobile menu
+const mobileMenu = document.querySelector('#mobile-menu')
+
+// Buttons
+const closeButton = document.querySelector('#close-mobile-menu')
+const openButton = document.querySelector('#open-mobile-menu')
+
+// On openButton click, set the mobileMenu position left to -100vw
+openButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(0%)'
+})
+
+// On closeButton click, set the mobileMenu position to 0vw
+closeButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(100%)'
+})
+</script>"
+            ></dangerous-html>
+          </div>
+        </div>
+        <h1 class="diamond-text03">Diamond</h1>
+        <span class="diamond-text04">
+          This package will give you all the tools you need to achieve success
+        </span>
+        <div class="diamond-pricing">
+          <div class="diamond-container1">
+            <h1 class="diamond-text05">Advertising Services</h1>
+            <span class="diamond-text06">
+              <span>
+                -Creation of 2-3 targeted advertising campaigns per month on
+                social media platforms.
+              </span>
+              <br />
+              <br />
+              <span>
+                -Basic audience targeting to reach the desired demographic.
+              </span>
+              <br />
+              <br />
+              <span>
+                -Monitoring key metrics such as views, clicks, and interactions
+                to gauge campaign performance.
+              </span>
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="https://i.imgur.com/DRCeaUJ.png"
+            class="diamond-image"
+          />
+        </div>
+        <div class="diamond-pricing1">
+          <img
+            alt="image"
+            src="https://i.imgur.com/CpKdKqo.png"
+            class="diamond-image1"
+          />
+          <div class="diamond-container2">
+            <h1 class="diamond-text14">Enhance your visibility</h1>
+            <span class="diamond-text15">
+              <span>
+                -Development of engaging visual content for social media
+                campaigns.
+              </span>
+              <br />
+              <br />
+              <span>
+                -Creation of eye-catching graphics and visuals to enhance ad
+                effectiveness.
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="diamond-pricing2">
+          <div class="diamond-container3">
+            <h1 class="diamond-text20">Newsletter Creation</h1>
+            <span class="diamond-text21">
+              <span>
+                -Design and execution of an email marketing campaign to nurture
+                leads and drive conversions.
+              </span>
+              <br />
+              <br />
+              <span>
+                -Creation of engaging email content and management of subscriber
+                lists.
+              </span>
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="https://i.imgur.com/DRCeaUJ.png"
+            class="diamond-image2"
+          />
+        </div>
+        <div class="diamond-pricing3">
+          <img
+            alt="image"
+            src="https://i.imgur.com/CpKdKqo.png"
+            class="diamond-image3"
+          />
+          <div class="diamond-container4">
+            <h1 class="diamond-text26">Social Media Managing</h1>
+            <span class="diamond-text27">
+              <span>
+                -Strategic content planning for 4 social media platforms.
+              </span>
+              <br />
+              <br />
+              <span>
+                -Regular creation and sharing of engaging posts 4-5 times a
+                week.
+              </span>
+              <br />
+              <br />
+              <span>
+                -Real-time monitoring and crisis management to maintain a
+                positive brand image.
+              </span>
+              <br />
+              <br />
+              <span>
+                -Detailed reporting to provide insights into social media growth
+                and engagement.
+              </span>
+            </span>
+          </div>
+        </div>
+        <footer class="diamond-footer">
+          <div class="diamond-top">
+            <div class="diamond-right1">
+              <div class="diamond-category">
+                <a href="silver.html" class="diamond-navlink04">Solutions</a>
+                <div class="diamond-links2">
+                  <span class="diamond-text38">Responsive Web Design</span>
+                  <span class="diamond-text39">Responsive Prototypesv</span>
+                  <span class="diamond-text40">Design to Code</span>
+                  <span class="diamond-text41">Static Website Builder</span>
+                  <span class="diamond-text42">Static Website Generator</span>
+                </div>
+              </div>
+              <div class="diamond-category1">
+                <span class="diamond-text43">Company</span>
+                <div class="diamond-links3">
+                  <span class="diamond-text44">About</span>
+                  <span class="diamond-text45">Team</span>
+                  <span class="diamond-text46">News</span>
+                  <span class="diamond-text47">Partners</span>
+                  <span class="diamond-text48">Careers</span>
+                  <span class="diamond-text49">Press &amp; Media</span>
+                </div>
+              </div>
+              <div class="diamond-category2">
+                <span class="diamond-text50">Socials</span>
+                <div class="diamond-links4">
+                  <span class="diamond-text51">Twitter</span>
+                  <span class="diamond-text52">Linkedin</span>
+                  <span class="diamond-text53">Crunchbase</span>
+                  <span class="diamond-text54">Instagram</span>
+                  <span class="diamond-text55">Facebook</span>
+                </div>
+              </div>
+              <div class="diamond-category3">
+                <span class="diamond-text56">Our Policy</span>
+                <div class="diamond-links5">
+                  <ul class="diamond-ul list">
+                    <li class="list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="diamond-navlink05"
+                      >
+                        Terms and Conditions
+                      </a>
+                    </li>
+                    <li class="diamond-li1 list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="diamond-navlink06"
+                      >
+                        Privacy Policy
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="diamond-navlink07"
+                      >
+                        Policy of Refund or Restitution
+                      </a>
+                    </li>
+                    <li class="diamond-li3 list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="diamond-navlink08"
+                      >
+                        Data Handling Policy
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="diamond-navlink09"
+                      >
+                        Content and Copyright Management Policy
+                      </a>
+                    </li>
+                    <li class="diamond-li5 list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="diamond-navlink10"
+                      >
+                        Marketing and Advertising Policy
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="diamond-navlink11"
+                      >
+                        Corporate Social Responsibility Policy
+                      </a>
+                    </li>
+                    <li class="diamond-li7 list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="diamond-navlink12"
+                      >
+                        Information Security Policy
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="diamond-navlink13"
+                      >
+                        Review and Feedback Management Policy
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="diamond-bottom">
+            <img
+              alt="pastedImage"
+              src="public/bianco-400w.png"
+              class="diamond-branding"
+            />
+            <span class="diamond-text57">Copyright © BendedEdge - 2023</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script type="text/javascript"></script>
+  </body>
+</html>
