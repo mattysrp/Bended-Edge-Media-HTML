@@ -777,7 +777,7 @@
 .home-text51 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-button1 {
+.home-navlink04 {
   color: var(--dl-color-gray-white);
   margin-top: auto;
   transition: 0.3s;
@@ -785,9 +785,10 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.home-button1:hover {
+.home-navlink04:hover {
   background-color: #7AA7EF;
 }
 .home-pricing-card5 {
@@ -853,7 +854,7 @@
 .home-text62 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-button2 {
+.home-navlink05 {
   color: var(--dl-color-gray-white);
   margin-top: auto;
   transition: 0.3s;
@@ -861,9 +862,10 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.home-button2:hover {
+.home-navlink05:hover {
   background-color: #7AA7EF;
 }
 .home-faq {
@@ -1049,7 +1051,7 @@
   font-size: 14px;
   border-width: 0px;
 }
-.home-button3 {
+.home-button1 {
   width: fit-content;
   height: fit-content;
   font-size: 13px;
@@ -1058,7 +1060,7 @@
   border-radius: 30px;
   background-color: rgb(122, 167, 239);
 }
-.home-button3:hover {
+.home-button1:hover {
   background-color: #395b81;
 }
 .home-container12 {
@@ -1255,23 +1257,11 @@
   padding-left: 2%;
   margin-bottom: 10%;
 }
-.home-navlink04 {
-  color: #c4c4c4;
-  text-decoration: underline;
-}
-.home-li1 {
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
-.home-navlink05 {
-  color: #c4c4c4;
-  text-decoration: underline;
-}
 .home-navlink06 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.home-li3 {
+.home-li1 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -1283,7 +1273,7 @@
   color: #c4c4c4;
   text-decoration: underline;
 }
-.home-li5 {
+.home-li3 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -1295,17 +1285,29 @@
   color: #c4c4c4;
   text-decoration: underline;
 }
-.home-li7 {
+.home-li5 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
 .home-navlink11 {
   color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-navlink12 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-li7 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.home-navlink13 {
+  color: #c4c4c4;
   margin-top: 0%;
   margin-bottom: 0%;
   text-decoration: underline;
 }
-.home-navlink12 {
+.home-navlink14 {
   color: #c4c4c4;
   text-decoration: underline;
 }
