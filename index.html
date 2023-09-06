@@ -43,13 +43,13 @@
        body::-webkit-scrollbar {
          width: 0.5em;
          z-index: 100;
-         background-color:black;
+         background-color:white;
        }
 
 
       body::-webkit-scrollbar-thumb {
          background-color:black;
-         box-shadow:0 -100vh 0 100vh #5128f5;//magic
+         box-shadow:0 -100vh 0 100vh #2851f5;//magic
        }
     </style>
     <link rel="stylesheet" href="./style.css" />
@@ -261,7 +261,7 @@ closeButton.addEventListener('click', function() {
               <div class="home-schedule1 card">
                 <img
                   alt="image"
-                  src="public/logos/cardboard-box-packaging-isometric-cartoon-illustration_725118-292-1300h.jpg"
+                  src="public/logos/cardboard-box-packaging-isometric-cartoon-illustration_725118-292-1200h.jpg"
                   class="home-image2"
                 />
                 <span class="home-text10">Take a look at our packages</span>
@@ -354,7 +354,7 @@ closeButton.addEventListener('click', function() {
               <span class="home-text16">Schedule a call with us</span>
               <img
                 alt="image"
-                src="public/zoom-1300h.png"
+                src="public/zoom-1200h.png"
                 class="home-image4"
               />
             </div>
@@ -363,7 +363,7 @@ closeButton.addEventListener('click', function() {
                 <span class="home-text17">Select your package</span>
                 <img
                   alt="image"
-                  src="public/logos/cardboard-box-packaging-isometric-cartoon-illustration_725118-292-1300h.jpg"
+                  src="public/logos/cardboard-box-packaging-isometric-cartoon-illustration_725118-292-1200h.jpg"
                   class="home-image5"
                 />
               </div>
@@ -464,7 +464,10 @@ closeButton.addEventListener('click', function() {
             <span class="home-text54 title">Frequently asked questions</span>
           </div>
           <div class="home-accordion">
-            <div data-faq="closed" class="accordionContainer">
+            <div
+              data-faq="closed"
+              class="home-accordion-container1 accordionContainer"
+            >
               <div class="home-header2">
                 <span class="home-text55">
                   — What is Bended Edge and what services does it provide?
@@ -507,10 +510,17 @@ closeButton.addEventListener('click', function() {
                 </span>
               </div>
             </div>
-            <div data-faq="closed" class="accordionContainer">
+            <div
+              data-faq="closed"
+              class="home-accordion-container3 accordionContainer"
+            >
               <div class="home-header4">
                 <span class="home-text59">
-                  — What sets Bended Edge apart from other SMMA services?
+                  <span>—</span>
+                  <span>
+                    What sets Bended Edge apart from other SMMA services?
+                  </span>
+                  <span></span>
                 </span>
                 <svg viewBox="0 0 1024 1024" class="accordionIcon">
                   <path
@@ -519,7 +529,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text60">
+                <span class="home-text63">
                   We're not just service providers; we're your strategic
                   partner, offering tailored solutions, transparent
                   collaboration, and a commitment to your brand's growth. We're
@@ -529,9 +539,12 @@ closeButton.addEventListener('click', function() {
             </div>
             <div data-faq="closed" class="accordionContainer">
               <div class="home-header5">
-                <span class="home-text61">
-                  — How long does it take to see tangible results from
-                  BendedEdge's efforts?
+                <span class="home-text64">
+                  <span class="home-text65">
+                    — How long does it take to see tangible results from
+                    BendedEdge's efforts?
+                  </span>
+                  <span class="home-text66"></span>
                 </span>
                 <svg viewBox="0 0 1024 1024" class="accordionIcon">
                   <path
@@ -540,7 +553,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text62">
+                <span class="home-text67">
                   While some noticeable improvements might surface within a few
                   weeks, significant and consistent outcomes generally
                   materialize within a few months. We assure you that our
@@ -550,9 +563,12 @@ closeButton.addEventListener('click', function() {
                 </span>
               </div>
             </div>
-            <div data-faq="closed" class="accordionContainer">
+            <div
+              data-faq="closed"
+              class="home-accordion-container5 accordionContainer"
+            >
               <div class="home-header6">
-                <span class="home-text63">
+                <span class="home-text68">
                   — What kind of reporting can I expect from BendedEdge?
                 </span>
                 <svg viewBox="0 0 1024 1024" class="accordionIcon">
@@ -562,7 +578,7 @@ closeButton.addEventListener('click', function() {
                 </svg>
               </div>
               <div class="accordionContent">
-                <span class="home-text64">
+                <span class="home-text69">
                   BendedEdge provides regular reports detailing the performance
                   of your social media campaigns. We offer insights into metrics
                   like engagement, reach, follower growth, and more, so you can
@@ -631,85 +647,7 @@ Here's what the above is doing:
         <footer class="home-footer">
           <div class="home-top">
             <div class="home-left1">
-              <span class="home-text65">Subscribe to our newsletter</span>
-              <div>
-                <dangerous-html
-                  html="<div id='mc_embed_shell'>
-<style type='text/css'>
-      #mc_embed_signup{background:#6495eb; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
-      #mc_embed_signup form {display: Inline-Block; position:relative; text-align:left; margin: 20px}
-#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-#mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 30px;}
-#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
-#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
-#mc_embed_signup input:focus {border-color:#333;}
-#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:30px; transition: all 0.23s ease-in-out 0s; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: fit-content; width: -moz-fit-content;}
-#mc_embed_signup .button:hover {background-color:#777;}
-#mc_embed_signup .small-meta {font-size: 11px;}
-#mc_embed_signup .nowrap {white-space:nowrap;}
-
-#mc_embed_signup .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px; display:grid;}
-#mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
-* html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
-#mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
-#mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
-#mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
-#mc_embed_signup .mc-address-fields-group {display:flex; flex-direction:row; justify-content:space-evenly; width:96%; gap:15px;}
-#mc_embed_signup .mc-sms-phone-group {display:flex; flex-direction:row; justify-content:space-evenly; width:96%; gap:15px; padding-top:5px;}
-
-#mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
-#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
-#mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input{width:40px;}
-#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
-#mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
-
-#mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
-#mc_embed_signup .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}     
-#mc_embed_signup .clear {clear:both;}
-#mc_embed_signup .foot {display:grid; grid-template-columns: 3fr 1fr; width:96%; align-items: center;}
-@media screen and (max-width:400px) {#mc_embed_signup .foot {display:grid; grid-template-columns: 1fr; width:100%; align-items: center;}}
-
-@media screen and (max-width:400px) {#mc_embed_signup .referralBadge {width:50%;}}
-
-#mc_embed_signup .brandingLogo {justify-self:right;}
-@media screen and (max-width:400px) {#mc_embed_signup .brandingLogo {justify-self:left;}}
-
-#mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
-#mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
-#mc_embed_signup .mc-field-group.input-group label {display:inline;}
-#mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
-
-#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;}
-#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
-#mc_embed_signup #mce-error-response {display:none;}
-#mc_embed_signup #mce-success-response {color:#529214; display:none;}
-#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
-#mc_embed_signup .helper_text {color: white; display: flex; margin-left: 8px; margin-top: -8px; margin-bottom: 15px;padding: 3px; background-color: #6495eb; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size: 10px; font-weight: normal; z-index: 1;}
-
-#mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
-#mc_embed_signup #num-subscribers {font-size:1.1em;}
-#mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
-
-#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:3px; background-color:rgba(255,255,255,0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
-#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
-input [placeholder]{margin-left: 8px;}
-</style>
-<div id='mc_embed_signup'>
-  <form action='https://bendededge.us14.list-manage.com/subscribe/post?u=99fb2973ad8c244dda2afae47&amp;id=4ca98ada07&amp;f_id=00055fe0f0' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' class='validate' target='_blank'>
-      <div id='mc_embed_signup_scroll'>
-          <div class='mc-field-group'><input type='email' name='EMAIL' class='required email' id='mce-EMAIL' required='' value='' placeholder='Enter your email'></div>
-          <span id='mce-EMAIL-HELPERTEXT' class='helper_text' for='mc-checkbox' >by subscribing you accept the <a href='https://i.imgur.com/LXQmk1i.png' >terms and conditions</a></span>
-      <div id='mce-responses' class='clear'>
-          <div class='response' id='mce-error-response' style='display: none;'></div>
-          <div class='response' id='mce-success-response' style='display: none;'></div>
-      </div><div aria-hidden='true' style='position: absolute; left: -5000px;'><input type='text' name='b_99fb2973ad8c244dda2afae47_4ca98ada07' tabindex='-1' value=''></div><div class='clear'><input type='submit' name='subscribe' id='mc-embedded-subscribe' class='button' value='Subscribe'></div>
-  </div>
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-"
-                ></dangerous-html>
-              </div>
+              <span class="home-text70">Subscribe to our newsletter</span>
               <form
                 id="form"
                 name="form"
@@ -735,7 +673,7 @@ input [placeholder]{margin-left: 8px;}
                   </div>
                   <div class="home-container12">
                     <input type="checkbox" id="trms" name="trms" required="" />
-                    <span class="home-text66">
+                    <span class="home-text71">
                       <span>
                         &nbsp;By subscribing to our newsletter you agree with
                         our
@@ -753,7 +691,7 @@ input [placeholder]{margin-left: 8px;}
                 </div>
               </form>
               <div class="home-contact">
-                <span class="home-text68">Contact</span>
+                <span class="home-text73">Contact</span>
                 <a
                   href="mailto:use@active-app.com?subject=Support"
                   class="home-link08"
@@ -770,28 +708,28 @@ input [placeholder]{margin-left: 8px;}
             </div>
             <div class="home-right1">
               <div class="home-category">
-                <span class="home-text69">Solutions</span>
+                <span class="home-text74">Solutions</span>
                 <div class="home-links3">
-                  <span class="home-text70">Responsive Web Design</span>
-                  <span class="home-text71">Responsive Prototypesv</span>
-                  <span class="home-text72">Design to Code</span>
-                  <span class="home-text73">Static Website Builder</span>
-                  <span class="home-text74">Static Website Generator</span>
+                  <span class="home-text75">Responsive Web Design</span>
+                  <span class="home-text76">Responsive Prototypesv</span>
+                  <span class="home-text77">Design to Code</span>
+                  <span class="home-text78">Static Website Builder</span>
+                  <span class="home-text79">Static Website Generator</span>
                 </div>
               </div>
               <div class="home-category1">
-                <span class="home-text75">Company</span>
+                <span class="home-text80">Company</span>
                 <div class="home-links4">
                   <a href="about-us.html" class="home-navlink09">About</a>
-                  <span class="home-text76">Team</span>
-                  <span class="home-text77">News</span>
-                  <span class="home-text78">Partners</span>
-                  <span class="home-text79">Careers</span>
-                  <span class="home-text80">Press &amp; Media</span>
+                  <span class="home-text81">Team</span>
+                  <span class="home-text82">News</span>
+                  <span class="home-text83">Partners</span>
+                  <span class="home-text84">Careers</span>
+                  <span class="home-text85">Press &amp; Media</span>
                 </div>
               </div>
               <div class="home-category2">
-                <span class="home-text81">Solutions</span>
+                <span class="home-text86">Solutions</span>
                 <div class="home-links5">
                   <a
                     href="https://twitter.com/BendedEdge"
@@ -801,7 +739,7 @@ input [placeholder]{margin-left: 8px;}
                   >
                     X.com
                   </a>
-                  <span class="home-text82">Linkedin</span>
+                  <span class="home-text87">Linkedin</span>
                   <a
                     href="https://www.instagram.com/bendededge/"
                     target="_blank"
@@ -810,11 +748,11 @@ input [placeholder]{margin-left: 8px;}
                   >
                     Instagram
                   </a>
-                  <span class="home-text83">Facebook</span>
+                  <span class="home-text88">Facebook</span>
                 </div>
               </div>
               <div class="home-category3">
-                <span class="home-text84">Our Policy</span>
+                <span class="home-text89">Our Policy</span>
                 <div class="home-links6">
                   <ul class="home-ul list">
                     <li class="list-item">
@@ -900,7 +838,7 @@ input [placeholder]{margin-left: 8px;}
               src="public/bianco-600h.png"
               class="home-branding"
             />
-            <span class="home-text85">Copyright © BendedEdge - 2023</span>
+            <span class="home-text90">Copyright © BendedEdge - 2023</span>
           </div>
         </footer>
       </div>

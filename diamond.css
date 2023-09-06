@@ -359,31 +359,27 @@
 .diamond-container5 {
   top: auto;
   width: 100%;
-  height: 140px;
+  height: 150px;
   display: flex;
-  padding: 2%;
-  align-self: center;
   align-items: center;
-  align-content: center;
-  flex-direction: column;
+  justify-content: center;
 }
-.diamond-navlink04 {
+.diamond-button {
+  fill: var(--dl-color-gray-white);
   color: #ffffff;
-  width: 200px;
-  height: 50px;
-  display: flex;
-  padding: 1%;
-  align-self: center;
-  border-radius: 20px;
-  flex-direction: row;
-  text-decoration: none;
+  width: 13%;
+  height: 60px;
+  border-radius: 25px;
   background-color: #000000;
 }
 .diamond-icon2 {
-  fill: #ffffff;
   width: 24px;
-  height: 24px;
-  margin-right: 1%;
+  height: 50%;
+  margin-right: 2%;
+}
+.diamond-text38 {
+  height: 50%;
+  text-align: center;
 }
 .diamond-banner {
   width: 100%;
@@ -400,13 +396,13 @@
   background-image: url('https://images.unsplash.com/photo-1485628390555-1a7bd503f9fe?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxhcmNoaXRlY3R1cmUlMjBtaW5pbWFsfGVufDB8fHx8MTYyNjE4NDA0Mg&ixlib=rb-1.2.1&w=1500');
   background-position: center;
 }
-.diamond-text39 {
+.diamond-text42 {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   text-align: center;
   margin-bottom: 1%;
 }
-.diamond-text40 {
+.diamond-text43 {
   color: var(--dl-color-gray-white);
   max-width: var(--dl-size-size-maxwidth);
   text-align: center;
@@ -429,7 +425,7 @@
   border-radius: 20px;
   margin-bottom: 5%;
 }
-.diamond-button {
+.diamond-button1 {
   color: var(--dl-color-gray-white);
   width: 7%;
   height: 40px;
@@ -439,7 +435,7 @@
   border-radius: 20px;
   background-color: var(--dl-color-gray-black);
 }
-.diamond-button:hover {
+.diamond-button1:hover {
   color: var(--dl-color-gray-black);
   background-color: transparent;
 }
@@ -481,7 +477,7 @@
   align-items: stretch;
   flex-direction: column;
 }
-.diamond-navlink05 {
+.diamond-navlink04 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -495,24 +491,24 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.diamond-text41 {
+.diamond-text44 {
   color: rgb(196, 196, 196);
   cursor: pointer;
   font-size: 14px;
 }
-.diamond-text42 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text43 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text44 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .diamond-text45 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text46 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text47 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text48 {
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
@@ -522,7 +518,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.diamond-text46 {
+.diamond-text49 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -534,18 +530,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.diamond-text47 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text48 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text49 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
 }
 .diamond-text50 {
   color: rgb(196, 196, 196);
@@ -559,12 +543,24 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
+.diamond-text53 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text54 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text55 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
 .diamond-category2 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.diamond-text53 {
+.diamond-text56 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -582,7 +578,7 @@
   font-size: 14px;
   text-decoration: none;
 }
-.diamond-text54 {
+.diamond-text57 {
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
@@ -601,7 +597,7 @@
   display: flex;
   flex-direction: column;
 }
-.diamond-text55 {
+.diamond-text58 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -622,7 +618,7 @@
   padding-left: 2%;
   margin-bottom: 10%;
 }
-.diamond-navlink06 {
+.diamond-navlink05 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -630,11 +626,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink07 {
+.diamond-navlink06 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink08 {
+.diamond-navlink07 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -642,11 +638,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink09 {
+.diamond-navlink08 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink10 {
+.diamond-navlink09 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -654,11 +650,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink11 {
+.diamond-navlink10 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink12 {
+.diamond-navlink11 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -666,13 +662,13 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink13 {
+.diamond-navlink12 {
   color: #c4c4c4;
   margin-top: 0%;
   margin-bottom: 0%;
   text-decoration: underline;
 }
-.diamond-navlink14 {
+.diamond-navlink13 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -692,7 +688,7 @@
   height: 131px;
   margin-bottom: 0px;
 }
-.diamond-text56 {
+.diamond-text59 {
   color: rgb(104, 104, 104);
   font-size: 14px;
   line-height: 30px;
@@ -804,13 +800,13 @@
     font-style: normal;
     font-weight: 500;
   }
-  .diamond-text40 {
+  .diamond-text43 {
     width: 100%;
   }
   .diamond-textinput {
     width: 20%;
   }
-  .diamond-button {
+  .diamond-button1 {
     width: fit-content;
   }
   .diamond-footer {
@@ -844,7 +840,7 @@
     width: 30%;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .diamond-text56 {
+  .diamond-text59 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -916,11 +912,11 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .diamond-text40 {
+  .diamond-text43 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .diamond-button {
+  .diamond-button1 {
     width: fit-content;
   }
   .diamond-footer {
@@ -1041,7 +1037,7 @@
   .diamond-textinput {
     width: 80%;
   }
-  .diamond-button {
+  .diamond-button1 {
     width: fit-content;
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
@@ -1056,7 +1052,7 @@
     padding-left: 2%;
     padding-right: 2%;
   }
-  .diamond-text53 {
+  .diamond-text56 {
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-style: normal;
