@@ -255,6 +255,7 @@
   width: 184px;
   height: 50px;
   display: flex;
+  padding: 1%;
   align-self: center;
   border-radius: 20px;
   flex-direction: row;

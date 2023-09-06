@@ -322,6 +322,7 @@
   width: 200px;
   height: 50px;
   display: flex;
+  padding: 1%;
   align-self: center;
   transition: 0.3s;
   border-radius: 20px;
@@ -352,6 +353,7 @@
   color: #ffffff;
   width: 200px;
   height: 50px;
+  padding: 1%;
   align-self: flex-start;
   margin-top: 2%;
   transition: 0.3s;
@@ -736,7 +738,6 @@
   }
   .gold-button1 {
     align-self: flex-end;
-    margin-top: 0%;
   }
   .gold-text29 {
     width: 100%;

@@ -97,15 +97,15 @@
 .home-content {
   flex-direction: column;
 }
-.home-link01 {
-  margin-bottom: 10px;
-  text-decoration: none;
-}
 .home-navlink {
   margin-bottom: 10px;
   text-decoration: none;
 }
 .home-navlink01 {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.home-navlink02 {
   text-decoration: none;
 }
 .home-close-mobile-menu {
@@ -153,7 +153,7 @@
   flex-direction: row;
   padding-bottom: 38px;
 }
-.home-navlink02 {
+.home-navlink03 {
   display: contents;
 }
 .home-logo1 {
@@ -167,16 +167,16 @@
   margin-left: 33px;
   flex-direction: row;
 }
+.home-link01 {
+  text-decoration: none;
+}
 .home-link02 {
   text-decoration: none;
 }
-.home-link03 {
-  text-decoration: none;
-}
-.home-navlink03 {
-  text-decoration: none;
-}
 .home-navlink04 {
+  text-decoration: none;
+}
+.home-navlink05 {
   text-decoration: none;
 }
 .home-right {
@@ -187,7 +187,7 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-link04 {
+.home-link03 {
   display: contents;
 }
 .home-get-started {
@@ -268,7 +268,7 @@
   margin-bottom: 0%;
   justify-content: center;
 }
-.home-link05 {
+.home-link04 {
   display: contents;
 }
 .home-get-started1 {
@@ -356,7 +356,7 @@
   margin-top: var(--dl-space-space-oneandhalfunits);
   font-weight: 600;
 }
-.home-link06 {
+.home-link05 {
   display: contents;
 }
 .home-schedule1 {
@@ -553,7 +553,7 @@
   object-fit: cover;
   margin-bottom: 18%;
 }
-.home-link07 {
+.home-link06 {
   display: contents;
 }
 .home-pricing-card1 {
@@ -733,7 +733,7 @@
 .home-text32 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-navlink05 {
+.home-navlink06 {
   color: var(--dl-color-gray-white);
   margin-top: auto;
   transition: 0.3s;
@@ -744,7 +744,7 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.home-navlink05:hover {
+.home-navlink06:hover {
   background-color: #7AA7EF;
 }
 .home-pricing-card4 {
@@ -807,7 +807,7 @@
 .home-text42 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-navlink06 {
+.home-navlink07 {
   color: var(--dl-color-gray-white);
   margin-top: auto;
   transition: 0.3s;
@@ -818,7 +818,7 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.home-navlink06:hover {
+.home-navlink07:hover {
   background-color: #7AA7EF;
 }
 .home-pricing-card5 {
@@ -884,7 +884,7 @@
 .home-text53 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-navlink07 {
+.home-navlink08 {
   color: var(--dl-color-gray-white);
   margin-top: auto;
   transition: 0.3s;
@@ -895,7 +895,7 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.home-navlink07:hover {
+.home-navlink08:hover {
   background-color: #7AA7EF;
 }
 .home-faq {
@@ -1046,9 +1046,6 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-code-embed {
-  display: none;
-}
 .home-form {
   width: fit-content;
   height: fit-content;
@@ -1105,7 +1102,7 @@
   color: rgb(104, 104, 104);
   font-size: 14px;
 }
-.home-link08 {
+.home-link07 {
   text-decoration: underline;
 }
 .home-contact {
@@ -1121,12 +1118,12 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-link09 {
+.home-link08 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   text-decoration: underline;
 }
-.home-link10 {
+.home-link09 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   margin-top: var(--dl-space-space-halfunit);
@@ -1199,6 +1196,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-navlink09 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+  text-decoration: none;
+}
 .home-text76 {
   color: rgb(196, 196, 196);
   font-size: 14px;
@@ -1219,16 +1221,12 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
-.home-text81 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .home-category2 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.home-text82 {
+.home-text81 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -1241,23 +1239,21 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-link10 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+  text-decoration: none;
+}
+.home-text82 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.home-link11 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+  text-decoration: none;
+}
 .home-text83 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.home-text84 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.home-text85 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.home-text86 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.home-text87 {
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
@@ -1266,7 +1262,7 @@
   display: flex;
   flex-direction: column;
 }
-.home-text88 {
+.home-text84 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -1287,23 +1283,11 @@
   padding-left: 2%;
   margin-bottom: 10%;
 }
-.home-navlink08 {
-  color: #c4c4c4;
-  text-decoration: underline;
-}
-.home-li1 {
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
-.home-navlink09 {
-  color: #c4c4c4;
-  text-decoration: underline;
-}
 .home-navlink10 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.home-li3 {
+.home-li1 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -1315,7 +1299,7 @@
   color: #c4c4c4;
   text-decoration: underline;
 }
-.home-li5 {
+.home-li3 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -1327,17 +1311,29 @@
   color: #c4c4c4;
   text-decoration: underline;
 }
-.home-li7 {
+.home-li5 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
 .home-navlink15 {
   color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-navlink16 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.home-li7 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.home-navlink17 {
+  color: #c4c4c4;
   margin-top: 0%;
   margin-bottom: 0%;
   text-decoration: underline;
 }
-.home-navlink16 {
+.home-navlink18 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -1356,7 +1352,7 @@
   height: 131px;
   margin-bottom: 0px;
 }
-.home-text89 {
+.home-text85 {
   color: rgb(104, 104, 104);
   font-size: 14px;
   line-height: 30px;
@@ -1459,6 +1455,12 @@
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
+  }
+  .home-pricing-card3 {
+    height: 550px;
+  }
+  .home-pricing-card5 {
+    height: 550px;
   }
 }
 @media(max-width: 991px) {
@@ -1610,10 +1612,11 @@
     width: 125%;
   }
   .home-container04 {
-    width: fit-content;
+    width: 90%;
   }
   .home-pricing-card3 {
     width: 100%;
+    height: 500px;
     padding: var(--dl-space-space-twounits);
     max-width: 100%;
     align-items: center;
@@ -1625,6 +1628,7 @@
   }
   .home-pricing-card5 {
     width: 100%;
+    height: 500px;
     max-width: 100%;
     align-items: center;
   }
@@ -1650,10 +1654,10 @@
   .home-text68 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-link09 {
+  .home-link08 {
     text-decoration: underline none;
   }
-  .home-link10 {
+  .home-link09 {
     text-decoration: underline none;
   }
   .home-right1 {
@@ -1676,7 +1680,7 @@
     width: var(--dl-size-size-medium);
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .home-text89 {
+  .home-text85 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -1754,7 +1758,7 @@
     line-height: 40px;
   }
   .home-cards {
-    width: 756px;
+    width: 95%;
   }
   .home-quote-container {
     height: fit-content;
@@ -1900,7 +1904,7 @@
   .home-text {
     font-size: 16px;
   }
-  .home-link01 {
+  .home-navlink {
     text-decoration: none;
   }
   .home-icon02 {
@@ -2080,8 +2084,15 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .home-pricing-card4 {
+    height: 470px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
   .home-pricing-card5 {
+    padding-top: 8%;
     margin-bottom: 0px;
+    padding-bottom: 8%;
   }
   .home-faq {
     width: fit-content;
@@ -2101,10 +2112,10 @@
     color: rgb(162, 159, 159);
     font-size: 12px;
   }
-  .home-link08 {
+  .home-link07 {
     text-decoration: underline;
   }
-  .home-text83 {
+  .home-link10 {
     color: rgb(196, 196, 196);
     font-size: 14px;
   }
