@@ -263,9 +263,13 @@
 .silver-navlink04:hover {
   background-color: #6495eb;
 }
+.silver-text17 {
+  padding-bottom: 1%;
+}
 .silver-icon2 {
   width: 24px;
   height: 24px;
+  margin-left: 2%;
 }
 .silver-banner {
   width: 100%;
