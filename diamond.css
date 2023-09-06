@@ -364,22 +364,26 @@
   align-items: center;
   justify-content: center;
 }
-.diamond-button {
+.diamond-navlink04 {
   fill: var(--dl-color-gray-white);
   color: #ffffff;
-  width: 13%;
-  height: 60px;
-  border-radius: 25px;
+  width: 15%;
+  height: 40%;
+  display: flex;
+  text-align: center;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
+  text-decoration: none;
   background-color: #000000;
+}
+.diamond-navlink04:hover {
+  background-color: #6495eb;
 }
 .diamond-icon2 {
   width: 24px;
-  height: 50%;
-  margin-right: 2%;
-}
-.diamond-text38 {
-  height: 50%;
-  text-align: center;
+  height: 24px;
 }
 .diamond-banner {
   width: 100%;
@@ -396,13 +400,13 @@
   background-image: url('https://images.unsplash.com/photo-1485628390555-1a7bd503f9fe?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxhcmNoaXRlY3R1cmUlMjBtaW5pbWFsfGVufDB8fHx8MTYyNjE4NDA0Mg&ixlib=rb-1.2.1&w=1500');
   background-position: center;
 }
-.diamond-text42 {
+.diamond-text39 {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   text-align: center;
   margin-bottom: 1%;
 }
-.diamond-text43 {
+.diamond-text40 {
   color: var(--dl-color-gray-white);
   max-width: var(--dl-size-size-maxwidth);
   text-align: center;
@@ -425,7 +429,7 @@
   border-radius: 20px;
   margin-bottom: 5%;
 }
-.diamond-button1 {
+.diamond-button {
   color: var(--dl-color-gray-white);
   width: 7%;
   height: 40px;
@@ -435,7 +439,7 @@
   border-radius: 20px;
   background-color: var(--dl-color-gray-black);
 }
-.diamond-button1:hover {
+.diamond-button:hover {
   color: var(--dl-color-gray-black);
   background-color: transparent;
 }
@@ -477,7 +481,7 @@
   align-items: stretch;
   flex-direction: column;
 }
-.diamond-navlink04 {
+.diamond-navlink05 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -491,24 +495,24 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.diamond-text44 {
+.diamond-text41 {
   color: rgb(196, 196, 196);
   cursor: pointer;
   font-size: 14px;
 }
+.diamond-text42 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text43 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text44 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
 .diamond-text45 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text46 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text47 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text48 {
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
@@ -518,7 +522,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.diamond-text49 {
+.diamond-text46 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -530,6 +534,18 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+.diamond-text47 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text48 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text49 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
 }
 .diamond-text50 {
   color: rgb(196, 196, 196);
@@ -543,24 +559,12 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
-.diamond-text53 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text54 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text55 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .diamond-category2 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.diamond-text56 {
+.diamond-text53 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -578,7 +582,7 @@
   font-size: 14px;
   text-decoration: none;
 }
-.diamond-text57 {
+.diamond-text54 {
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
@@ -597,7 +601,7 @@
   display: flex;
   flex-direction: column;
 }
-.diamond-text58 {
+.diamond-text55 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -618,7 +622,7 @@
   padding-left: 2%;
   margin-bottom: 10%;
 }
-.diamond-navlink05 {
+.diamond-navlink06 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -626,11 +630,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink06 {
+.diamond-navlink07 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink07 {
+.diamond-navlink08 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -638,11 +642,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink08 {
+.diamond-navlink09 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink09 {
+.diamond-navlink10 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -650,11 +654,11 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink10 {
+.diamond-navlink11 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.diamond-navlink11 {
+.diamond-navlink12 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -662,13 +666,13 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.diamond-navlink12 {
+.diamond-navlink13 {
   color: #c4c4c4;
   margin-top: 0%;
   margin-bottom: 0%;
   text-decoration: underline;
 }
-.diamond-navlink13 {
+.diamond-navlink14 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -688,7 +692,7 @@
   height: 131px;
   margin-bottom: 0px;
 }
-.diamond-text59 {
+.diamond-text56 {
   color: rgb(104, 104, 104);
   font-size: 14px;
   line-height: 30px;
@@ -800,13 +804,13 @@
     font-style: normal;
     font-weight: 500;
   }
-  .diamond-text43 {
+  .diamond-text40 {
     width: 100%;
   }
   .diamond-textinput {
     width: 20%;
   }
-  .diamond-button1 {
+  .diamond-button {
     width: fit-content;
   }
   .diamond-footer {
@@ -840,7 +844,7 @@
     width: 30%;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .diamond-text59 {
+  .diamond-text56 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -912,11 +916,11 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .diamond-text43 {
+  .diamond-text40 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .diamond-button1 {
+  .diamond-button {
     width: fit-content;
   }
   .diamond-footer {
@@ -1037,7 +1041,7 @@
   .diamond-textinput {
     width: 80%;
   }
-  .diamond-button1 {
+  .diamond-button {
     width: fit-content;
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
@@ -1052,7 +1056,7 @@
     padding-left: 2%;
     padding-right: 2%;
   }
-  .diamond-text56 {
+  .diamond-text53 {
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-style: normal;
