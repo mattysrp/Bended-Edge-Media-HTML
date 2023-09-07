@@ -517,7 +517,7 @@
     display: flex;
   }
   .about-us-footer {
-    height: 1137px;
+    height: 2029px;
     padding: var(--dl-space-space-sixunits);
     background-color: #395b81;
   }
@@ -544,7 +544,7 @@
     margin-top: 60%;
   }
   .about-us-branding {
-    width: 30%;
+    width: 20%;
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .about-us-text31 {
