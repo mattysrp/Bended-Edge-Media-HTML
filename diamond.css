@@ -387,6 +387,7 @@
   margin-right: 2%;
 }
 .diamond-text38 {
+  font-size: 12px;
   padding-bottom: 1%;
 }
 .diamond-banner {
@@ -914,8 +915,7 @@
     height: 50%;
   }
   .diamond-image3 {
-    width: 40%;
-    height: 50%;
+    width: 50%;
     margin-top: 9%;
     margin-bottom: 25%;
   }
@@ -978,7 +978,11 @@
     width: 80%;
     height: var(--dl-size-size-small);
   }
+  .diamond-pricing {
+    flex-direction: column;
+  }
   .diamond-container1 {
+    width: 100%;
     align-items: center;
     flex-direction: column;
   }
@@ -987,19 +991,25 @@
     font-size: 150%;
   }
   .diamond-text06 {
-    font-size: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 500;
   }
   .diamond-image {
-    width: 80%;
-    height: 50%;
+    width: 40%;
+    align-self: center;
     margin-bottom: 40%;
+  }
+  .diamond-pricing1 {
+    flex-direction: column-reverse;
   }
   .diamond-image1 {
-    width: 80%;
-    height: 50%;
-    margin-bottom: 40%;
+    width: 40%;
+    align-self: center;
+    margin-bottom: 10%;
   }
   .diamond-container2 {
+    width: 100%;
     align-items: center;
     flex-direction: column;
   }
@@ -1009,11 +1019,15 @@
   }
   .diamond-text15 {
     color: rgb(255, 255, 255);
-    font-size: 100%;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
   }
+  .diamond-pricing2 {
+    flex-direction: column;
+  }
   .diamond-container3 {
+    width: 100%;
     align-items: center;
     flex-direction: column;
   }
@@ -1021,21 +1035,26 @@
     font-size: 150%;
   }
   .diamond-text21 {
-    font-size: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 500;
   }
   .diamond-image2 {
-    width: 80%;
-    height: 50%;
+    width: 40%;
+    align-self: center;
     margin-bottom: 40%;
+  }
+  .diamond-pricing3 {
+    flex-direction: column-reverse;
   }
   .diamond-image3 {
-    width: 50%;
-    height: 40%;
-    margin-top: 5%;
-    margin-left: 1%;
-    margin-bottom: 40%;
+    width: 40%;
+    align-self: center;
+    margin-top: 0%;
+    margin-bottom: 5%;
   }
   .diamond-container4 {
+    width: 100%;
     align-items: center;
     flex-direction: column;
   }
@@ -1045,7 +1064,7 @@
   }
   .diamond-text27 {
     color: rgb(255, 255, 255);
-    font-size: 100%;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
   }
@@ -1055,7 +1074,12 @@
     flex-direction: column;
   }
   .diamond-navlink04 {
-    width: 60%;
+    width: 38%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .diamond-text38 {
+    font-size: 16px;
   }
   .diamond-banner {
     padding-top: var(--dl-space-space-threeunits);
