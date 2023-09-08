@@ -78,7 +78,7 @@
   padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-sevenunits);
-  background-color: #6495eb;
+  background-color: #395b81;
 }
 .page404-top {
   width: 100%;
@@ -243,7 +243,7 @@
   width: 150%;
   align-self: flex-start;
   margin-right: 0px;
-  padding-left: 2%;
+  padding-left: 0%;
   margin-bottom: 10%;
 }
 .page404-navlink01 {
@@ -320,8 +320,14 @@
   font-size: 14px;
   line-height: 30px;
 }
+@media(max-width: 1200px) {
+  .page404-footer {
+    height: 1191px;
+  }
+}
 @media(max-width: 991px) {
   .page404-footer {
+    height: 1543px;
     padding: var(--dl-space-space-sixunits);
     background-color: #395b81;
   }
@@ -380,7 +386,7 @@
     margin-bottom: 30%;
   }
   .page404-footer {
-    height: 975px;
+    height: 1579px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -390,6 +396,10 @@
   .page404-text17 {
     color: rgb(196, 196, 196);
     font-size: 14px;
+  }
+  .page404-links3 {
+    width: 100%;
+    padding-right: 119px;
   }
   .page404-bottom {
     margin-top: 90%;

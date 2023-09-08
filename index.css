@@ -311,7 +311,6 @@
   height: 547px;
   z-index: 100;
   align-self: center;
-  margin-top: 5%;
   object-fit: cover;
   margin-bottom: 15%;
 }
@@ -707,7 +706,7 @@
   text-transform: uppercase;
 }
 .home-container05 {
-  display: flex;
+  display: none;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
@@ -779,7 +778,7 @@
   text-transform: uppercase;
 }
 .home-container07 {
-  display: flex;
+  display: none;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
@@ -854,7 +853,7 @@
   text-transform: uppercase;
 }
 .home-container09 {
-  display: flex;
+  display: none;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
@@ -1338,11 +1337,10 @@
   }
   .home-features {
     height: 1307px;
-    padding-top: 182px;
+    padding-top: 0px;
   }
   .home-image {
     height: 476px;
-    margin-top: 316px;
   }
   .home-text07 {
     color: rgb(255, 255, 255);
@@ -1408,6 +1406,28 @@
   }
   .home-pricing-card {
     height: 450px;
+  }
+  .home-text16 {
+    width: 115%;
+    height: 20%;
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 5%;
+  }
+  .home-image4 {
+    margin-bottom: 45%;
+  }
+  .home-text17 {
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text18 {
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 700;
   }
   .home-pricing {
     background-color: #7AA7EF;
