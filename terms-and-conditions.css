@@ -156,12 +156,16 @@
   height: 40px;
   display: none;
 }
+.terms-and-conditions-menu-code {
+  display: contents;
+}
 .terms-and-conditions-text004 {
   color: rgb(255, 255, 255);
   width: auto;
   font-size: 90px;
   align-self: center;
   margin-top: 5%;
+  font-family: Comic Sans MS;
   margin-bottom: 2%;
 }
 .terms-and-conditions-image {
@@ -3120,44 +3124,68 @@
   .terms-and-conditions-text004 {
     color: rgb(255, 255, 255);
     font-size: 400%;
+    font-style: normal;
     margin-top: 20%;
+    font-family: Comic Sans MS;
+    font-weight: 900;
+  }
+  .terms-and-conditions-image {
+    width: 50%;
   }
   .terms-and-conditions-text005 {
     width: 90%;
+    margin-top: 15%;
   }
   .terms-and-conditions-ul {
     width: 100%;
   }
   .terms-and-conditions-text012 {
+    font-size: 50px;
     margin-top: 5%;
     margin-left: 4%;
     margin-bottom: 15%;
   }
+  .terms-and-conditions-text086 {
+    font-size: 50px;
+    margin-top: 5%;
+  }
+  .terms-and-conditions-text087 {
+    width: 85%;
+    font-size: 15px;
+    margin-top: 5%;
+  }
   .terms-and-conditions-text242 {
+    font-size: 50px;
     margin-left: 4%;
   }
   .terms-and-conditions-text243 {
     margin-left: 0%;
   }
   .terms-and-conditions-text272 {
+    font-size: 50px;
     margin-left: 4%;
   }
   .terms-and-conditions-text309 {
+    font-size: 50px;
     margin-left: 4%;
   }
   .terms-and-conditions-text342 {
+    font-size: 50px;
     margin-left: 4%;
   }
   .terms-and-conditions-text398 {
+    font-size: 50px;
     margin-left: 4%;
   }
   .terms-and-conditions-text451 {
+    font-size: 50px;
     margin-left: 4%;
   }
   .terms-and-conditions-text452 {
     margin-left: 0;
   }
   .terms-and-conditions-text560 {
+    font-size: 50px;
     margin-left: 4%;
   }
   .terms-and-conditions-footer {

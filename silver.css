@@ -134,6 +134,9 @@
   height: 40px;
   display: none;
 }
+.silver-menu-code {
+  display: contents;
+}
 .silver-text03 {
   color: white;
   font-size: 70px;

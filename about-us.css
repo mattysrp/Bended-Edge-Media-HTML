@@ -645,6 +645,7 @@
     font-size: 10px;
   }
   .about-us-image {
+    width: 50%;
     margin-top: 5%;
   }
   .about-us-feature-card {
@@ -658,6 +659,7 @@
     font-size: 20px;
   }
   .about-us-text04 {
+    width: 100%;
     font-size: 10px;
   }
   .about-us-feature-card1 {
@@ -671,6 +673,7 @@
     font-size: 20px;
   }
   .about-us-text06 {
+    width: 100%;
     font-size: 10px;
   }
   .about-us-feature-card2 {
@@ -685,15 +688,18 @@
     font-size: 20px;
   }
   .about-us-text11 {
+    width: 100%;
     font-size: 10px;
   }
   .about-us-footer {
-    height: 975px;
+    height: 1586px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
   .about-us-right1 {
     height: 732px;
+    padding-left: 2%;
+    padding-right: 10%;
   }
   .about-us-text24 {
     color: rgb(255, 255, 255);
@@ -704,6 +710,9 @@
   .about-us-text25 {
     color: rgb(196, 196, 196);
     font-size: 14px;
+  }
+  .about-us-category3 {
+    width: 30%;
   }
   .about-us-bottom {
     margin-top: 90%;

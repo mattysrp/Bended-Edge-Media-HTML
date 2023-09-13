@@ -137,6 +137,9 @@
   height: 40px;
   display: none;
 }
+.gold-menu-code {
+  display: contents;
+}
 .gold-text03 {
   color: white;
   font-size: 70px;

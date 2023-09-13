@@ -65,6 +65,9 @@
 .page-navlink1 {
   text-decoration: none;
 }
+.page-accordion-code {
+  display: contents;
+}
 .page-close-mobile-menu {
   top: var(--dl-space-space-oneandhalfunits);
   right: var(--dl-space-space-oneandhalfunits);

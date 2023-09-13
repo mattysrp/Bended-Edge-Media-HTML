@@ -137,6 +137,9 @@
   height: 40px;
   display: none;
 }
+.diamond-menu-code {
+  display: contents;
+}
 .diamond-text03 {
   color: white;
   font-size: 70px;
