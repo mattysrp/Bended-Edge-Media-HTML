@@ -598,9 +598,6 @@
   }
 }
 @media(max-width: 991px) {
-  .silver-container {
-    padding: var(--dl-space-space-oneandhalfunits);
-  }
   .silver-close-mobile-menu {
     align-items: center;
     justify-content: center;
@@ -773,6 +770,9 @@
   .silver-icon {
     align-items: center;
     justify-content: center;
+  }
+  .silver-desktop-navigation {
+    width: 80%;
   }
   .silver-centered {
     width: 80%;

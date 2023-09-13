@@ -1450,6 +1450,9 @@
   .home-pricing-card3 {
     height: 550px;
   }
+  .home-container06 {
+    align-self: flex-start;
+  }
   .home-pricing-card5 {
     height: 550px;
   }
@@ -2071,6 +2074,9 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-container06 {
+    align-self: center;
   }
   .home-pricing-card4 {
     height: 470px;
