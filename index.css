@@ -129,7 +129,6 @@
 }
 .home-desktop-navigation {
   width: 100%;
-  height: 100%;
   display: flex;
   margin-top: var(--dl-space-space-oneandhalfunits);
   align-items: center;
@@ -137,7 +136,7 @@
 }
 .home-centered {
   width: 100%;
-  height: 100%;
+  height: var(--dl-size-size-medium);
   display: flex;
   max-width: 1200px;
   box-sizing: initial;

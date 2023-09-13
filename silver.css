@@ -598,6 +598,9 @@
   }
 }
 @media(max-width: 991px) {
+  .silver-container {
+    padding: var(--dl-space-space-oneandhalfunits);
+  }
   .silver-close-mobile-menu {
     align-items: center;
     justify-content: center;
