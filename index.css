@@ -140,6 +140,7 @@
   opacity: 1.0;
   z-index: 200;
   position: fixed;
+  max-width: 100%;
   box-sizing: initial;
   align-items: center;
   flex-direction: row;
@@ -150,7 +151,6 @@
   height: 100%;
   display: flex;
   align-items: center;
-  margin-left: 3%;
   padding-top: 38px;
   flex-direction: row;
   padding-bottom: 38px;
@@ -160,7 +160,6 @@
 }
 .home-logo1 {
   width: 105px;
-  margin-left: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .home-links2 {
@@ -202,6 +201,7 @@
   transition: 0.3s;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
+  margin-right: 20px;
   padding-left: var(--dl-space-space-oneandhalfunits);
   border-radius: 56px;
   padding-right: var(--dl-space-space-oneandhalfunits);
@@ -252,19 +252,12 @@
   color: rgb(255, 255, 255);
   height: 168px;
   z-index: 100;
-  font-size: 72px;
-  font-style: normal;
+  font-size: 40px;
   margin-top: 0%;
   text-align: center;
   font-family: Inter;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 80px;
-}
-.home-text005 {
-  font-size: 40px;
-}
-.home-text006 {
-  font-size: 50px;
 }
 .home-text007 {
   color: rgb(238, 233, 254);
@@ -357,7 +350,7 @@
   margin-top: 0%;
   text-align: center;
   font-family: Inter;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 80px;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
