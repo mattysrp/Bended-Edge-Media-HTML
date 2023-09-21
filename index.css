@@ -137,12 +137,11 @@
   width: 130%;
   height: var(--dl-size-size-medium);
   display: flex;
+  z-index: 200;
   position: fixed;
   max-width: 100%;
   box-sizing: initial;
   align-items: center;
-  padding-left: 5%;
-  padding-right: 7%;
   flex-direction: row;
   justify-content: space-between;
   background-color: rgba(57, 91, 129, 0.6);
@@ -610,7 +609,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding-top: 20%;
+  padding-top: var(--dl-space-space-fiveunits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
