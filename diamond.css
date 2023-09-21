@@ -1002,7 +1002,7 @@
     font-weight: 500;
   }
   .diamond-image {
-    width: 40%;
+    width: 60%;
     align-self: center;
     margin-bottom: 40%;
   }
@@ -1010,7 +1010,7 @@
     flex-direction: column-reverse;
   }
   .diamond-image1 {
-    width: 40%;
+    width: 60%;
     height: 40%;
     align-self: center;
     margin-bottom: 35%;
