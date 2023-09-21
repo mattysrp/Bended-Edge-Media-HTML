@@ -36,6 +36,8 @@
   display: flex;
   position: relative;
   align-items: center;
+  padding-left: var(--dl-space-space-sevenunits);
+  padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
   background-image: linear-gradient(0deg, rgb(189, 195, 199) 0.00%,rgb(100, 149, 235) 100.00%);
 }
@@ -233,9 +235,11 @@
 .home-header1 {
   height: fit-content;
   display: flex;
+  align-self: center;
   margin-top: 15%;
   align-items: center;
   padding-top: 40px;
+  justify-self: center;
 }
 .home-header2 {
   width: 50%;
@@ -256,7 +260,12 @@
   font-family: Inter;
   font-weight: 700;
   line-height: 80px;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home-text005 {
+  font-size: 40px;
+}
+.home-text006 {
+  font-size: 50px;
 }
 .home-text007 {
   color: rgb(238, 233, 254);
@@ -322,16 +331,16 @@
 .home-container02 {
   flex: 0 0 auto;
   width: 100%;
+  height: fit-content;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .home-image01 {
   width: 589px;
   height: 547px;
   z-index: 100;
-  align-self: center;
   object-fit: cover;
-  margin-bottom: 15%;
 }
 .home-header3 {
   height: 424px;
@@ -344,7 +353,7 @@
   color: rgb(255, 255, 255);
   height: 168px;
   z-index: 100;
-  font-size: 72px;
+  font-size: 40px;
   font-style: normal;
   margin-top: 0%;
   text-align: center;
@@ -657,9 +666,11 @@
 }
 .home-integrations {
   width: 100%;
+  height: 657px;
   display: flex;
-  padding: var(--dl-space-space-sevenunits);
   align-items: center;
+  padding-left: var(--dl-space-space-sevenunits);
+  padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
   justify-content: center;
   background-image: linear-gradient(180deg, rgb(57, 91, 129) 0.00%,rgb(100, 149, 235) 100.00%);
@@ -669,7 +680,7 @@
   width: 1556px;
   height: 107px;
   z-index: 100;
-  font-size: 50px;
+  font-size: 40px;
   font-style: normal;
   margin-top: 5%;
   text-align: center;
@@ -805,7 +816,7 @@
   height: fit-content;
   display: flex;
   align-items: center;
-  padding-top: 15%;
+  padding-top: 2px;
   padding-left: var(--dl-space-space-sevenunits);
   padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
@@ -823,6 +834,7 @@
 }
 .home-text064 {
   color: var(--dl-color-gray-white);
+  font-size: 40px;
   font-style: normal;
   text-align: center;
   font-weight: 900;
@@ -1116,7 +1128,7 @@
 }
 .home-text100 {
   color: rgb(255, 255, 255);
-  font-size: 3rem;
+  font-size: 40px;
   font-style: normal;
   text-align: center;
   font-weight: 900;
@@ -1153,7 +1165,8 @@
   flex-direction: column;
 }
 .home-text102 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
   font-style: normal;
   text-align: center;
   font-weight: 900;
