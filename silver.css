@@ -616,7 +616,6 @@
   }
   .silver-text08 {
     color: rgb(255, 255, 255);
-    font-size: 20px;
   }
   .silver-image {
     width: 50%;
@@ -836,7 +835,7 @@
     font-size: 12px;
   }
   .silver-image {
-    width: 55%;
+    width: 75%;
     align-self: center;
   }
   .silver-pricing1 {
@@ -844,7 +843,8 @@
     flex-direction: column-reverse;
   }
   .silver-image1 {
-    width: 40%;
+    width: 75%;
+    height: 80%;
     align-self: center;
   }
   .silver-container2 {

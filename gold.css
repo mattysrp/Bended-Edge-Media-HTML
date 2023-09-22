@@ -179,7 +179,7 @@
   display: flex;
   margin-top: 2%;
   align-items: flex-end;
-  border-color: #5d5410;
+  border-color: #1f3e5f;
   border-style: double;
   border-width: 10px;
   padding-bottom: 1%;
@@ -234,7 +234,7 @@
   height: 500px;
   display: flex;
   align-items: flex-end;
-  border-color: ,#395b81;
+  border-color: #1f3e5f;
   border-style: double;
   border-width: 20px;
   justify-content: flex-start;
@@ -910,6 +910,7 @@
     height: var(--dl-size-size-small);
   }
   .gold-pricing {
+    border-style: groove;
     flex-direction: column;
   }
   .gold-container1 {
@@ -931,6 +932,7 @@
     margin-bottom: 10%;
   }
   .gold-pricing1 {
+    border-style: groove;
     flex-direction: column-reverse;
   }
   .gold-image1 {
@@ -978,12 +980,16 @@
     padding-right: 0px;
   }
   .gold-text28 {
+    font-size: 12px;
     padding-right: 2%;
   }
   .gold-navlink04 {
     width: 45%;
     height: 40%;
     margin-bottom: 5%;
+  }
+  .gold-text29 {
+    font-size: 12px;
   }
   .gold-banner {
     padding-top: var(--dl-space-space-threeunits);
@@ -1006,6 +1012,9 @@
   .gold-footer {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
+  }
+  .gold-right1 {
+    padding-left: 4%;
   }
   .gold-text44 {
     color: rgb(196, 196, 196);

@@ -1,7 +1,6 @@
 .diamond-container {
   width: 100%;
   display: flex;
-  overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
@@ -1034,23 +1033,26 @@
     font-weight: 500;
   }
   .diamond-image {
-    width: 60%;
+    width: 80%;
     align-self: center;
+    margin-top: 5%;
     margin-bottom: 40%;
   }
   .diamond-pricing1 {
     flex-direction: column-reverse;
   }
   .diamond-image1 {
-    width: 60%;
-    height: 40%;
+    width: 70%;
+    height: 50%;
     align-self: center;
-    margin-bottom: 35%;
+    margin-top: 0%;
+    margin-bottom: 20%;
   }
   .diamond-container2 {
     width: 100%;
     height: 25%;
     align-items: center;
+    margin-bottom: 5%;
     flex-direction: column;
   }
   .diamond-text16 {
@@ -1080,19 +1082,20 @@
     font-weight: 500;
   }
   .diamond-image2 {
-    width: 40%;
+    width: 60%;
     align-self: center;
+    margin-top: 10%;
     margin-bottom: 40%;
   }
   .diamond-pricing3 {
     flex-direction: column-reverse;
   }
   .diamond-image3 {
-    width: 45%;
-    height: 40%;
+    width: 65%;
+    height: 50%;
     align-self: center;
     margin-top: 0%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   .diamond-container4 {
     width: 100%;
@@ -1122,7 +1125,7 @@
     padding-right: 0px;
   }
   .diamond-text40 {
-    font-size: 16px;
+    font-size: 12px;
   }
   .diamond-banner {
     padding-top: var(--dl-space-space-threeunits);
