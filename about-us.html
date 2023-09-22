@@ -64,61 +64,105 @@
       <link href="./about-us.css" rel="stylesheet" />
 
       <div class="about-us-container">
-        <div class="about-us-desktop-navigation">
-          <nav class="about-us-centered">
-            <div class="about-us-left">
-              <a href="index.html" class="about-us-navlink">
-                <img
-                  alt="pastedImage"
-                  src="public/bianco-300w.png"
-                  class="about-us-logo"
-                />
-              </a>
-              <div class="about-us-links">
-                <a href="about-us.html" class="about-us-navlink01 Link">
-                  About Us
-                </a>
-                <a
-                  href="terms-and-conditions.html"
-                  class="about-us-navlink02 Link"
-                >
-                  Policy
-                </a>
-                <a href="silver.html" class="about-us-navlink03 Link">
-                  Subscribe
-                </a>
-              </div>
+        <div class="about-us-menu">
+          <div id="mobile-menu" class="about-us-mobile-navigation">
+            <img
+              alt="pastedImage"
+              src="public/pastedimage-no9b-9700h.png"
+              class="about-us-logo"
+            />
+            <div class="about-us-links">
+              <span class="Link">Solutions</span>
+              <span class="Link">How it works</span>
+              <span class="Link">Prices</span>
             </div>
-            <div class="about-us-right">
-              <a href="index.html" class="about-us-navlink04">
-                <div class="about-us-get-started">
-                  <span class="about-us-text">Get started</span>
+            <div id="close-mobile-menu" class="about-us-close-mobile-menu">
+              <svg viewBox="0 0 804.5714285714286 1024" class="about-us-icon">
+                <path
+                  d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="about-us-desktop-navigation">
+            <nav class="about-us-centered">
+              <div class="about-us-left">
+                <a href="index.html" class="about-us-navlink">
+                  <img
+                    alt="pastedImage"
+                    src="public/nero-800w.png"
+                    class="about-us-logo1"
+                  />
+                </a>
+                <div class="about-us-links1">
+                  <span class="about-us-text03 Link">How it works</span>
+                  <a href="#prc" class="about-us-link Link">Prices</a>
+                  <a href="about-us.html" class="about-us-navlink01 Link">
+                    About Us
+                  </a>
+                  <a
+                    href="terms-and-conditions.html"
+                    class="about-us-navlink02 Link"
+                  >
+                    Policy
+                  </a>
                 </div>
-              </a>
-              <div id="open-mobile-menu" class="about-us-burger-menu">
-                <img
-                  alt="pastedImage"
-                  src="public/pastedimage-yxbd.svg"
-                  class="about-us-mobile-menu-button"
-                />
               </div>
-            </div>
-          </nav>
+              <div class="about-us-right">
+                <a href="#getstar" class="about-us-link1">
+                  <div class="about-us-get-started">
+                    <span class="about-us-text04">Get started</span>
+                  </div>
+                </a>
+                <div id="open-mobile-menu" class="about-us-burger-menu">
+                  <img
+                    alt="pastedImage"
+                    src="public/pastedimage-yxbd.svg"
+                    class="about-us-mobile-menu-button"
+                  />
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="about-us-menu-code">
+            <script>
+              /*
+              Mobile menu - Code Embed
+              */
+
+              // Mobile menu
+              const mobileMenu = document.querySelector('#mobile-menu')
+
+              // Buttons
+              const closeButton = document.querySelector('#close-mobile-menu')
+              const openButton = document.querySelector('#open-mobile-menu')
+
+              // On openButton click, set the mobileMenu position left to -100vw
+              openButton.addEventListener('click', function() {
+                  mobileMenu.style.transform = 'translateX(0%)'
+              })
+
+              // On closeButton click, set the mobileMenu position to 0vw
+              closeButton.addEventListener('click', function() {
+                  mobileMenu.style.transform = 'translateX(100%)'
+              })
+            </script>
+          </div>
         </div>
-        <h1 class="about-us-text01">Welcome to Bended Edge</h1>
-        <h1 class="about-us-text02">
+        <h1 class="about-us-text05">Welcome to Bended Edge</h1>
+        <h1 class="about-us-text06">
           Your trusted partner in the dynamic world of social media marketing
         </h1>
         <img alt="image" src="public/nero-800w.png" class="about-us-image" />
         <div class="about-us-feature-card">
-          <svg viewBox="0 0 1024 1024" class="about-us-icon">
+          <svg viewBox="0 0 1024 1024" class="about-us-icon2">
             <path
               d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
             ></path>
           </svg>
           <div class="about-us-container1">
-            <h2 class="about-us-text03">Who we are</h2>
-            <span class="about-us-text04">
+            <h2 class="about-us-text07">Who we are</h2>
+            <span class="about-us-text08">
               BendedEdge is more than just a social media marketing agency; we
               are passionate digital storytellers and growth strategists. Our
               journey began with a shared vision to redefine the way businesses
@@ -127,16 +171,16 @@
           </div>
         </div>
         <div class="about-us-feature-card1">
-          <svg viewBox="0 0 1024 1024" class="about-us-icon2">
+          <svg viewBox="0 0 1024 1024" class="about-us-icon4">
             <path
               d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
             ></path>
           </svg>
           <div class="about-us-container2">
-            <h2 class="about-us-text05">Our Mission</h2>
-            <span class="about-us-text06">
+            <h2 class="about-us-text09">Our Mission</h2>
+            <span class="about-us-text10">
               <span>At BendedEdge, we are driven by a singular mission -</span>
-              <span class="about-us-text08">
+              <span class="about-us-text12">
                 to help your brand not only stand out but thrive in the crowded
                 social media landscape.
               </span>
@@ -148,14 +192,14 @@
           </div>
         </div>
         <div class="about-us-feature-card2">
-          <svg viewBox="0 0 1024 1024" class="about-us-icon4">
+          <svg viewBox="0 0 1024 1024" class="about-us-icon6">
             <path
               d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
             ></path>
           </svg>
           <div class="about-us-container3">
-            <h2 class="about-us-text10">Get in Touch</h2>
-            <span class="about-us-text11">
+            <h2 class="about-us-text14">Get in Touch</h2>
+            <span class="about-us-text15">
               Ready to take your social media presence to the next level? Let's
               connect and explore how BendedEdge can help you bend the edges of
               possibility in the world of digital marketing.
@@ -166,44 +210,44 @@
           <div class="about-us-top">
             <div class="about-us-right1">
               <div class="about-us-category">
-                <a href="silver.html" class="about-us-navlink05">Solutions</a>
-                <div class="about-us-links1">
-                  <span class="about-us-text12">Responsive Web Design</span>
-                  <span class="about-us-text13">Responsive Prototypesv</span>
-                  <span class="about-us-text14">Design to Code</span>
-                  <span class="about-us-text15">Static Website Builder</span>
-                  <span class="about-us-text16">Static Website Generator</span>
+                <a href="silver.html" class="about-us-navlink03">Solutions</a>
+                <div class="about-us-links2">
+                  <span class="about-us-text16">Responsive Web Design</span>
+                  <span class="about-us-text17">Responsive Prototypesv</span>
+                  <span class="about-us-text18">Design to Code</span>
+                  <span class="about-us-text19">Static Website Builder</span>
+                  <span class="about-us-text20">Static Website Generator</span>
                 </div>
               </div>
               <div class="about-us-category1">
-                <span class="about-us-text17">Company</span>
-                <div class="about-us-links2">
-                  <span class="about-us-text18">About</span>
-                  <span class="about-us-text19">Team</span>
-                  <span class="about-us-text20">News</span>
-                  <span class="about-us-text21">Partners</span>
-                  <span class="about-us-text22">Careers</span>
-                  <span class="about-us-text23">Press &amp; Media</span>
+                <span class="about-us-text21">Company</span>
+                <div class="about-us-links3">
+                  <span class="about-us-text22">About</span>
+                  <span class="about-us-text23">Team</span>
+                  <span class="about-us-text24">News</span>
+                  <span class="about-us-text25">Partners</span>
+                  <span class="about-us-text26">Careers</span>
+                  <span class="about-us-text27">Press &amp; Media</span>
                 </div>
               </div>
               <div class="about-us-category2">
-                <span class="about-us-text24">Socials</span>
-                <div class="about-us-links3">
-                  <span class="about-us-text25">Twitter</span>
-                  <span class="about-us-text26">Linkedin</span>
-                  <span class="about-us-text27">Crunchbase</span>
-                  <span class="about-us-text28">Instagram</span>
-                  <span class="about-us-text29">Facebook</span>
+                <span class="about-us-text28">Socials</span>
+                <div class="about-us-links4">
+                  <span class="about-us-text29">Twitter</span>
+                  <span class="about-us-text30">Linkedin</span>
+                  <span class="about-us-text31">Crunchbase</span>
+                  <span class="about-us-text32">Instagram</span>
+                  <span class="about-us-text33">Facebook</span>
                 </div>
               </div>
               <div class="about-us-category3">
-                <span class="about-us-text30">Our Policy</span>
-                <div class="about-us-links4">
+                <span class="about-us-text34">Our Policy</span>
+                <div class="about-us-links5">
                   <ul class="about-us-ul list">
                     <li class="list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="about-us-navlink06"
+                        class="about-us-navlink04"
                       >
                         Terms and Conditions
                       </a>
@@ -211,7 +255,7 @@
                     <li class="about-us-li1 list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="about-us-navlink07"
+                        class="about-us-navlink05"
                       >
                         Privacy Policy
                       </a>
@@ -219,7 +263,7 @@
                     <li class="list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="about-us-navlink08"
+                        class="about-us-navlink06"
                       >
                         Policy of Refund or Restitution
                       </a>
@@ -227,7 +271,7 @@
                     <li class="about-us-li3 list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="about-us-navlink09"
+                        class="about-us-navlink07"
                       >
                         Data Handling Policy
                       </a>
@@ -235,7 +279,7 @@
                     <li class="list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="about-us-navlink10"
+                        class="about-us-navlink08"
                       >
                         Content and Copyright Management Policy
                       </a>
@@ -243,7 +287,7 @@
                     <li class="about-us-li5 list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="about-us-navlink11"
+                        class="about-us-navlink09"
                       >
                         Marketing and Advertising Policy
                       </a>
@@ -251,7 +295,7 @@
                     <li class="list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="about-us-navlink12"
+                        class="about-us-navlink10"
                       >
                         Corporate Social Responsibility Policy
                       </a>
@@ -259,7 +303,7 @@
                     <li class="about-us-li7 list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="about-us-navlink13"
+                        class="about-us-navlink11"
                       >
                         Information Security Policy
                       </a>
@@ -267,7 +311,7 @@
                     <li class="list-item">
                       <a
                         href="terms-and-conditions.html"
-                        class="about-us-navlink14"
+                        class="about-us-navlink12"
                       >
                         Review and Feedback Management Policy
                       </a>
@@ -283,7 +327,7 @@
               src="public/bianco-300w.png"
               class="about-us-branding"
             />
-            <span class="about-us-text31">Copyright © BendedEdge - 2023</span>
+            <span class="about-us-text35">Copyright © BendedEdge - 2023</span>
           </div>
         </footer>
       </div>

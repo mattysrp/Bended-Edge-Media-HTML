@@ -60,7 +60,6 @@
 .terms-and-conditions-desktop-navigation {
   width: 100%;
   display: flex;
-  margin-top: var(--dl-space-space-oneandhalfunits);
   align-items: center;
   flex-direction: column;
 }
@@ -68,20 +67,20 @@
   width: 100%;
   height: var(--dl-size-size-medium);
   display: flex;
-  max-width: 1200px;
+  z-index: 999;
+  position: fixed;
+  max-width: 100%;
   box-sizing: initial;
   align-items: center;
-  padding-left: 1%;
-  border-radius: 50px;
-  padding-right: 2%;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: rgba(57, 91, 129, 0.6);
 }
 .terms-and-conditions-left {
   height: 100%;
   display: flex;
   align-items: center;
+  margin-left: 3%;
   padding-top: 38px;
   flex-direction: row;
   padding-bottom: 38px;
@@ -100,18 +99,21 @@
   margin-left: 33px;
   flex-direction: row;
 }
+.terms-and-conditions-text003 {
+  color: #ffffff;
+  text-decoration: none;
+}
+.terms-and-conditions-link {
+  color: #ffffff;
+  text-decoration: none;
+}
 .terms-and-conditions-navlink1 {
+  color: #ffffff;
   text-decoration: none;
 }
 .terms-and-conditions-navlink2 {
+  color: #ffffff;
   text-decoration: none;
-}
-.terms-and-conditions-navlink3 {
-  transition: 0.3s;
-  text-decoration: none;
-}
-.terms-and-conditions-navlink3:hover {
-  color: #797979;
 }
 .terms-and-conditions-right {
   height: 100%;
@@ -121,7 +123,7 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.terms-and-conditions-navlink4 {
+.terms-and-conditions-link01 {
   display: contents;
 }
 .terms-and-conditions-get-started {
@@ -136,12 +138,12 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-color: #000000;
+  background-color: #213852;
 }
 .terms-and-conditions-get-started:hover {
   background-color: #7AA7EF;
 }
-.terms-and-conditions-text003 {
+.terms-and-conditions-text004 {
   color: #ffffff;
   font-style: normal;
   font-weight: 600;
@@ -159,7 +161,7 @@
 .terms-and-conditions-menu-code {
   display: contents;
 }
-.terms-and-conditions-text004 {
+.terms-and-conditions-text005 {
   color: rgb(255, 255, 255);
   width: auto;
   font-size: 90px;
@@ -173,7 +175,7 @@
   object-fit: cover;
   margin-bottom: 2%;
 }
-.terms-and-conditions-text005 {
+.terms-and-conditions-text006 {
   color: rgb(255, 255, 255);
   width: 50%;
   align-self: center;
@@ -181,13 +183,9 @@
   font-weight: 600;
   line-height: 2;
 }
-.terms-and-conditions-text006 {
+.terms-and-conditions-text007 {
   font-size: 30px;
   font-weight: 900;
-  line-height: 1.7;
-}
-.terms-and-conditions-text007 {
-  font-style: normal;
   line-height: 1.7;
 }
 .terms-and-conditions-text008 {
@@ -200,8 +198,12 @@
 }
 .terms-and-conditions-text010 {
   font-style: normal;
+  line-height: 1.7;
 }
 .terms-and-conditions-text011 {
+  font-style: normal;
+}
+.terms-and-conditions-text012 {
   color: rgb(255, 255, 255);
   font-size: 35px;
   font-style: normal;
@@ -214,23 +216,11 @@
   text-align: center;
   margin-bottom: 15%;
 }
-.terms-and-conditions-link {
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
-}
-.terms-and-conditions-li01 {
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
-.terms-and-conditions-link01 {
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
-}
 .terms-and-conditions-link02 {
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
-.terms-and-conditions-li03 {
+.terms-and-conditions-li01 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -242,7 +232,7 @@
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
-.terms-and-conditions-li05 {
+.terms-and-conditions-li03 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -254,21 +244,33 @@
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
-.terms-and-conditions-li07 {
+.terms-and-conditions-li05 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
 .terms-and-conditions-link07 {
   color: rgb(255, 255, 255);
-  margin-top: 0%;
-  margin-bottom: 0%;
   text-decoration: underline;
 }
 .terms-and-conditions-link08 {
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
-.terms-and-conditions-text012 {
+.terms-and-conditions-li07 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.terms-and-conditions-link09 {
+  color: rgb(255, 255, 255);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-decoration: underline;
+}
+.terms-and-conditions-link10 {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+.terms-and-conditions-text013 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
@@ -283,15 +285,15 @@
 .terms-and-conditions-li09 {
   margin-bottom: 0%;
 }
-.terms-and-conditions-text013 {
+.terms-and-conditions-text014 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text014 {
+.terms-and-conditions-text015 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
 }
-.terms-and-conditions-text015 {
+.terms-and-conditions-text016 {
   font-style: normal;
   font-weight: 800;
 }
@@ -299,15 +301,15 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.terms-and-conditions-text018 {
+.terms-and-conditions-text019 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text019 {
+.terms-and-conditions-text020 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
 }
-.terms-and-conditions-text020 {
+.terms-and-conditions-text021 {
   font-style: normal;
   font-weight: 800;
 }
@@ -315,15 +317,15 @@
   margin-top: 0%;
   margin-bottom: 0%;
 }
-.terms-and-conditions-text023 {
+.terms-and-conditions-text024 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text024 {
+.terms-and-conditions-text025 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
 }
-.terms-and-conditions-text025 {
+.terms-and-conditions-text026 {
   font-style: normal;
   font-weight: 800;
 }
@@ -331,10 +333,10 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.terms-and-conditions-text028 {
+.terms-and-conditions-text029 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text029 {
+.terms-and-conditions-text030 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
@@ -342,10 +344,10 @@
 .terms-and-conditions-li13 {
   margin-bottom: 3%;
 }
-.terms-and-conditions-text033 {
+.terms-and-conditions-text034 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text034 {
+.terms-and-conditions-text035 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
@@ -354,23 +356,23 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.terms-and-conditions-text038 {
+.terms-and-conditions-text039 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text039 {
+.terms-and-conditions-text040 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
-}
-.terms-and-conditions-text043 {
-  color: rgb(255, 255, 255);
 }
 .terms-and-conditions-text044 {
+  color: rgb(255, 255, 255);
+}
+.terms-and-conditions-text045 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
 }
-.terms-and-conditions-link09 {
+.terms-and-conditions-link11 {
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
@@ -378,18 +380,18 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.terms-and-conditions-text048 {
+.terms-and-conditions-text049 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text049 {
+.terms-and-conditions-text050 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
 }
-.terms-and-conditions-text053 {
+.terms-and-conditions-text054 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text054 {
+.terms-and-conditions-text055 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
@@ -398,22 +400,22 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.terms-and-conditions-text058 {
+.terms-and-conditions-text059 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text059 {
+.terms-and-conditions-text060 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
 }
-.terms-and-conditions-link10 {
+.terms-and-conditions-link12 {
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
-.terms-and-conditions-text063 {
+.terms-and-conditions-text064 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text064 {
+.terms-and-conditions-text065 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
@@ -422,26 +424,26 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.terms-and-conditions-text068 {
+.terms-and-conditions-text069 {
   color: rgb(255, 255, 255);
 }
-.terms-and-conditions-text069 {
+.terms-and-conditions-text070 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
-}
-.terms-and-conditions-text073 {
-  color: rgb(255, 255, 255);
 }
 .terms-and-conditions-text074 {
+  color: rgb(255, 255, 255);
+}
+.terms-and-conditions-text075 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
 }
-.terms-and-conditions-text078 {
+.terms-and-conditions-text079 {
   text-decoration: underline;
 }
-.terms-and-conditions-text080 {
+.terms-and-conditions-text081 {
   color: rgb(255, 255, 255);
   width: 90%;
   font-size: 20px;
@@ -449,24 +451,24 @@
   font-weight: 700;
   margin-bottom: 2%;
 }
-.terms-and-conditions-text081 {
+.terms-and-conditions-text082 {
   color: rgb(255, 255, 255);
   font-size: 15px;
   font-style: normal;
   font-weight: 900;
   margin-bottom: 20%;
 }
-.terms-and-conditions-text085 {
+.terms-and-conditions-text086 {
   text-decoration: underline;
 }
-.terms-and-conditions-text086 {
+.terms-and-conditions-text087 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
   margin-bottom: 5%;
 }
-.terms-and-conditions-text087 {
+.terms-and-conditions-text088 {
   color: rgb(255, 255, 255);
   width: 70%;
   font-size: 20px;
@@ -474,20 +476,14 @@
   font-weight: 600;
   margin-bottom: 7%;
 }
-.terms-and-conditions-text088 {
+.terms-and-conditions-text089 {
   width: 90%;
   margin-bottom: 15%;
 }
-.terms-and-conditions-text093 {
+.terms-and-conditions-text094 {
   color: #ffffff;
   font-size: 30px;
   font-weight: 900;
-}
-.terms-and-conditions-text094 {
-  color: #ffffff;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
 }
 .terms-and-conditions-text095 {
   color: #ffffff;
@@ -647,13 +643,13 @@
 }
 .terms-and-conditions-text121 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
 }
 .terms-and-conditions-text122 {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
 }
@@ -827,14 +823,14 @@
 }
 .terms-and-conditions-text151 {
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 900;
-}
-.terms-and-conditions-text152 {
-  color: #ffffff;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
+}
+.terms-and-conditions-text152 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 900;
 }
 .terms-and-conditions-text153 {
   color: #ffffff;
@@ -970,14 +966,14 @@
 }
 .terms-and-conditions-text175 {
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 900;
-}
-.terms-and-conditions-text176 {
-  color: #ffffff;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
+}
+.terms-and-conditions-text176 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 900;
 }
 .terms-and-conditions-text177 {
   color: #ffffff;
@@ -1095,14 +1091,14 @@
 }
 .terms-and-conditions-text196 {
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 900;
-}
-.terms-and-conditions-text197 {
-  color: #ffffff;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
+}
+.terms-and-conditions-text197 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 900;
 }
 .terms-and-conditions-text198 {
   color: #ffffff;
@@ -1172,14 +1168,14 @@
 }
 .terms-and-conditions-text209 {
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 900;
-}
-.terms-and-conditions-text210 {
-  color: #ffffff;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
+}
+.terms-and-conditions-text210 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 900;
 }
 .terms-and-conditions-text211 {
   color: #ffffff;
@@ -1249,14 +1245,14 @@
 }
 .terms-and-conditions-text222 {
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 900;
-}
-.terms-and-conditions-text223 {
-  color: #ffffff;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
+}
+.terms-and-conditions-text223 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 900;
 }
 .terms-and-conditions-text224 {
   color: #ffffff;
@@ -1287,15 +1283,15 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  text-decoration: underline;
 }
 .terms-and-conditions-text229 {
   color: #ffffff;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
+  text-decoration: underline;
 }
-.terms-and-conditions-text234 {
+.terms-and-conditions-text230 {
   color: #ffffff;
   font-size: 20px;
   font-style: normal;
@@ -1334,80 +1330,81 @@
 .terms-and-conditions-text240 {
   color: #ffffff;
   font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
 }
-.terms-and-conditions-text242 {
+.terms-and-conditions-text241 {
+  color: #ffffff;
+  font-size: 20px;
+}
+.terms-and-conditions-text243 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
   margin-bottom: 7%;
 }
-.terms-and-conditions-text243 {
+.terms-and-conditions-text244 {
   color: rgb(255, 255, 255);
   width: 90%;
   margin-bottom: 20%;
 }
-.terms-and-conditions-text244 {
+.terms-and-conditions-text245 {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text249 {
+.terms-and-conditions-text250 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
 }
-.terms-and-conditions-text254 {
+.terms-and-conditions-text255 {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text257 {
+.terms-and-conditions-text258 {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text260 {
+.terms-and-conditions-text261 {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text265 {
+.terms-and-conditions-text266 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
 }
-.terms-and-conditions-text268 {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
-}
-.terms-and-conditions-text271 {
+.terms-and-conditions-text269 {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
 }
 .terms-and-conditions-text272 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+.terms-and-conditions-text273 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
   margin-bottom: 7%;
 }
-.terms-and-conditions-text273 {
+.terms-and-conditions-text274 {
   color: rgb(255, 255, 255);
   width: 90%;
   margin-bottom: 20%;
 }
-.terms-and-conditions-text279 {
+.terms-and-conditions-text280 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
-}
-.terms-and-conditions-text284 {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
 }
 .terms-and-conditions-text285 {
   font-size: 17px;
@@ -1424,15 +1421,15 @@
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text291 {
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 800;
-}
-.terms-and-conditions-text296 {
+.terms-and-conditions-text288 {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
+}
+.terms-and-conditions-text292 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
 }
 .terms-and-conditions-text297 {
   font-size: 17px;
@@ -1459,37 +1456,37 @@
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text303 {
+.terms-and-conditions-text302 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+.terms-and-conditions-text304 {
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
 }
-.terms-and-conditions-text309 {
+.terms-and-conditions-text310 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
   margin-bottom: 7%;
 }
-.terms-and-conditions-text310 {
+.terms-and-conditions-text311 {
   color: rgb(255, 255, 255);
   width: 90%;
   margin-bottom: 20%;
 }
-.terms-and-conditions-text311 {
+.terms-and-conditions-text312 {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text316 {
+.terms-and-conditions-text317 {
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
-}
-.terms-and-conditions-text321 {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 700;
 }
 .terms-and-conditions-text322 {
   font-size: 17px;
@@ -1527,13 +1524,13 @@
   font-weight: 700;
 }
 .terms-and-conditions-text329 {
-  font-size: 20px;
-  font-weight: 800;
-}
-.terms-and-conditions-text330 {
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
+}
+.terms-and-conditions-text330 {
+  font-size: 20px;
+  font-weight: 800;
 }
 .terms-and-conditions-text331 {
   font-size: 17px;
@@ -1591,20 +1588,22 @@
   font-weight: 700;
 }
 .terms-and-conditions-text342 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+}
+.terms-and-conditions-text343 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
   margin-bottom: 7%;
 }
-.terms-and-conditions-text343 {
+.terms-and-conditions-text344 {
   color: rgb(255, 255, 255);
   width: 90%;
   font-weight: 700;
   margin-bottom: 20%;
-}
-.terms-and-conditions-text344 {
-  font-style: normal;
 }
 .terms-and-conditions-text345 {
   font-style: normal;
@@ -1619,47 +1618,46 @@
   font-style: normal;
 }
 .terms-and-conditions-text349 {
+  font-style: normal;
+}
+.terms-and-conditions-text350 {
   font-size: 25px;
   font-style: normal;
   font-weight: 900;
 }
-.terms-and-conditions-text350 {
+.terms-and-conditions-text351 {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
-}
-.terms-and-conditions-text351 {
-  font-size: 25px;
-  font-style: normal;
 }
 .terms-and-conditions-text352 {
+  font-size: 25px;
+  font-style: normal;
+}
+.terms-and-conditions-text353 {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
 }
-.terms-and-conditions-text353 {
+.terms-and-conditions-text354 {
   font-size: 25px;
   font-style: normal;
 }
-.terms-and-conditions-text354 {
-  font-size: 17px;
-  font-weight: 500;
-}
 .terms-and-conditions-text355 {
-  color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
 .terms-and-conditions-text356 {
-  font-size: 17px;
-  font-weight: 500;
-}
-.terms-and-conditions-text357 {
   color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
+.terms-and-conditions-text357 {
+  font-size: 17px;
+  font-weight: 500;
+}
 .terms-and-conditions-text358 {
+  color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
@@ -1668,20 +1666,20 @@
   font-weight: 500;
 }
 .terms-and-conditions-text360 {
-  color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
 .terms-and-conditions-text361 {
-  font-size: 17px;
-  font-weight: 500;
-}
-.terms-and-conditions-text362 {
   color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
+.terms-and-conditions-text362 {
+  font-size: 17px;
+  font-weight: 500;
+}
 .terms-and-conditions-text363 {
+  color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
@@ -1690,20 +1688,20 @@
   font-weight: 500;
 }
 .terms-and-conditions-text365 {
-  color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
 .terms-and-conditions-text366 {
-  font-size: 17px;
-  font-weight: 500;
-}
-.terms-and-conditions-text367 {
   color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
+.terms-and-conditions-text367 {
+  font-size: 17px;
+  font-weight: 500;
+}
 .terms-and-conditions-text368 {
+  color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
@@ -1712,20 +1710,20 @@
   font-weight: 500;
 }
 .terms-and-conditions-text370 {
-  color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
 .terms-and-conditions-text371 {
-  font-size: 17px;
-  font-weight: 500;
-}
-.terms-and-conditions-text372 {
   color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
+.terms-and-conditions-text372 {
+  font-size: 17px;
+  font-weight: 500;
+}
 .terms-and-conditions-text373 {
+  color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
@@ -1734,79 +1732,79 @@
   font-weight: 500;
 }
 .terms-and-conditions-text375 {
-  color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
 .terms-and-conditions-text376 {
-  font-size: 17px;
-  font-weight: 500;
-}
-.terms-and-conditions-text377 {
   color: #ffffff;
   font-size: 17px;
   font-weight: 500;
 }
-.terms-and-conditions-text378 {
+.terms-and-conditions-text377 {
   font-size: 17px;
-  font-style: normal;
+  font-weight: 500;
+}
+.terms-and-conditions-text378 {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
 }
 .terms-and-conditions-text379 {
   font-size: 17px;
   font-style: normal;
 }
 .terms-and-conditions-text380 {
+  font-size: 17px;
+  font-style: normal;
+}
+.terms-and-conditions-text381 {
   color: #ffffff;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
 }
-.terms-and-conditions-text381 {
+.terms-and-conditions-text382 {
   font-size: 25px;
   font-style: normal;
 }
-.terms-and-conditions-text382 {
+.terms-and-conditions-text383 {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
-}
-.terms-and-conditions-text383 {
-  font-size: 25px;
-  font-style: normal;
 }
 .terms-and-conditions-text384 {
   font-size: 25px;
-  font-weight: 800;
+  font-style: normal;
 }
 .terms-and-conditions-text385 {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 800;
 }
 .terms-and-conditions-text386 {
-  font-size: 25px;
+  color: #ffffff;
   font-style: normal;
+  font-weight: 700;
 }
 .terms-and-conditions-text387 {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 700;
-}
-.terms-and-conditions-text388 {
-  font-style: normal;
-}
-.terms-and-conditions-text389 {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 700;
-}
-.terms-and-conditions-text390 {
   font-size: 25px;
   font-style: normal;
+}
+.terms-and-conditions-text388 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+}
+.terms-and-conditions-text389 {
+  font-style: normal;
+}
+.terms-and-conditions-text390 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
 }
 .terms-and-conditions-text391 {
   font-size: 25px;
-  font-weight: 800;
+  font-style: normal;
 }
 .terms-and-conditions-text392 {
   font-size: 25px;
@@ -1817,41 +1815,40 @@
   font-weight: 800;
 }
 .terms-and-conditions-text394 {
+  font-size: 25px;
+  font-weight: 800;
+}
+.terms-and-conditions-text395 {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
 }
-.terms-and-conditions-text395 {
-  font-size: 25px;
-  font-style: normal;
-}
 .terms-and-conditions-text396 {
+  font-size: 25px;
   font-style: normal;
 }
 .terms-and-conditions-text397 {
   font-style: normal;
 }
 .terms-and-conditions-text398 {
+  font-style: normal;
+}
+.terms-and-conditions-text399 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
   margin-bottom: 7%;
 }
-.terms-and-conditions-text399 {
+.terms-and-conditions-text400 {
   color: rgb(255, 255, 255);
   width: 90%;
   margin-bottom: 20%;
 }
-.terms-and-conditions-text400 {
+.terms-and-conditions-text401 {
   font-size: 30px;
   font-style: normal;
   font-weight: 900;
-}
-.terms-and-conditions-text404 {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
 }
 .terms-and-conditions-text405 {
   font-size: 17px;
@@ -1888,14 +1885,14 @@
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text415 {
-  font-size: 25px;
-  font-weight: 800;
-}
-.terms-and-conditions-text420 {
+.terms-and-conditions-text412 {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
+}
+.terms-and-conditions-text416 {
+  font-size: 25px;
+  font-weight: 800;
 }
 .terms-and-conditions-text421 {
   font-size: 17px;
@@ -1922,14 +1919,14 @@
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text430 {
-  font-size: 25px;
-  font-weight: 800;
-}
-.terms-and-conditions-text434 {
+.terms-and-conditions-text426 {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
+}
+.terms-and-conditions-text431 {
+  font-size: 25px;
+  font-weight: 800;
 }
 .terms-and-conditions-text435 {
   font-size: 17px;
@@ -1961,42 +1958,42 @@
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text445 {
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 800;
-}
-.terms-and-conditions-text450 {
+.terms-and-conditions-text441 {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
 }
+.terms-and-conditions-text446 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+}
 .terms-and-conditions-text451 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+.terms-and-conditions-text452 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
   margin-bottom: 7%;
 }
-.terms-and-conditions-text452 {
+.terms-and-conditions-text453 {
   color: rgb(255, 255, 255);
   width: 90%;
   margin-bottom: 20%;
-}
-.terms-and-conditions-text453 {
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 700;
 }
 .terms-and-conditions-text454 {
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
 }
-.terms-and-conditions-text457 {
-  font-size: 17px;
+.terms-and-conditions-text455 {
+  font-size: 25px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
 }
 .terms-and-conditions-text458 {
   font-size: 17px;
@@ -2283,19 +2280,19 @@
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text520 {
+.terms-and-conditions-text515 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+.terms-and-conditions-text521 {
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
 }
-.terms-and-conditions-text521 {
+.terms-and-conditions-text522 {
   font-size: 25px;
   font-weight: 700;
-}
-.terms-and-conditions-text525 {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
 }
 .terms-and-conditions-text526 {
   font-size: 17px;
@@ -2407,37 +2404,37 @@
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text554 {
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 700;
-}
-.terms-and-conditions-text559 {
+.terms-and-conditions-text548 {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
 }
+.terms-and-conditions-text555 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
 .terms-and-conditions-text560 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+.terms-and-conditions-text561 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
   margin-bottom: 7%;
 }
-.terms-and-conditions-text561 {
+.terms-and-conditions-text562 {
   color: #ffffff;
   width: 90%;
   margin-bottom: 15%;
 }
-.terms-and-conditions-text562 {
+.terms-and-conditions-text563 {
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
-}
-.terms-and-conditions-text567 {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
 }
 .terms-and-conditions-text568 {
   font-size: 17px;
@@ -2464,14 +2461,15 @@
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text577 {
+.terms-and-conditions-text573 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+.terms-and-conditions-text578 {
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
-}
-.terms-and-conditions-text582 {
-  font-style: normal;
-  font-weight: 600;
 }
 .terms-and-conditions-text583 {
   font-style: normal;
@@ -2513,14 +2511,14 @@
   font-style: normal;
   font-weight: 600;
 }
-.terms-and-conditions-text597 {
+.terms-and-conditions-text593 {
+  font-style: normal;
+  font-weight: 600;
+}
+.terms-and-conditions-text598 {
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
-}
-.terms-and-conditions-text602 {
-  font-style: normal;
-  font-weight: 600;
 }
 .terms-and-conditions-text603 {
   font-style: normal;
@@ -2602,6 +2600,10 @@
   font-style: normal;
   font-weight: 600;
 }
+.terms-and-conditions-text623 {
+  font-style: normal;
+  font-weight: 600;
+}
 .terms-and-conditions-footer {
   width: 100%;
   display: flex;
@@ -2635,19 +2637,19 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.terms-and-conditions-text623 {
+.terms-and-conditions-text624 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-unit);
 }
-.terms-and-conditions-link11 {
+.terms-and-conditions-link13 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   text-decoration: underline;
 }
-.terms-and-conditions-link12 {
+.terms-and-conditions-link14 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   margin-top: var(--dl-space-space-halfunit);
@@ -2667,7 +2669,7 @@
   align-items: stretch;
   flex-direction: column;
 }
-.terms-and-conditions-text624 {
+.terms-and-conditions-text625 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -2680,13 +2682,9 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.terms-and-conditions-text625 {
-  color: rgb(196, 196, 196);
-  cursor: pointer;
-  font-size: 14px;
-}
 .terms-and-conditions-text626 {
   color: rgb(196, 196, 196);
+  cursor: pointer;
   font-size: 14px;
 }
 .terms-and-conditions-text627 {
@@ -2701,13 +2699,17 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
+.terms-and-conditions-text630 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
 .terms-and-conditions-category1 {
   width: 240px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.terms-and-conditions-text630 {
+.terms-and-conditions-text631 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -2719,10 +2721,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.terms-and-conditions-text631 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
 }
 .terms-and-conditions-text632 {
   color: rgb(196, 196, 196);
@@ -2744,12 +2742,16 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
+.terms-and-conditions-text637 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
 .terms-and-conditions-category2 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.terms-and-conditions-text637 {
+.terms-and-conditions-text638 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -2761,10 +2763,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.terms-and-conditions-text638 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
 }
 .terms-and-conditions-text639 {
   color: rgb(196, 196, 196);
@@ -2782,12 +2780,16 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
+.terms-and-conditions-text643 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
 .terms-and-conditions-category3 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.terms-and-conditions-text643 {
+.terms-and-conditions-text644 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -2808,23 +2810,11 @@
   padding-left: 2%;
   margin-bottom: 10%;
 }
-.terms-and-conditions-link13 {
-  color: #c4c4c4;
-  text-decoration: underline;
-}
-.terms-and-conditions-li23 {
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
-.terms-and-conditions-link14 {
-  color: #c4c4c4;
-  text-decoration: underline;
-}
 .terms-and-conditions-link15 {
   color: #c4c4c4;
   text-decoration: underline;
 }
-.terms-and-conditions-li25 {
+.terms-and-conditions-li23 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -2836,7 +2826,7 @@
   color: #c4c4c4;
   text-decoration: underline;
 }
-.terms-and-conditions-li27 {
+.terms-and-conditions-li25 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -2848,17 +2838,29 @@
   color: #c4c4c4;
   text-decoration: underline;
 }
-.terms-and-conditions-li29 {
+.terms-and-conditions-li27 {
   margin-top: 4%;
   margin-bottom: 4%;
 }
 .terms-and-conditions-link20 {
   color: #c4c4c4;
+  text-decoration: underline;
+}
+.terms-and-conditions-link21 {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.terms-and-conditions-li29 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.terms-and-conditions-link22 {
+  color: #c4c4c4;
   margin-top: 0%;
   margin-bottom: 0%;
   text-decoration: underline;
 }
-.terms-and-conditions-link21 {
+.terms-and-conditions-link23 {
   color: #c4c4c4;
   text-decoration: underline;
 }
@@ -2877,14 +2879,14 @@
   height: 131px;
   margin-bottom: 0px;
 }
-.terms-and-conditions-text644 {
+.terms-and-conditions-text645 {
   color: rgb(104, 104, 104);
   font-size: 14px;
   line-height: 30px;
 }
 @media(max-width: 1200px) {
-  .terms-and-conditions-centered {
-    width: 90%;
+  .terms-and-conditions-text005 {
+    margin-top: 35%;
   }
   .terms-and-conditions-contact {
     margin-top: 0px;
@@ -2900,7 +2902,6 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
   .terms-and-conditions-centered {
-    height: 48%;
     padding-left: 1%;
     padding-right: 1%;
   }
@@ -2919,33 +2920,28 @@
   .terms-and-conditions-mobile-menu-button {
     display: flex;
   }
-  .terms-and-conditions-text243 {
-    color: rgb(255, 255, 255);
-  }
   .terms-and-conditions-text244 {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
+    color: rgb(255, 255, 255);
   }
   .terms-and-conditions-text245 {
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
   }
-  .terms-and-conditions-text249 {
+  .terms-and-conditions-text246 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .terms-and-conditions-text250 {
     font-size: 25px;
     font-style: normal;
     font-weight: 800;
   }
-  .terms-and-conditions-text250 {
+  .terms-and-conditions-text251 {
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
-  }
-  .terms-and-conditions-text254 {
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 600;
   }
   .terms-and-conditions-text255 {
     font-size: 17px;
@@ -2977,15 +2973,15 @@
     font-style: normal;
     font-weight: 600;
   }
-  .terms-and-conditions-text265 {
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 800;
-  }
-  .terms-and-conditions-text268 {
+  .terms-and-conditions-text261 {
     font-size: 17px;
     font-style: normal;
     font-weight: 600;
+  }
+  .terms-and-conditions-text266 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
   }
   .terms-and-conditions-text269 {
     font-size: 17px;
@@ -3002,20 +2998,25 @@
     font-style: normal;
     font-weight: 600;
   }
-  .terms-and-conditions-text309 {
+  .terms-and-conditions-text272 {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .terms-and-conditions-text310 {
     margin-left: 2%;
   }
-  .terms-and-conditions-text342 {
+  .terms-and-conditions-text343 {
     margin-left: 2%;
   }
-  .terms-and-conditions-text398 {
+  .terms-and-conditions-text399 {
     margin-left: 2%;
   }
-  .terms-and-conditions-text452 {
+  .terms-and-conditions-text453 {
     align-self: center;
     margin-left: 2%;
   }
-  .terms-and-conditions-text560 {
+  .terms-and-conditions-text561 {
     margin-left: 2%;
   }
   .terms-and-conditions-footer {
@@ -3030,13 +3031,13 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .terms-and-conditions-text623 {
+  .terms-and-conditions-text624 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .terms-and-conditions-link11 {
+  .terms-and-conditions-link13 {
     text-decoration: underline none;
   }
-  .terms-and-conditions-link12 {
+  .terms-and-conditions-link14 {
     text-decoration: underline none;
   }
   .terms-and-conditions-right1 {
@@ -3059,7 +3060,7 @@
     width: 17%;
     margin-bottom: 3%;
   }
-  .terms-and-conditions-text644 {
+  .terms-and-conditions-text645 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -3074,9 +3075,6 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .terms-and-conditions-centered {
-    width: 90%;
-  }
   .terms-and-conditions-left {
     margin-left: var(--dl-space-space-unit);
   }
@@ -3086,10 +3084,10 @@
   .terms-and-conditions-get-started {
     display: none;
   }
-  .terms-and-conditions-text004 {
+  .terms-and-conditions-text005 {
     margin-top: 10%;
   }
-  .terms-and-conditions-text005 {
+  .terms-and-conditions-text006 {
     width: 60%;
   }
   .terms-and-conditions-footer {
@@ -3117,11 +3115,14 @@
     align-items: center;
     justify-content: center;
   }
+  .terms-and-conditions-desktop-navigation {
+    width: 80%;
+  }
   .terms-and-conditions-centered {
-    width: 90%;
+    width: 100%;
     height: var(--dl-size-size-small);
   }
-  .terms-and-conditions-text004 {
+  .terms-and-conditions-text005 {
     color: rgb(255, 255, 255);
     font-size: 400%;
     font-style: normal;
@@ -3132,59 +3133,59 @@
   .terms-and-conditions-image {
     width: 50%;
   }
-  .terms-and-conditions-text005 {
+  .terms-and-conditions-text006 {
     width: 90%;
     margin-top: 15%;
   }
   .terms-and-conditions-ul {
     width: 100%;
   }
-  .terms-and-conditions-text012 {
+  .terms-and-conditions-text013 {
     font-size: 50px;
     margin-top: 5%;
     margin-left: 4%;
     margin-bottom: 15%;
   }
-  .terms-and-conditions-text086 {
+  .terms-and-conditions-text087 {
     font-size: 50px;
     margin-top: 5%;
   }
-  .terms-and-conditions-text087 {
+  .terms-and-conditions-text088 {
     width: 85%;
     font-size: 15px;
     margin-top: 5%;
   }
-  .terms-and-conditions-text242 {
+  .terms-and-conditions-text243 {
     font-size: 50px;
     margin-left: 4%;
   }
-  .terms-and-conditions-text243 {
+  .terms-and-conditions-text244 {
     margin-left: 0%;
   }
-  .terms-and-conditions-text272 {
+  .terms-and-conditions-text273 {
     font-size: 50px;
     margin-left: 4%;
   }
-  .terms-and-conditions-text309 {
+  .terms-and-conditions-text310 {
     font-size: 50px;
     margin-left: 4%;
   }
-  .terms-and-conditions-text342 {
+  .terms-and-conditions-text343 {
     font-size: 50px;
     margin-left: 4%;
   }
-  .terms-and-conditions-text398 {
-    font-size: 50px;
-    margin-left: 4%;
-  }
-  .terms-and-conditions-text451 {
+  .terms-and-conditions-text399 {
     font-size: 50px;
     margin-left: 4%;
   }
   .terms-and-conditions-text452 {
+    font-size: 50px;
+    margin-left: 4%;
+  }
+  .terms-and-conditions-text453 {
     margin-left: 0;
   }
-  .terms-and-conditions-text560 {
+  .terms-and-conditions-text561 {
     font-size: 50px;
     margin-left: 4%;
   }
@@ -3197,7 +3198,7 @@
   .terms-and-conditions-contact {
     margin-left: 2%;
   }
-  .terms-and-conditions-text638 {
+  .terms-and-conditions-text639 {
     color: rgb(196, 196, 196);
     font-size: 14px;
   }
