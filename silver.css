@@ -68,6 +68,7 @@
   width: 100%;
   height: var(--dl-size-size-medium);
   display: flex;
+  z-index: 999;
   position: fixed;
   max-width: 100%;
   box-sizing: initial;
@@ -175,22 +176,6 @@
   font-weight: 500;
   margin-bottom: 2%;
 }
-.silver-pricing {
-  width: 100%;
-  height: 500px;
-  display: flex;
-  margin-top: 7%;
-  transition: scale(1.2);
-  align-items: flex-end;
-  border-color: #395b81;
-  border-style: groove;
-  border-width: 20px;
-  border-radius: 30px;
-  padding-bottom: 1%;
-  justify-content: flex-start;
-  background-image: linear-gradient(0deg,#395b81 0.00%,rgb(122, 167, 239) 100.00%);
-  border-bottom-width: 10px;
-}
 .silver-container1 {
   top: auto;
   width: 70%;
@@ -228,12 +213,12 @@
   width: 100%;
   height: 500px;
   display: flex;
+  margin-top: 0px;
   align-items: flex-end;
   border-color: #395b81;
   border-style: groove;
   border-width: 20px;
   border-radius: 30px;
-  margin-bottom: 15%;
   justify-content: flex-start;
   background-image: linear-gradient(180deg,#395b81 0.00%,rgb(122, 167, 239) 100.00%);
   border-top-width: 10px;
@@ -813,9 +798,6 @@
   .silver-centered {
     width: 100%;
     height: var(--dl-size-size-small);
-  }
-  .silver-pricing {
-    flex-direction: column;
   }
   .silver-container1 {
     width: 100%;
