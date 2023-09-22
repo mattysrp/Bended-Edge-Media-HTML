@@ -690,60 +690,60 @@
                 </span>
               </div>
             </div>
-          </div>
-          <div class="home-accordion-code2">
-            <script>
-              // Accordion - Code Embed
+            <div class="home-accordion-code2">
+              <script>
+                // Accordion - Code Embed
 
-              const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
-              const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
-              const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
+                const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
+                const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
+                const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
 
-              accordionContents.forEach((accordionContent) => {
-                  accordionContent.style.display = 'none'; //Hides all accordion contents
-              });
+                accordionContents.forEach((accordionContent) => {
+                    accordionContent.style.display = 'none'; //Hides all accordion contents
+                });
 
-              accordionContainers.forEach((accordionContainer, index) => {
-                  accordionContainer.addEventListener('click', () => {
-                      accordionContents.forEach((accordionContent) => {
-                          accordionContent.style.display = 'none'; //Hides all accordion contents
-                      });
+                accordionContainers.forEach((accordionContainer, index) => {
+                    accordionContainer.addEventListener('click', () => {
+                        accordionContents.forEach((accordionContent) => {
+                            accordionContent.style.display = 'none'; //Hides all accordion contents
+                        });
 
-                      accordionIcons.forEach((accordionIcon) => {
-                          accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
-                      });
+                        accordionIcons.forEach((accordionIcon) => {
+                            accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
+                        });
 
-                      if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
-                          accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
-                      } else {
-                          accordionContainers.forEach((accordionContainer) => {
-                              accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
-                          });
+                        if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
+                            accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
+                        } else {
+                            accordionContainers.forEach((accordionContainer) => {
+                                accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
+                            });
 
-                          accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
-                          accordionContents[index].style.display = 'flex'; // Shows accordion content
-                          accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
-                      }
-                  });
-              });
+                            accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
+                            accordionContents[index].style.display = 'flex'; // Shows accordion content
+                            accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
+                        }
+                    });
+                });
 
-              /*
-              Here's what the above is doing:
-                  1. Selects all accordion containers, contents, and icons
-                  2. Hides all accordion contents
-                  3. Adds an event listener to each accordion container
-                  4. When an accordion container is clicked, it:
-                      - Hides all accordion contents
-                      - Resets all icon transforms to 0deg (default)
-                      - Checks if this container has class 'accordion-open'
-                          - If it does, it removes class 'accordion-open'
-                          - If it doesn't, it:
-                              - Removes class 'accordion-open' from all containers
-                              - Adds class 'accordion-open' to this container
-                              - Shows accordion content
-                              - Rotates accordion icon 180deg
-              */
-            </script>
+                /*
+                Here's what the above is doing:
+                    1. Selects all accordion containers, contents, and icons
+                    2. Hides all accordion contents
+                    3. Adds an event listener to each accordion container
+                    4. When an accordion container is clicked, it:
+                        - Hides all accordion contents
+                        - Resets all icon transforms to 0deg (default)
+                        - Checks if this container has class 'accordion-open'
+                            - If it does, it removes class 'accordion-open'
+                            - If it doesn't, it:
+                                - Removes class 'accordion-open' from all containers
+                                - Adds class 'accordion-open' to this container
+                                - Shows accordion content
+                                - Rotates accordion icon 180deg
+                */
+              </script>
+            </div>
           </div>
         </section>
         <footer class="home-footer">

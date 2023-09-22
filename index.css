@@ -1084,13 +1084,9 @@
   width: 100%;
   display: flex;
   box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
-  transition: 0.3s;
   flex-direction: column;
   justify-content: space-between;
   background-color: rgb(100, 149, 235);
-}
-.home-blog-post-card:hover {
-  transform: scale(1.02);
 }
 .home-image10 {
   width: 90%;
