@@ -75,7 +75,7 @@
   box-sizing: initial;
   align-items: center;
   padding-left: 0%;
-  padding-right: 5%;
+  padding-right: 0px;
   flex-direction: row;
   justify-content: space-between;
   background-color: rgba(57, 91, 129, 0.6);
@@ -123,6 +123,7 @@
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-oneandhalfunits);
+  margin-right: 5%;
   flex-direction: row;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
@@ -169,7 +170,7 @@
   color: white;
   font-size: 70px;
   font-style: normal;
-  margin-top: 9%;
+  margin-top: 15%;
   font-weight: 800;
   margin-bottom: 2%;
 }
@@ -177,18 +178,26 @@
   color: var(--dl-color-gray-white);
   font-style: normal;
   font-weight: 500;
-  margin-bottom: 2%;
+  margin-bottom: 15%;
 }
 .silver-pricing {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-top: 0px;
+  align-items: flex-end;
+  border-color: #ffffff;
+  border-style: double;
   border-width: 0px;
   border-radius: 0px;
+  justify-content: flex-start;
+  background-color: #5499C7;
+  border-top-width: 15px;
+  border-bottom-width: 15px;
 }
 .silver-container1 {
-  top: auto;
-  width: 70%;
   height: 100%;
-  padding: 2%;
-  align-self: flex-end;
+  padding: 4% 2% 2% 2%;
 }
 .silver-text07 {
   top: auto;
@@ -222,10 +231,15 @@
   display: flex;
   margin-top: 0px;
   align-items: flex-end;
+  border-color: #ffffff;
+  border-style: double;
   border-width: 0px;
   border-radius: 0px;
+  margin-bottom: 5%;
   justify-content: flex-start;
-  background-image: linear-gradient(180deg,#395b81 0.00%,rgb(122, 167, 239) 100.00%);
+  background-color: #1F618D;
+  border-top-width: 0px;
+  border-bottom-width: 15px;
 }
 .silver-image1 {
   width: 30%;
@@ -666,6 +680,9 @@
   .silver-mobile-menu-button {
     display: flex;
   }
+  .silver-pricing {
+    margin-bottom: 2%;
+  }
   .silver-text07 {
     color: rgb(255, 255, 255);
     font-size: 250%;
@@ -749,6 +766,9 @@
   .silver-get-started {
     display: none;
   }
+  .silver-pricing {
+    margin-bottom: 2%;
+  }
   .silver-text07 {
     color: rgb(255, 255, 255);
     font-size: 170%;
@@ -823,6 +843,10 @@
   .silver-centered {
     width: 100%;
     height: var(--dl-size-size-small);
+  }
+  .silver-pricing {
+    margin-bottom: 2%;
+    flex-direction: column-reverse;
   }
   .silver-container1 {
     width: 100%;

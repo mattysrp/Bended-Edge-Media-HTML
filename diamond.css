@@ -71,7 +71,7 @@
   max-width: 100%;
   box-sizing: initial;
   align-items: center;
-  padding-right: 5%;
+  padding-right: 0%;
   flex-direction: row;
   justify-content: space-between;
   background-color: rgba(57, 91, 129, 0.6);
@@ -80,7 +80,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  margin-left: 3%;
+  margin-left: 4%;
   padding-top: 38px;
   flex-direction: row;
   padding-bottom: 38px;
@@ -120,6 +120,7 @@
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-oneandhalfunits);
+  margin-right: 5%;
   flex-direction: row;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
@@ -164,14 +165,14 @@
 .diamond-text05 {
   color: white;
   font-size: 70px;
-  margin-top: 8%;
+  margin-top: 15%;
   margin-bottom: 2%;
 }
 .diamond-text06 {
   color: var(--dl-color-gray-white);
   font-style: normal;
   font-weight: 500;
-  margin-bottom: 8%;
+  margin-bottom: 13%;
 }
 .diamond-pricing {
   width: 100%;
@@ -183,11 +184,11 @@
   border-width: 1px;
   padding-bottom: 1%;
   justify-content: flex-start;
-  background-image: linear-gradient(0deg, rgb(112, 198, 255, 1) 0.00%,rgb(122, 167, 239) 100.00%);
-  border-top-width: 0px;
+  background-color: #A9CCE3;
+  border-top-width: 15px;
   border-left-width: 0px;
   border-right-width: 0px;
-  border-bottom-width: 1px;
+  border-bottom-width: 15px;
 }
 .diamond-container1 {
   top: auto;
@@ -233,11 +234,11 @@
   border-style: groove;
   border-width: 1px;
   justify-content: flex-start;
-  background-color: #70c6ff;
+  background-color: #5499C7;
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
-  border-bottom-width: 1px;
+  border-bottom-width: 15px;
 }
 .diamond-image1 {
   width: 30%;
@@ -287,11 +288,11 @@
   border-width: 1px;
   padding-bottom: 1%;
   justify-content: flex-start;
-  background-color: #70c6ff;
+  background-color: #2471A3;
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
-  border-bottom-width: 1pxpx;
+  border-bottom-width: 15px;
 }
 .diamond-container3 {
   top: auto;
@@ -340,18 +341,21 @@
   align-items: flex-end;
   margin-bottom: 15%;
   justify-content: flex-start;
-  background-image: linear-gradient(180deg, rgb(112, 198, 255, 1) 0.00%,rgb(122, 167, 239) 100.00%);
+  background-color: #1A5276;
 }
 .diamond-image3 {
   width: 30%;
   height: 500px;
-  margin: 0 1% 1% 1%;
   box-shadow: 5px 5px 10px 0px #000000;
+  margin-top: 0%;
   object-fit: cover;
   transition: 0.3s;
+  margin-left: 1%;
   border-color: var(--dl-color-gray-black);
   border-width: 3px;
+  margin-right: 0%;
   border-radius: 20%;
+  margin-bottom: 2%;
 }
 .diamond-image3:hover {
   transform: scale(1.05);
