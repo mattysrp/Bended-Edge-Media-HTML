@@ -226,6 +226,16 @@
 .mobile-pricing:hover {
   color: rgba(0, 0, 0, 0.5);
 }
+.mobile-pricing-content {
+  width: 100%;
+  display: flex;
+  user-select: text;
+  flex-direction: column;
+}
+.mobile-pricing-icon {
+  width: 30px;
+  height: 30px;
+}
 .Content {
   font-size: 16px;
   font-family: Inter;

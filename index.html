@@ -79,13 +79,13 @@
                 <div data-faq="closed" class="mobile-pricing">
                   <div class="home-header">
                     <span class="home-text001">Packages</span>
-                    <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                    <svg viewBox="0 0 1024 1024" class="mobile-pricing-icon">
                       <path
                         d="M316 366l196 196 196-196 60 60-256 256-256-256z"
                       ></path>
                     </svg>
                   </div>
-                  <div class="home-content mobile-pricing">
+                  <div class="mobile-pricing-content">
                     <a href="silver.html" class="home-navlink Link">Silver</a>
                     <a href="gold.html" class="home-navlink01 Link">Gold</a>
                     <a href="diamond.html" class="home-navlink02 Link">
@@ -97,34 +97,34 @@
                   <script>
                     // Accordion - Code Embed
 
-                    const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
-                    const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
-                    const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
+                    const mobilePricings = document.querySelectorAll('.mobile-pricing'); // All accordion containers
+                    const mobileContents = document.querySelectorAll('.mobile-pricing-content'); // All accordion content
+                    const mobileIcons = document.querySelectorAll('.mobile-pricing-icon'); // All accordion icons
 
-                    accordionContents.forEach((accordionContent) => {
+                    mobileContents.forEach((accordionContent) => {
                         accordionContent.style.display = 'none'; //Hides all accordion contents
                     });
 
-                    accordionContainers.forEach((accordionContainer, index) => {
+                    mobilePricings.forEach((accordionContainer, index) => {
                         accordionContainer.addEventListener('click', () => {
-                            accordionContents.forEach((accordionContent) => {
+                            mobileContents.forEach((accordionContent) => {
                                 accordionContent.style.display = 'none'; //Hides all accordion contents
                             });
 
-                            accordionIcons.forEach((accordionIcon) => {
+                            mobileIcons.forEach((accordionIcon) => {
                                 accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
                             });
 
                             if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
                                 accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
                             } else {
-                                accordionContainers.forEach((accordionContainer) => {
+                                mobilePricings.forEach((accordionContainer) => {
                                     accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
                                 });
 
                                 accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
-                                accordionContents[index].style.display = 'flex'; // Shows accordion content
-                                accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
+                                mobileContents[index].style.display = 'flex'; // Shows accordion content
+                                mobileIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
                             }
                         });
                     });

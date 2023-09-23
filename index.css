@@ -95,9 +95,6 @@
   font-style: normal;
   font-weight: 500;
 }
-.home-content {
-  flex-direction: column;
-}
 .home-navlink {
   margin-bottom: 10px;
   text-decoration: none;
