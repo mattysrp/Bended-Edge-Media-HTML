@@ -384,7 +384,7 @@
   height: auto;
   display: flex;
   padding: var(--dl-space-space-threeunits);
-  margin-bottom: 211px;
+  margin-bottom: 0px;
   justify-content: center;
   background-image: linear-gradient(180deg,rgb(100, 149, 235),rgb(57, 91, 129) 100.00%);
 }
@@ -502,7 +502,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding-top: 5%;
+  padding-top: 316px;
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
@@ -563,6 +563,7 @@
   align-items: center;
   padding-top: 15%;
   padding-left: var(--dl-space-space-sevenunits);
+  margin-bottom: 150px;
   padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
   justify-content: center;
@@ -1210,8 +1211,8 @@
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-sevenunits);
-  padding-left: var(--dl-space-space-sevenunits);
-  padding-right: var(--dl-space-space-sevenunits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-sevenunits);
   background-color: #395b81;
@@ -1371,25 +1372,27 @@
   font-size: 14px;
   text-decoration: none;
 }
-.home-text113 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .home-link6 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   text-decoration: none;
 }
-.home-text114 {
+.home-link7 {
   color: rgb(196, 196, 196);
   font-size: 14px;
+  text-decoration: none;
+}
+.home-link8 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+  text-decoration: none;
 }
 .home-category3 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.home-text115 {
+.home-text113 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -1467,7 +1470,6 @@
 .home-bottom {
   width: 100%;
   display: flex;
-  max-width: 1200px;
   margin-top: var(--dl-space-space-threeunits);
   align-items: flex-start;
   user-select: none;
@@ -1479,7 +1481,7 @@
   height: 131px;
   margin-bottom: 0px;
 }
-.home-text116 {
+.home-text114 {
   color: rgb(104, 104, 104);
   font-size: 14px;
   line-height: 30px;
@@ -1833,7 +1835,7 @@
     width: 20%;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .home-text116 {
+  .home-text114 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
