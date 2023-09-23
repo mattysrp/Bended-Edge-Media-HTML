@@ -179,12 +179,12 @@
   height: 500px;
   display: flex;
   align-items: flex-end;
-  border-color: var(--dl-color-gray-black);
-  border-style: groove;
+  border-color: #ffffff;
+  border-style: double;
   border-width: 1px;
   padding-bottom: 1%;
   justify-content: flex-start;
-  background-color: #A9CCE3;
+  background-color: #7FB3D5;
   border-top-width: 15px;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -230,11 +230,11 @@
   height: 500px;
   display: flex;
   align-items: flex-end;
-  border-color: var(--dl-color-gray-black);
-  border-style: groove;
+  border-color: #ffffff;
+  border-style: double;
   border-width: 1px;
   justify-content: flex-start;
-  background-color: #5499C7;
+  background-color: #C0392B;
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -283,12 +283,12 @@
   height: 500px;
   display: flex;
   align-items: flex-end;
-  border-color: var(--dl-color-gray-black);
-  border-style: groove;
+  border-color: #ffffff;
+  border-style: double;
   border-width: 1px;
   padding-bottom: 1%;
   justify-content: flex-start;
-  background-color: #2471A3;
+  background-color: #73C6B6;
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -339,9 +339,16 @@
   height: 500px;
   display: flex;
   align-items: flex-end;
+  border-color: #ffffff;
+  border-style: double;
+  border-width: 1px;
   margin-bottom: 15%;
   justify-content: flex-start;
-  background-color: #1A5276;
+  background-color: #D98880;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 15px;
 }
 .diamond-image3 {
   width: 30%;
