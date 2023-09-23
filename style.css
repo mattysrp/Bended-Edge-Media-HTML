@@ -209,6 +209,23 @@
   justify-content: flex-start;
   border-bottom-width: 10px;
 }
+.mobile-pricing {
+  gap: 20px;
+  fill: rgba(0, 0, 0, 0.5);
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  max-width: 800px;
+  transition: 0.3s;
+  align-items: center;
+  user-select: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mobile-pricing:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
 .Content {
   font-size: 16px;
   font-family: Inter;
