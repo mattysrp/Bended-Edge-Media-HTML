@@ -2278,6 +2278,7 @@
   }
   .home-integrations {
     height: 50%;
+    margin-bottom: 0px;
   }
   .home-text030 {
     color: rgb(255, 255, 255);
@@ -2366,8 +2367,8 @@
   }
   .home-faq {
     width: fit-content;
-    height: 2251px;
-    padding-top: 0px;
+    height: fit-content;
+    padding-top: 40pxpx;
   }
   .home-heading1 {
     margin-bottom: 5%;
