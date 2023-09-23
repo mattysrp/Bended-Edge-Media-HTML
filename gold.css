@@ -929,6 +929,11 @@
     width: 100%;
     height: var(--dl-size-size-small);
   }
+  .gold-text05 {
+    color: white;
+    font-size: 45px;
+    margin-top: 35%;
+  }
   .gold-pricing {
     border-style: groove;
     flex-direction: column;
@@ -954,6 +959,7 @@
     margin-bottom: 10%;
   }
   .gold-pricing1 {
+    height: 638px;
     border-style: groove;
     flex-direction: column-reverse;
   }
@@ -961,15 +967,15 @@
     width: 70%;
     height: 40%;
     align-self: center;
-    margin-top: 37%;
-    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-bottom: 35%;
   }
   .gold-container3 {
     width: 100%;
     height: auto;
     margin-top: 0%;
     align-items: center;
-    margin-bottom: 0%;
+    margin-bottom: 15%;
     flex-direction: column;
   }
   .gold-text16 {
