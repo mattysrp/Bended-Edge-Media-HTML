@@ -5,7 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #7AA7EF;
+  background-color: rgb(100, 149, 235);
 }
 .gold-menu {
   width: 100%;
@@ -165,7 +165,7 @@
 .gold-text05 {
   color: white;
   font-size: 70px;
-  margin-top: 9%;
+  margin-top: 15%;
   margin-bottom: 2%;
 }
 .gold-text06 {
@@ -174,18 +174,24 @@
   font-weight: 500;
   margin-bottom: 8%;
 }
+.gold-container1 {
+  width: 100%;
+  height: 161px;
+  display: flex;
+  align-items: flex-start;
+  background-image: linear-gradient(180deg, rgb(100, 149, 235) 0.00%,rgba(31, 62, 95, 0.92) 100.00%);
+}
 .gold-pricing {
   width: 100%;
   height: 500px;
   display: flex;
-  margin-top: 2%;
   align-items: flex-end;
-  border-color: #1f3e5f;
+  border-color: #ffffff;
   border-style: double;
   border-width: 10px;
   padding-bottom: 1%;
   justify-content: flex-start;
-  background-image: linear-gradient(0deg,#C3AC3A 0.00%,rgb(122, 167, 239) 100.00%);
+  background-color: #1f3e5f;
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -195,7 +201,7 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.gold-container1 {
+.gold-container2 {
   top: auto;
   width: 100%;
   height: 100%;
@@ -232,15 +238,15 @@
 }
 .gold-pricing1 {
   width: 100%;
-  height: 765px;
+  height: 578px;
   display: flex;
   align-items: flex-end;
-  border-color: #1f3e5f;
+  border-color: #ffffff;
   border-style: double;
-  border-width: 20px;
+  border-width: 1px;
   padding-left: 3%;
   justify-content: flex-start;
-  background-color: #C3AC3A;
+  background-color: #6778e9;
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -260,15 +266,15 @@
   border-width: 3px;
   margin-right: 2%;
   border-radius: 20%;
-  margin-bottom: 7%;
+  margin-bottom: 2%;
 }
 .gold-image1:hover {
   transform: scale(1.05);
 }
-.gold-container2 {
+.gold-container3 {
   top: auto;
   width: 70%;
-  height: 100%;
+  height: 500px;
   align-self: flex-end;
   padding-top: 4%;
   padding-left: 2%;
@@ -294,12 +300,11 @@
   height: 500px;
   display: flex;
   align-items: flex-end;
-  margin-bottom: 15%;
   padding-bottom: 1%;
   justify-content: flex-start;
-  background-image: linear-gradient(180deg,#C3AC3A   0.00%,rgb(122, 167, 239) 100.00%);
+  background-color: #6053a2;
 }
-.gold-container3 {
+.gold-container4 {
   top: auto;
   width: 70%;
   height: 100%;
@@ -337,7 +342,14 @@
 .gold-image2:hover {
   transform: scale(1.05);
 }
-.gold-container4 {
+.gold-container5 {
+  width: 100%;
+  height: 161px;
+  display: flex;
+  align-items: flex-start;
+  background-image: linear-gradient(0deg,rgb(100, 149, 235),#6053a2 100.00%);
+}
+.gold-container6 {
   width: 100%;
   height: 150px;
   display: flex;
@@ -422,7 +434,7 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.gold-container5 {
+.gold-container7 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -916,7 +928,7 @@
     border-style: groove;
     flex-direction: column;
   }
-  .gold-container1 {
+  .gold-container2 {
     align-items: center;
     margin-bottom: 5%;
     flex-direction: column;
@@ -947,7 +959,7 @@
     margin-top: 37%;
     margin-bottom: 30%;
   }
-  .gold-container2 {
+  .gold-container3 {
     width: 100%;
     height: auto;
     margin-top: 0%;
@@ -968,7 +980,7 @@
   .gold-pricing2 {
     flex-direction: column;
   }
-  .gold-container3 {
+  .gold-container4 {
     width: 100%;
     align-items: center;
     flex-direction: column;
@@ -986,7 +998,7 @@
     align-self: center;
     margin-top: 5%;
   }
-  .gold-container4 {
+  .gold-container6 {
     flex-direction: column-reverse;
   }
   .gold-navlink03 {
@@ -1013,7 +1025,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .gold-container5 {
+  .gold-container7 {
     align-items: center;
     flex-direction: column;
   }
