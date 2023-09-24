@@ -81,6 +81,7 @@
   flex-direction: column;
 }
 .home-text {
+  color: #ffffff;
   text-decoration: none;
 }
 .home-header {
@@ -89,21 +90,28 @@
   justify-content: space-between;
 }
 .home-text001 {
+  color: #ffffff;
   width: 100%;
   font-size: 20px;
   max-width: 760px;
   font-style: normal;
   font-weight: 500;
 }
+.home-icon {
+  fill: var(--dl-color-gray-white);
+}
 .home-navlink {
+  color: #ffffff;
   margin-bottom: 10px;
   text-decoration: none;
 }
 .home-navlink01 {
+  color: #ffffff;
   margin-bottom: 10px;
   text-decoration: none;
 }
 .home-navlink02 {
+  color: #ffffff;
   text-decoration: none;
 }
 .home-accordion-code {
@@ -529,12 +537,19 @@
   display: flex;
   align-items: center;
   padding-top: 91px;
+  border-color: #ffffff;
+  border-style: double;
+  border-width: 1px;
   padding-left: 5%;
   padding-right: 0px;
   flex-direction: column;
   padding-bottom: 127px;
   justify-content: center;
-  background-color: rgba(57, 91, 129, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-top-width: 15px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 15px;
 }
 .home-quote {
   width: 100%;
@@ -2228,7 +2243,10 @@
     margin-bottom: 10%;
   }
   .home-container03 {
-    width: 85%;
+    width: 287px;
+  }
+  .home-text011 {
+    font-size: 25px;
   }
   .home-stats {
     align-items: center;

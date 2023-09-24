@@ -200,32 +200,32 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.page404-text17 {
+.page404-link {
   color: rgb(196, 196, 196);
   font-size: 14px;
+  text-decoration: none;
 }
-.page404-text18 {
+.page404-link1 {
   color: rgb(196, 196, 196);
   font-size: 14px;
+  text-decoration: none;
 }
-.page404-text19 {
+.page404-link2 {
   color: rgb(196, 196, 196);
   font-size: 14px;
+  text-decoration: none;
 }
-.page404-text20 {
+.page404-link3 {
   color: rgb(196, 196, 196);
   font-size: 14px;
-}
-.page404-text21 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
+  text-decoration: none;
 }
 .page404-category3 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.page404-text22 {
+.page404-text17 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -315,7 +315,7 @@
   height: 131px;
   margin-bottom: 0px;
 }
-.page404-text23 {
+.page404-text18 {
   color: rgb(104, 104, 104);
   font-size: 14px;
   line-height: 30px;
@@ -354,7 +354,7 @@
     width: 20%;
     margin-bottom: 2%;
   }
-  .page404-text23 {
+  .page404-text18 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -393,7 +393,7 @@
   .page404-right {
     height: 732px;
   }
-  .page404-text17 {
+  .page404-link {
     color: rgb(196, 196, 196);
     font-size: 14px;
   }

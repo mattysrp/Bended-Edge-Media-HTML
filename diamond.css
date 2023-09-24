@@ -99,14 +99,6 @@
   margin-left: 33px;
   flex-direction: row;
 }
-.diamond-text03 {
-  color: #ffffff;
-  text-decoration: none;
-}
-.diamond-link {
-  color: #ffffff;
-  text-decoration: none;
-}
 .diamond-navlink01 {
   color: #ffffff;
   text-decoration: none;
@@ -124,7 +116,7 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.diamond-link1 {
+.diamond-link {
   display: contents;
 }
 .diamond-get-started {
@@ -144,7 +136,7 @@
 .diamond-get-started:hover {
   background-color: #7AA7EF;
 }
-.diamond-text04 {
+.diamond-text03 {
   color: #ffffff;
   font-style: normal;
   font-weight: 600;
@@ -162,13 +154,13 @@
 .diamond-menu-code {
   display: contents;
 }
-.diamond-text05 {
+.diamond-text04 {
   color: white;
   font-size: 70px;
   margin-top: 15%;
   margin-bottom: 2%;
 }
-.diamond-text06 {
+.diamond-text05 {
   color: var(--dl-color-gray-white);
   font-style: normal;
   font-weight: 500;
@@ -197,7 +189,7 @@
   padding: 2%;
   align-self: flex-end;
 }
-.diamond-text07 {
+.diamond-text06 {
   top: auto;
   color: rgb(255, 255, 255);
   width: 100%;
@@ -205,7 +197,7 @@
   align-self: flex-start;
   margin-bottom: 7%;
 }
-.diamond-text08 {
+.diamond-text07 {
   color: #ffffff;
   width: 100%;
   font-size: 20px;
@@ -234,7 +226,7 @@
   border-style: double;
   border-width: 1px;
   justify-content: flex-start;
-  background-color: #C0392B;
+  background-color: #1c7b6f;
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -264,7 +256,7 @@
   padding-right: 2%;
   padding-bottom: 2%;
 }
-.diamond-text16 {
+.diamond-text15 {
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
@@ -272,7 +264,19 @@
   align-self: center;
   margin-bottom: 5%;
 }
-.diamond-text17 {
+.diamond-text16 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.diamond-text18 {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.diamond-text21 {
   color: #ffffff;
   font-size: 20px;
   font-style: normal;
@@ -304,7 +308,7 @@
   padding-right: 2%;
   padding-bottom: 2%;
 }
-.diamond-text22 {
+.diamond-text24 {
   top: auto;
   color: rgb(255, 255, 255);
   width: 100%;
@@ -312,7 +316,7 @@
   align-self: flex-start;
   margin-bottom: 7%;
 }
-.diamond-text23 {
+.diamond-text25 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 20px;
@@ -377,7 +381,7 @@
   padding-right: 2%;
   padding-bottom: 2%;
 }
-.diamond-text28 {
+.diamond-text30 {
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
@@ -385,7 +389,7 @@
   align-self: center;
   margin-bottom: 5%;
 }
-.diamond-text29 {
+.diamond-text31 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -414,14 +418,14 @@
   background-color: #000000;
 }
 .diamond-navlink03:hover {
-  background-color: #6495eb;
+  background-color: #395b81;
 }
 .diamond-icon2 {
   width: 24px;
   height: 24px;
   margin-right: 2%;
 }
-.diamond-text40 {
+.diamond-text42 {
   font-size: 12px;
   padding-bottom: 1%;
 }
@@ -440,13 +444,13 @@
   background-image: url('https://images.unsplash.com/photo-1485628390555-1a7bd503f9fe?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxhcmNoaXRlY3R1cmUlMjBtaW5pbWFsfGVufDB8fHx8MTYyNjE4NDA0Mg&ixlib=rb-1.2.1&w=1500');
   background-position: center;
 }
-.diamond-text41 {
+.diamond-text43 {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   text-align: center;
   margin-bottom: 1%;
 }
-.diamond-text42 {
+.diamond-text44 {
   color: var(--dl-color-gray-white);
   max-width: var(--dl-size-size-maxwidth);
   text-align: center;
@@ -534,17 +538,9 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.diamond-text43 {
-  color: rgb(196, 196, 196);
-  cursor: pointer;
-  font-size: 14px;
-}
-.diamond-text44 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .diamond-text45 {
   color: rgb(196, 196, 196);
+  cursor: pointer;
   font-size: 14px;
 }
 .diamond-text46 {
@@ -555,13 +551,21 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
+.diamond-text48 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text49 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
 .diamond-category1 {
   width: 240px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.diamond-text48 {
+.diamond-text50 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -579,14 +583,6 @@
   font-size: 14px;
   text-decoration: none;
 }
-.diamond-text49 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text50 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
 .diamond-text51 {
   color: rgb(196, 196, 196);
   font-size: 14px;
@@ -599,12 +595,20 @@
   color: rgb(196, 196, 196);
   font-size: 14px;
 }
+.diamond-text54 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
+.diamond-text55 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+}
 .diamond-category2 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.diamond-text54 {
+.diamond-text56 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -617,33 +621,32 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.diamond-text55 {
+.diamond-link1 {
   color: rgb(196, 196, 196);
   font-size: 14px;
-}
-.diamond-text56 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.diamond-text57 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
+  text-decoration: none;
 }
 .diamond-link2 {
   color: rgb(196, 196, 196);
   font-size: 14px;
   text-decoration: none;
 }
-.diamond-text58 {
+.diamond-link3 {
   color: rgb(196, 196, 196);
   font-size: 14px;
+  text-decoration: none;
+}
+.diamond-link4 {
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+  text-decoration: none;
 }
 .diamond-category3 {
   width: 240px;
   display: flex;
   flex-direction: column;
 }
-.diamond-text59 {
+.diamond-text57 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -734,13 +737,13 @@
   height: 131px;
   margin-bottom: 0px;
 }
-.diamond-text60 {
+.diamond-text58 {
   color: rgb(104, 104, 104);
   font-size: 14px;
   line-height: 30px;
 }
 @media(max-width: 1200px) {
-  .diamond-text05 {
+  .diamond-text04 {
     margin-top: 25%;
   }
   .diamond-image {
@@ -757,7 +760,7 @@
     height: 80%;
     margin-top: 9%;
   }
-  .diamond-text28 {
+  .diamond-text30 {
     color: rgb(255, 255, 255);
     font-size: 70px;
   }
@@ -799,11 +802,11 @@
   .diamond-mobile-menu-button {
     display: flex;
   }
-  .diamond-text07 {
+  .diamond-text06 {
     color: rgb(255, 255, 255);
     font-size: 200%;
   }
-  .diamond-text08 {
+  .diamond-text07 {
     color: rgb(255, 255, 255);
     font-size: 100%;
     font-weight: 500;
@@ -816,21 +819,21 @@
     height: 60%;
     margin-bottom: 23%;
   }
-  .diamond-text16 {
+  .diamond-text15 {
     color: rgb(255, 255, 255);
     font-size: 200%;
   }
-  .diamond-text17 {
+  .diamond-text16 {
     color: rgb(255, 255, 255);
     font-size: 100%;
     font-style: normal;
     font-weight: 500;
   }
-  .diamond-text22 {
+  .diamond-text24 {
     color: rgb(255, 255, 255);
     font-size: 200%;
   }
-  .diamond-text23 {
+  .diamond-text25 {
     color: rgb(255, 255, 255);
     font-size: 100%;
     font-weight: 500;
@@ -847,11 +850,11 @@
     height: 60%;
     margin-bottom: 23%;
   }
-  .diamond-text28 {
+  .diamond-text30 {
     color: rgb(255, 255, 255);
     font-size: 200%;
   }
-  .diamond-text29 {
+  .diamond-text31 {
     color: rgb(255, 255, 255);
     font-size: 100%;
     font-style: normal;
@@ -863,7 +866,7 @@
   .diamond-navlink03 {
     width: 30%;
   }
-  .diamond-text42 {
+  .diamond-text44 {
     width: 100%;
   }
   .diamond-textinput {
@@ -904,7 +907,7 @@
     width: 20%;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .diamond-text60 {
+  .diamond-text58 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -928,10 +931,10 @@
   .diamond-get-started {
     display: none;
   }
-  .diamond-text07 {
+  .diamond-text06 {
     font-size: 170%;
   }
-  .diamond-text08 {
+  .diamond-text07 {
     font-size: 100%;
   }
   .diamond-image {
@@ -940,20 +943,20 @@
   .diamond-image1 {
     height: 50%;
   }
-  .diamond-text16 {
+  .diamond-text15 {
     color: rgb(255, 255, 255);
     font-size: 150%;
   }
-  .diamond-text17 {
+  .diamond-text16 {
     color: rgb(255, 255, 255);
     font-size: 100%;
     font-style: normal;
     font-weight: 500;
   }
-  .diamond-text22 {
+  .diamond-text24 {
     font-size: 170%;
   }
-  .diamond-text23 {
+  .diamond-text25 {
     font-size: 100%;
   }
   .diamond-image2 {
@@ -964,11 +967,11 @@
     margin-top: 9%;
     margin-bottom: 25%;
   }
-  .diamond-text28 {
+  .diamond-text30 {
     color: rgb(255, 255, 255);
     font-size: 150%;
   }
-  .diamond-text29 {
+  .diamond-text31 {
     color: rgb(255, 255, 255);
     font-size: 100%;
     font-style: normal;
@@ -984,7 +987,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .diamond-text42 {
+  .diamond-text44 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -1032,14 +1035,18 @@
     padding-left: 0%;
     padding-right: 0%;
   }
-  .diamond-text05 {
+  .diamond-text04 {
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 35%;
     margin-bottom: 5%;
   }
-  .diamond-text06 {
+  .diamond-text05 {
+    color: var(--dl-color-gray-white);
     width: 70%;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
     padding-left: 2%;
     margin-bottom: 35%;
   }
@@ -1051,11 +1058,11 @@
     align-items: center;
     flex-direction: column;
   }
-  .diamond-text07 {
+  .diamond-text06 {
     color: rgb(255, 255, 255);
     font-size: 150%;
   }
-  .diamond-text08 {
+  .diamond-text07 {
     color: rgb(255, 255, 255);
     font-size: 12px;
     font-weight: 500;
@@ -1084,11 +1091,11 @@
     margin-bottom: 5%;
     flex-direction: column;
   }
-  .diamond-text16 {
+  .diamond-text15 {
     color: rgb(255, 255, 255);
     font-size: 150%;
   }
-  .diamond-text17 {
+  .diamond-text16 {
     color: rgb(255, 255, 255);
     font-size: 12px;
     font-style: normal;
@@ -1102,10 +1109,10 @@
     align-items: center;
     flex-direction: column;
   }
-  .diamond-text22 {
+  .diamond-text24 {
     font-size: 150%;
   }
-  .diamond-text23 {
+  .diamond-text25 {
     color: rgb(255, 255, 255);
     font-size: 12px;
     font-weight: 500;
@@ -1133,11 +1140,11 @@
     margin-bottom: 5%;
     flex-direction: column;
   }
-  .diamond-text28 {
+  .diamond-text30 {
     color: rgb(255, 255, 255);
     font-size: 150%;
   }
-  .diamond-text29 {
+  .diamond-text31 {
     color: rgb(255, 255, 255);
     font-size: 12px;
     font-style: normal;
@@ -1153,7 +1160,7 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .diamond-text40 {
+  .diamond-text42 {
     font-size: 12px;
   }
   .diamond-banner {
@@ -1162,7 +1169,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .diamond-text41 {
+  .diamond-text43 {
     color: var(--dl-color-gray-white);
     font-size: 35px;
   }
@@ -1186,7 +1193,7 @@
   .diamond-right1 {
     padding-left: 4%;
   }
-  .diamond-text55 {
+  .diamond-link1 {
     color: rgb(196, 196, 196);
     font-size: 14px;
   }
