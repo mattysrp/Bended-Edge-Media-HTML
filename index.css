@@ -323,8 +323,6 @@
   z-index: 1;
   position: relative;
   align-items: center;
-  padding-left: var(--dl-space-space-sevenunits);
-  padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
   justify-content: center;
   background-image: linear-gradient(180deg, rgb(189, 195, 199) 0.00%,rgb(100, 149, 235) 100.00%);
@@ -2192,15 +2190,10 @@
   }
   .home-features {
     height: fit-content;
-    padding: 10%;
     padding-top: 10%;
-    padding-left: 10%;
-    margin-bottom: 0%;
-    padding-right: 10%;
-    padding-bottom: 10%;
   }
   .home-container02 {
-    width: 479px;
+    width: 80%;
     flex-direction: column-reverse;
   }
   .home-image1 {
@@ -2208,7 +2201,7 @@
     height: 100%;
     z-index: 0;
     align-self: center;
-    margin-top: 15%;
+    margin-top: 101px;
     margin-right: 0px;
     margin-bottom: 15%;
   }
