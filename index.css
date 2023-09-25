@@ -323,7 +323,6 @@
   z-index: 1;
   position: relative;
   align-items: center;
-  padding-top: 0px;
   padding-left: var(--dl-space-space-sevenunits);
   padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
@@ -2159,9 +2158,9 @@
   }
   .home-text003 {
     color: rgb(255, 255, 255);
-    width: fit-content;
+    width: 100%;
     height: fit-content;
-    font-size: 1.5rem;
+    font-size: 25px;
     font-style: normal;
     font-family: Inter;
     font-weight: 700;
@@ -2193,9 +2192,12 @@
   }
   .home-features {
     height: fit-content;
-    padding-top: 12px;
+    padding: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
     margin-bottom: 0%;
-    padding-bottom: 0px;
+    padding-right: 10%;
+    padding-bottom: 10%;
   }
   .home-container02 {
     width: 479px;
@@ -2230,7 +2232,6 @@
   .home-text009 {
     color: rgb(238, 233, 254);
     width: 80%;
-    height: 100%;
     font-size: 13px;
     max-width: 80%;
     font-style: normal;
