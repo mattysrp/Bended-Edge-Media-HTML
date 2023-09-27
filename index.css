@@ -1750,7 +1750,10 @@
     justify-self: center;
   }
   .home-text019 {
+    padding: 10px;
+    margin-top: -8%;
     text-align: center;
+    margin-bottom: 2%;
   }
   .home-text020 {
     color: rgb(255, 255, 255);
@@ -1761,6 +1764,7 @@
     justify-self: center;
   }
   .home-text023 {
+    margin-top: 10%;
     text-align: center;
   }
   .home-text024 {
@@ -1788,9 +1792,10 @@
     padding-left: 5%;
   }
   .home-image7 {
-    width: 20%;
-    height: 90%;
+    width: 10%;
+    height: 80%;
     align-self: flex-start;
+    margin-right: 0px;
   }
   .home-integrations {
     height: fit-content;
