@@ -645,7 +645,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-container05 {
+.home-container04 {
   gap: var(--dl-space-space-twounits);
   width: fit-content;
   height: 294px;
@@ -787,7 +787,7 @@
   justify-content: center;
   background-position: center;
 }
-.home-container06 {
+.home-container05 {
   color: white;
   width: 100%;
   display: flex;
@@ -822,7 +822,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: uppercase;
 }
-.home-container07 {
+.home-container06 {
   display: none;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -844,7 +844,7 @@
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-container08 {
+.home-container07 {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-threeunits);
@@ -894,7 +894,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: uppercase;
 }
-.home-container09 {
+.home-container08 {
   display: none;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -916,7 +916,7 @@
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-container10 {
+.home-container09 {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-threeunits);
@@ -969,7 +969,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: uppercase;
 }
-.home-container11 {
+.home-container10 {
   display: none;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -991,7 +991,7 @@
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-container12 {
+.home-container11 {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-unit);
@@ -1042,7 +1042,7 @@
   object-fit: cover;
   border-radius: 30px;
 }
-.home-container13 {
+.home-container12 {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-twounits);
@@ -1618,7 +1618,7 @@
   .home-heading {
     margin-top: 35%;
   }
-  .home-container06 {
+  .home-container05 {
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -1627,7 +1627,7 @@
   .home-pricing-card {
     height: 550px;
   }
-  .home-container08 {
+  .home-container07 {
     align-self: flex-start;
   }
   .home-pricing-card2 {
@@ -1733,8 +1733,8 @@
     align-self: center;
     padding-top: var(--dl-space-space-sevenunits);
     justify-self: center;
-    padding-left: var(--dl-space-space-sevenunits);
-    padding-right: var(--dl-space-space-sevenunits);
+    padding-left: 15%;
+    padding-right: 15%;
     padding-bottom: var(--dl-space-space-sevenunits);
     background-image: linear-gradient(0deg,rgba(57, 91, 129, 0.6) 0.00%,rgb(100, 149, 235) 100.00%);
   }
@@ -1807,7 +1807,7 @@
   .home-pills-container {
     height: 591px;
   }
-  .home-container05 {
+  .home-container04 {
     width: 100%;
   }
   .home-text032 {
@@ -1841,7 +1841,7 @@
   .home-pricing1 {
     width: 125%;
   }
-  .home-container06 {
+  .home-container05 {
     width: 90%;
   }
   .home-pricing-card {
@@ -2086,7 +2086,7 @@
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
   }
-  .home-container06 {
+  .home-container05 {
     width: 100%;
     flex-flow: column;
     padding-left: var(--dl-space-space-twounits);
@@ -2327,7 +2327,7 @@
   .home-pills {
     margin-bottom: 68px;
   }
-  .home-container05 {
+  .home-container04 {
     height: fit-content;
   }
   .home-stats1 {
@@ -2357,13 +2357,13 @@
     width: fit-content;
     font-size: 12px;
   }
-  .home-container06 {
+  .home-container05 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-container08 {
+  .home-container07 {
     align-self: center;
   }
   .home-pricing-card1 {
@@ -2379,7 +2379,7 @@
   .home-blog-post-card {
     height: fit-content;
   }
-  .home-container13 {
+  .home-container12 {
     height: fit-content;
     margin-bottom: 0%;
   }
