@@ -275,8 +275,12 @@
   font-weight: 700;
   line-height: 40px;
 }
+.home-code-embed {
+  display: contents;
+}
 .home-image {
   width: 50%;
+  display: none;
   object-fit: cover;
   margin-bottom: 93px;
 }

@@ -232,6 +232,146 @@
                 maximize the potential of your social media
               </p>
             </header>
+            <div class="home-code-embed">
+              <div class="containerCircle">
+                <div class="skillCircle">
+                  <div class="outerCircle">
+                    <div class="innerCircle">
+                      <div id="numberCircle"></div>
+                    </div>
+                  </div>
+
+                  <svg
+                    class="svgCircle"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    width="160px"
+                    height="160px"
+                  >
+                    <defs>
+                      <linearGradient id="GradientColor">
+                        <stop offset="0%" stop-color="#e91e63"></stop>
+                        <stop offset="100%" stop-color="#673ab7"></stop>
+                      </linearGradient>
+                    </defs>
+                    <circle
+                      cx="80"
+                      cy="80"
+                      r="70"
+                      stroke-linecap="round"
+                    ></circle>
+                  </svg>
+                </div>
+                <div class="descriptionContainerCircle">
+                  Choose Better
+                  <br />
+                  Choose BendEdge
+                </div>
+              </div>
+
+              <script>
+                const number = document.getElementById('number');
+                let counter = 0;
+
+                setInterval(() => {
+                    if (counter == 75) {
+                        clearInterval();
+                    }else {
+                        counter += 1;
+                        number.innerHTML = counter + '%';
+                    }
+
+                }, 27)
+              </script>
+
+              <style>
+                .containerCircle {
+                    margin: 10px;
+                    box-sizing: border-box;
+                    font-family: 'Poppins', sans-serif;
+                    width: 320px;
+                    height: 560px;
+                    border-radius: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    background-color: #4c99ff;
+                    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+                }
+
+                .skillCircle {
+                    width: 160px;
+                    height: 160px;
+                    /* background: cornflowerblue; */
+                    position: relative;
+
+                }
+
+                .outerCircle {
+                    background: #e3edf7;
+                    height: 160px;
+                    width: 160px;
+                    border-radius: 50%;
+                    padding: 20px;
+                    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+                }
+
+                .innerCircle {
+
+                    height: 120px;
+                    width: 120px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+                }
+
+                #numberCircle {
+                    font-weight: 600;
+                    color: #555;
+                }
+
+                circle {
+
+                    fill: none;
+                    stroke: url(#GradientColor);
+                    stroke-width: 20px;
+                    stroke-dasharray: 472;
+                    stroke-dashoffset: 472;
+                    animation: anim 2s linear forwards;
+                }
+
+                .svgCircle {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                @keyframes anim {
+                    100% {
+                        stroke-dashoffset: 118;
+                    }
+                }
+
+                .descriptionContainerCircle {
+                    margin-top: 10%;
+                    font-size: large;
+                    font-weight: bold;
+                    display: flex;
+                    text-align: center;
+
+
+                }
+              </style>
+            </div>
             <img
               alt="image"
               src="https://themes.ainoblocks.io/solarone/wp-content/uploads/sites/4/2023/02/solarone-hero-01.png"
