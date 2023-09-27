@@ -240,6 +240,7 @@
   display: contents;
 }
 .home-header1 {
+  width: 90%;
   height: fit-content;
   display: flex;
   align-self: center;
@@ -250,7 +251,7 @@
   margin-bottom: 188px;
 }
 .home-header2 {
-  width: 50%;
+  width: fit-content;
   height: 424px;
   display: flex;
   align-items: center;
