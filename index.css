@@ -1537,7 +1537,6 @@
   }
   .home-header1 {
     width: 100%;
-    margin-bottom: 0px;
   }
   .home-text003 {
     font-size: 30px;
@@ -1554,7 +1553,6 @@
   }
   .home-code-embed {
     width: 40%;
-    padding-right: 10px;
   }
   .home-features {
     height: 989px;
@@ -1729,14 +1727,13 @@
   }
   .home-stats {
     width: 100%;
-    padding: var(--dl-space-space-sevenunits);
     align-self: center;
-    padding-top: var(--dl-space-space-sevenunits);
     justify-self: center;
     padding-left: 15%;
     padding-right: 15%;
-    padding-bottom: var(--dl-space-space-sevenunits);
-    background-image: linear-gradient(0deg,rgba(57, 91, 129, 0.6) 0.00%,rgb(100, 149, 235) 100.00%);
+  }
+  .home-image2 {
+    height: 131px;
   }
   .home-text013 {
     text-align: center;
@@ -1749,11 +1746,13 @@
     align-self: center;
     justify-self: center;
   }
+  .home-image4 {
+    width: 247px;
+    height: 177px;
+  }
   .home-text019 {
-    padding: 10px;
     margin-top: -8%;
     text-align: center;
-    margin-bottom: 2%;
   }
   .home-text020 {
     color: rgb(255, 255, 255);
@@ -1763,8 +1762,11 @@
     align-self: center;
     justify-self: center;
   }
+  .home-image6 {
+    width: 176px;
+    height: 173px;
+  }
   .home-text023 {
-    margin-top: 10%;
     text-align: center;
   }
   .home-text024 {
@@ -1795,7 +1797,6 @@
     width: 10%;
     height: 80%;
     align-self: flex-start;
-    margin-right: 0px;
   }
   .home-integrations {
     height: fit-content;
@@ -1827,11 +1828,6 @@
   .home-text043 {
     text-align: center;
   }
-  .home-pricing {
-    height: 2000px;
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
-  }
   .home-heading {
     margin-top: 244px;
   }
@@ -1851,21 +1847,32 @@
   }
   .home-pricing-card {
     width: 100%;
-    height: 500px;
+    height: 400px;
     padding: var(--dl-space-space-twounits);
     max-width: 100%;
+    min-height: 1px;
     align-items: center;
   }
   .home-pricing-card1 {
     width: 100%;
+    height: 450px;
     max-width: 100%;
     align-items: center;
   }
   .home-pricing-card2 {
     width: 100%;
-    height: 500px;
+    height: 400px;
     max-width: 100%;
+    min-height: 1px;
     align-items: center;
+  }
+  .home-text083 {
+    color: rgb(255, 255, 255);
+    font-size: 130%;
+    align-self: center;
+    text-align: center;
+    font-weight: 700;
+    line-height: 2;
   }
   .home-accordion {
     width: 100%;
@@ -1971,21 +1978,19 @@
     font-size: 120%;
   }
   .home-features {
-    height: 1883px;
-    padding-top: 350px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
+  .home-container02 {
+    flex-direction: column-reverse;
+  }
   .home-image1 {
-    top: -154px;
     left: -22px;
     width: 767px;
     height: 595px;
-    margin-top: -200;
-    margin-bottom: 4%;
   }
   .home-header3 {
-    height: 641px;
+    height: 287px;
     margin-top: var(--dl-space-space-fourunits);
     justify-content: center;
   }
@@ -1998,7 +2003,7 @@
   }
   .home-text007 {
     color: rgb(238, 233, 254);
-    height: 704px;
+    height: 91px;
     font-size: 16px;
     margin-top: 0px;
     line-height: 24px;
@@ -2009,10 +2014,6 @@
     margin-top: 40%;
     font-weight: 700;
     line-height: 40px;
-  }
-  .home-stats {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
   }
   .home-stat {
     padding: var(--dl-space-space-unit);
@@ -2054,11 +2055,14 @@
     height: 1187px;
     padding-top: var(--dl-space-space-fourunits);
     padding-left: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: 0px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-fourunits);
   }
   .home-text031 {
     color: rgb(255, 255, 255);
+    width: 100%;
+    height: 39px;
     font-size: 32px;
     font-style: normal;
     margin-top: 0px;
@@ -2085,11 +2089,11 @@
   .home-text044 {
     text-align: center;
   }
-  .home-pricing {
-    width: 100%;
-    height: 2524px;
-    padding-left: var(--dl-space-space-fourunits);
-    padding-right: var(--dl-space-space-fourunits);
+  .home-text046 {
+    color: var(--dl-color-gray-white);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
   }
   .home-container05 {
     width: 100%;
@@ -2103,6 +2107,9 @@
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-container07 {
+    align-self: center;
   }
   .home-pricing-card1 {
     width: 100%;
