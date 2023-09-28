@@ -96,59 +96,61 @@
                     </a>
                   </div>
                 </div>
-                <div class="home-accordion-code">
-                  <script>
-                    // Accordion - Code Embed
+                <div>
+                  <div class="home-container02">
+                    <script>
+                      // Accordion - Code Embed
 
-                    const mobilePricings = document.querySelectorAll('.mobile-pricing'); // All accordion containers
-                    const mobileContents = document.querySelectorAll('.mobile-pricing-content'); // All accordion content
-                    const mobileIcons = document.querySelectorAll('.mobile-pricing-icon'); // All accordion icons
+                      const mobilePricings = document.querySelectorAll('.mobile-pricing'); // All accordion containers
+                      const mobileContents = document.querySelectorAll('.mobile-pricing-content'); // All accordion content
+                      const mobileIcons = document.querySelectorAll('.mobile-pricing-icon'); // All accordion icons
 
-                    mobileContents.forEach((accordionContent) => {
-                        accordionContent.style.display = 'none'; //Hides all accordion contents
-                    });
+                      mobileContents.forEach((accordionContent) => {
+                          accordionContent.style.display = 'none'; //Hides all accordion contents
+                      });
 
-                    mobilePricings.forEach((accordionContainer, index) => {
-                        accordionContainer.addEventListener('click', () => {
-                            mobileContents.forEach((accordionContent) => {
-                                accordionContent.style.display = 'none'; //Hides all accordion contents
-                            });
+                      mobilePricings.forEach((accordionContainer, index) => {
+                          accordionContainer.addEventListener('click', () => {
+                              mobileContents.forEach((accordionContent) => {
+                                  accordionContent.style.display = 'none'; //Hides all accordion contents
+                              });
 
-                            mobileIcons.forEach((accordionIcon) => {
-                                accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
-                            });
+                              mobileIcons.forEach((accordionIcon) => {
+                                  accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
+                              });
 
-                            if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
-                                accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
-                            } else {
-                                mobilePricings.forEach((accordionContainer) => {
-                                    accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
-                                });
+                              if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
+                                  accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
+                              } else {
+                                  mobilePricings.forEach((accordionContainer) => {
+                                      accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
+                                  });
 
-                                accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
-                                mobileContents[index].style.display = 'flex'; // Shows accordion content
-                                mobileIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
-                            }
-                        });
-                    });
+                                  accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
+                                  mobileContents[index].style.display = 'flex'; // Shows accordion content
+                                  mobileIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
+                              }
+                          });
+                      });
 
-                    /*
-                    Here's what the above is doing:
-                        1. Selects all accordion containers, contents, and icons
-                        2. Hides all accordion contents
-                        3. Adds an event listener to each accordion container
-                        4. When an accordion container is clicked, it:
-                            - Hides all accordion contents
-                            - Resets all icon transforms to 0deg (default)
-                            - Checks if this container has class 'accordion-open'
-                                - If it does, it removes class 'accordion-open'
-                                - If it doesn't, it:
-                                    - Removes class 'accordion-open' from all containers
-                                    - Adds class 'accordion-open' to this container
-                                    - Shows accordion content
-                                    - Rotates accordion icon 180deg
-                    */
-                  </script>
+                      /*
+                      Here's what the above is doing:
+                          1. Selects all accordion containers, contents, and icons
+                          2. Hides all accordion contents
+                          3. Adds an event listener to each accordion container
+                          4. When an accordion container is clicked, it:
+                              - Hides all accordion contents
+                              - Resets all icon transforms to 0deg (default)
+                              - Checks if this container has class 'accordion-open'
+                                  - If it does, it removes class 'accordion-open'
+                                  - If it doesn't, it:
+                                      - Removes class 'accordion-open' from all containers
+                                      - Adds class 'accordion-open' to this container
+                                      - Shows accordion content
+                                      - Rotates accordion icon 180deg
+                      */
+                    </script>
+                  </div>
                 </div>
               </div>
               <div id="close-mobile-menu" class="home-close-mobile-menu">
@@ -199,29 +201,31 @@
                 </div>
               </nav>
             </div>
-            <div class="home-menu-code">
-              <script>
-                /*
-                Mobile menu - Code Embed
-                */
+            <div>
+              <div class="home-container04">
+                <script>
+                  /*
+                  Mobile menu - Code Embed
+                  */
 
-                // Mobile menu
-                const mobileMenu = document.querySelector('#mobile-menu')
+                  // Mobile menu
+                  const mobileMenu = document.querySelector('#mobile-menu')
 
-                // Buttons
-                const closeButton = document.querySelector('#close-mobile-menu')
-                const openButton = document.querySelector('#open-mobile-menu')
+                  // Buttons
+                  const closeButton = document.querySelector('#close-mobile-menu')
+                  const openButton = document.querySelector('#open-mobile-menu')
 
-                // On openButton click, set the mobileMenu position left to -100vw
-                openButton.addEventListener('click', function() {
-                    mobileMenu.style.transform = 'translateX(0%)'
-                })
+                  // On openButton click, set the mobileMenu position left to -100vw
+                  openButton.addEventListener('click', function() {
+                      mobileMenu.style.transform = 'translateX(0%)'
+                  })
 
-                // On closeButton click, set the mobileMenu position to 0vw
-                closeButton.addEventListener('click', function() {
-                    mobileMenu.style.transform = 'translateX(100%)'
-                })
-              </script>
+                  // On closeButton click, set the mobileMenu position to 0vw
+                  closeButton.addEventListener('click', function() {
+                      mobileMenu.style.transform = 'translateX(100%)'
+                  })
+                </script>
+              </div>
             </div>
           </div>
           <header class="home-header1">
@@ -232,146 +236,148 @@
                 maximize the potential of your social media
               </p>
             </header>
-            <div class="home-code-embed">
-              <div class="containerCircle">
-                <div class="skillCircle">
-                  <div class="outerCircle">
-                    <div class="innerCircle">
-                      <div id="numberCircle"></div>
+            <div class="home-container05">
+              <div class="home-container06">
+                <div class="containerCircle">
+                  <div class="skillCircle">
+                    <div class="outerCircle">
+                      <div class="innerCircle">
+                        <div id="numberCircle"></div>
+                      </div>
                     </div>
+
+                    <svg
+                      class="svgCircle"
+                      xmlns="http://www.w3.org/2000/svg"
+                      version="1.1"
+                      width="160px"
+                      height="160px"
+                    >
+                      <defs>
+                        <linearGradient id="GradientColor">
+                          <stop offset="0%" stop-color="#e91e63"></stop>
+                          <stop offset="100%" stop-color="#673ab7"></stop>
+                        </linearGradient>
+                      </defs>
+                      <circle
+                        cx="80"
+                        cy="80"
+                        r="70"
+                        stroke-linecap="round"
+                      ></circle>
+                    </svg>
                   </div>
+                  <div class="descriptionContainerCircle">
+                    Choose Better
+                    <br />
+                    Choose BendEdge
+                  </div>
+                </div>
 
-                  <svg
-                    class="svgCircle"
-                    xmlns="http://www.w3.org/2000/svg"
-                    version="1.1"
-                    width="160px"
-                    height="160px"
-                  >
-                    <defs>
-                      <linearGradient id="GradientColor">
-                        <stop offset="0%" stop-color="#e91e63"></stop>
-                        <stop offset="100%" stop-color="#673ab7"></stop>
-                      </linearGradient>
-                    </defs>
-                    <circle
-                      cx="80"
-                      cy="80"
-                      r="70"
-                      stroke-linecap="round"
-                    ></circle>
-                  </svg>
-                </div>
-                <div class="descriptionContainerCircle">
-                  Choose Better
-                  <br />
-                  Choose BendEdge
-                </div>
+                <script>
+                  const number = document.getElementById('numberCircle');
+                  let counter = 0;
+
+                  setInterval(() => {
+                      if (counter == 75) {
+                          clearInterval();
+                      }else {
+                          counter += 1;
+                          number.innerHTML = counter + '%';
+                      }
+
+                  }, 27)
+                </script>
+
+                <style>
+                  .containerCircle {
+                      margin: 10px;
+                      box-sizing: border-box;
+                      font-family: 'Poppins', sans-serif;
+                      width: 300px;
+                      height: 500px;
+                      border-radius: 40px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      flex-direction: column;
+                      background-color: rgb(57, 91, 129);
+                      color: white;
+                      box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                                  -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+                  }
+
+                  .skillCircle {
+                      width: 160px;
+                      height: 160px;
+                      /* background: cornflowerblue; */
+                      position: relative;
+
+                  }
+
+                  .outerCircle {
+                      background: #e3edf7;
+                      height: 160px;
+                      width: 160px;
+                      border-radius: 50%;
+                      padding: 20px;
+                      box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                                  -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+                  }
+
+                  .innerCircle {
+
+                      height: 120px;
+                      width: 120px;
+                      border-radius: 50%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                                  inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                                  -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                                  0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                                  0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+                  }
+
+                  #numberCircle {
+                      font-weight: 600;
+                      color: #555;
+                  }
+
+                  circle {
+
+                      fill: none;
+                      stroke: url(#GradientColor);
+                      stroke-width: 20px;
+                      stroke-dasharray: 472;
+                      stroke-dashoffset: 472;
+                      animation: anim 2s linear forwards;
+                  }
+
+                  .svgCircle {
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                  }
+
+                  @keyframes anim {
+                      100% {
+                          stroke-dashoffset: 118;
+                      }
+                  }
+
+                  .descriptionContainerCircle {
+                      margin-top: 10%;
+                      font-size: large;
+                      font-weight: bold;
+                      display: flex;
+                      text-align: center;
+
+
+                  }
+                </style>
               </div>
-
-              <script>
-                const number = document.getElementById('numberCircle');
-                let counter = 0;
-
-                setInterval(() => {
-                    if (counter == 75) {
-                        clearInterval();
-                    }else {
-                        counter += 1;
-                        number.innerHTML = counter + '%';
-                    }
-
-                }, 27)
-              </script>
-
-              <style>
-                .containerCircle {
-                    margin: 10px;
-                    box-sizing: border-box;
-                    font-family: 'Poppins', sans-serif;
-                    width: 90%;
-                    height: 500px;
-                    border-radius: 40px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    background-color: rgb(57, 91, 129);
-                    color: white;
-                    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-                                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-                }
-
-                .skillCircle {
-                    width: 160px;
-                    height: 160px;
-                    /* background: cornflowerblue; */
-                    position: relative;
-
-                }
-
-                .outerCircle {
-                    background: #e3edf7;
-                    height: 160px;
-                    width: 160px;
-                    border-radius: 50%;
-                    padding: 20px;
-                    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-                                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-                }
-
-                .innerCircle {
-
-                    height: 120px;
-                    width: 120px;
-                    border-radius: 50%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-                                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-                                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-                                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
-                                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
-                }
-
-                #numberCircle {
-                    font-weight: 600;
-                    color: #555;
-                }
-
-                circle {
-
-                    fill: none;
-                    stroke: url(#GradientColor);
-                    stroke-width: 20px;
-                    stroke-dasharray: 472;
-                    stroke-dashoffset: 472;
-                    animation: anim 2s linear forwards;
-                }
-
-                .svgCircle {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                }
-
-                @keyframes anim {
-                    100% {
-                        stroke-dashoffset: 118;
-                    }
-                }
-
-                .descriptionContainerCircle {
-                    margin-top: 10%;
-                    font-size: large;
-                    font-weight: bold;
-                    display: flex;
-                    text-align: center;
-
-
-                }
-              </style>
             </div>
             <img
               alt="image"
@@ -380,7 +386,7 @@
             />
           </header>
         </section>
-        <div class="home-container01">
+        <div class="home-container07">
           <a href="#prc">
             <div class="home-get-started1 template-button">
               <span class="home-text005">Get started</span>
@@ -388,7 +394,7 @@
           </a>
         </div>
         <section id="getstar" class="home-features">
-          <div class="home-container02">
+          <div class="home-container08">
             <img alt="image" src="public/nero-1200w.png" class="home-image1" />
             <header class="home-header3">
               <h1 class="home-text006">We are Bended Edge</h1>
@@ -404,7 +410,7 @@
           </div>
           <span class="home-text011">Grow with us&nbsp;</span>
         </section>
-        <div class="home-container03 card">
+        <div class="home-container09 card">
           <h1 id="ap" class="home-text012">Our approach</h1>
         </div>
         <div id="approach" class="home-stats">
@@ -489,7 +495,7 @@
           <div class="home-centered-container">
             <div class="home-pills-container">
               <div class="home-pills">
-                <div class="home-container04">
+                <div class="home-container10">
                   <div class="you-tube-you-tube">
                     <img
                       alt="pastedImage"
@@ -577,10 +583,10 @@
             </span>
           </div>
           <div class="home-pricing1">
-            <div id="prices" class="home-container05">
+            <div id="prices" class="home-container11">
               <div class="home-pricing-card">
                 <span class="home-text051">SILVER</span>
-                <div class="home-container06">
+                <div class="home-container12">
                   <span class="home-text052">
                     <span>$</span>
                     <span></span>
@@ -588,7 +594,7 @@
                   <span class="home-text055">699</span>
                   <span class="home-text056"><span>/ monthly</span></span>
                 </div>
-                <div class="home-container07">
+                <div class="home-container13">
                   <span class="home-text058">✔ Social Media Ads</span>
                   <span class="home-text059">✔ Content Creation Service</span>
                 </div>
@@ -598,7 +604,7 @@
               </div>
               <div class="home-pricing-card1">
                 <span class="home-text060">GOLD</span>
-                <div class="home-container08">
+                <div class="home-container14">
                   <span class="home-text061">
                     <span>$</span>
                     <span></span>
@@ -606,7 +612,7 @@
                   <span class="home-text064">999</span>
                   <span class="home-text065"><span>/ monthly</span></span>
                 </div>
-                <div class="home-container09">
+                <div class="home-container15">
                   <span class="home-text067">✔ Search Engine Optimization</span>
                   <span class="home-text068">
                     ✔ Social Media Managing &amp; Ads
@@ -617,7 +623,7 @@
               </div>
               <div class="home-pricing-card2">
                 <span class="home-text070">DIAMOND</span>
-                <div class="home-container10">
+                <div class="home-container16">
                   <span class="home-text071">
                     <span>$</span>
                     <span></span>
@@ -625,7 +631,7 @@
                   <span class="home-text074">1799</span>
                   <span class="home-text075"><span>/ monthly</span></span>
                 </div>
-                <div class="home-container11">
+                <div class="home-container17">
                   <span class="home-text077">✔ Search Engine Optimization</span>
                   <span class="home-text078">
                     ✔ Social Media Managing &amp; Ads
@@ -648,7 +654,7 @@
             src="https://www.staynerd.com/wp-content/uploads/Bad-Boys-fo-Life.jpg"
             class="home-image8"
           />
-          <div class="home-container12">
+          <div class="home-container18">
             <span class="home-text081">Innovation and progress</span>
             <span class="home-text082">Here is how we work</span>
             <div class="home-separator"></div>
@@ -790,60 +796,62 @@
                 </span>
               </div>
             </div>
-            <div class="home-accordion-code2">
-              <script>
-                // Accordion - Code Embed
+            <div>
+              <div class="home-container20">
+                <script>
+                  // Accordion - Code Embed
 
-                const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
-                const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
-                const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
+                  const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
+                  const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
+                  const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
 
-                accordionContents.forEach((accordionContent) => {
-                    accordionContent.style.display = 'none'; //Hides all accordion contents
-                });
+                  accordionContents.forEach((accordionContent) => {
+                      accordionContent.style.display = 'none'; //Hides all accordion contents
+                  });
 
 
-                accordionContainers.forEach((accordionContainer, index) => {
-                    accordionContainer.addEventListener('click', () => {
-                        accordionContents.forEach((accordionContent) => {
-                            accordionContent.style.display = 'none'; //Hides all accordion contents
-                        });
+                  accordionContainers.forEach((accordionContainer, index) => {
+                      accordionContainer.addEventListener('click', () => {
+                          accordionContents.forEach((accordionContent) => {
+                              accordionContent.style.display = 'none'; //Hides all accordion contents
+                          });
 
-                        accordionIcons.forEach((accordionIcon) => {
-                            accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
-                        });
+                          accordionIcons.forEach((accordionIcon) => {
+                              accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
+                          });
 
-                        if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
-                            accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
-                        } else {
-                            accordionContainers.forEach((accordionContainer) => {
-                                accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
-                            });
+                          if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
+                              accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
+                          } else {
+                              accordionContainers.forEach((accordionContainer) => {
+                                  accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
+                              });
 
-                            accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
-                            accordionContents[index].style.display = 'flex'; // Shows accordion content
-                            accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
-                        }
-                    });
-                });
+                              accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
+                              accordionContents[index].style.display = 'flex'; // Shows accordion content
+                              accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
+                          }
+                      });
+                  });
 
-                /*
-                Here's what the above is doing:
-                    1. Selects all accordion containers, contents, and icons
-                    2. Hides all accordion contents
-                    3. Adds an event listener to each accordion container
-                    4. When an accordion container is clicked, it:
-                        - Hides all accordion contents
-                        - Resets all icon transforms to 0deg (default)
-                        - Checks if this container has class 'accordion-open'
-                            - If it does, it removes class 'accordion-open'
-                            - If it doesn't, it:
-                                - Removes class 'accordion-open' from all containers
-                                - Adds class 'accordion-open' to this container
-                                - Shows accordion content
-                                - Rotates accordion icon 180deg
-                */
-              </script>
+                  /*
+                  Here's what the above is doing:
+                      1. Selects all accordion containers, contents, and icons
+                      2. Hides all accordion contents
+                      3. Adds an event listener to each accordion container
+                      4. When an accordion container is clicked, it:
+                          - Hides all accordion contents
+                          - Resets all icon transforms to 0deg (default)
+                          - Checks if this container has class 'accordion-open'
+                              - If it does, it removes class 'accordion-open'
+                              - If it doesn't, it:
+                                  - Removes class 'accordion-open' from all containers
+                                  - Adds class 'accordion-open' to this container
+                                  - Shows accordion content
+                                  - Rotates accordion icon 180deg
+                  */
+                </script>
+              </div>
             </div>
           </div>
         </section>

@@ -152,7 +152,7 @@
   height: 40px;
   display: none;
 }
-.gold-menu-code {
+.gold-container02 {
   display: contents;
 }
 .gold-text04 {
@@ -167,7 +167,7 @@
   font-weight: 500;
   margin-bottom: 3%;
 }
-.gold-container1 {
+.gold-container03 {
   width: 100%;
   height: 161px;
   display: flex;
@@ -193,7 +193,7 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.gold-container2 {
+.gold-container04 {
   top: auto;
   width: 100%;
   height: 100%;
@@ -263,7 +263,7 @@
 .gold-image1:hover {
   transform: scale(1.05);
 }
-.gold-container3 {
+.gold-container05 {
   top: auto;
   width: 70%;
   height: 500px;
@@ -302,7 +302,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.gold-container4 {
+.gold-container06 {
   top: auto;
   width: 70%;
   height: 100%;
@@ -340,13 +340,13 @@
 .gold-image2:hover {
   transform: scale(1.05);
 }
-.gold-container5 {
+.gold-container07 {
   width: 100%;
   height: 161px;
   display: flex;
   align-items: flex-start;
 }
-.gold-container6 {
+.gold-container08 {
   width: 100%;
   height: 150px;
   display: flex;
@@ -431,7 +431,7 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.gold-container7 {
+.gold-container09 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -932,7 +932,7 @@
     border-style: double;
     flex-direction: column;
   }
-  .gold-container2 {
+  .gold-container04 {
     align-items: center;
     margin-bottom: 5%;
     flex-direction: column;
@@ -964,7 +964,7 @@
     margin-top: 0%;
     margin-bottom: 35%;
   }
-  .gold-container3 {
+  .gold-container05 {
     width: 100%;
     height: auto;
     margin-top: 0%;
@@ -985,7 +985,7 @@
   .gold-pricing2 {
     flex-direction: column;
   }
-  .gold-container4 {
+  .gold-container06 {
     width: 100%;
     align-items: center;
     flex-direction: column;
@@ -1003,7 +1003,7 @@
     align-self: center;
     margin-top: 5%;
   }
-  .gold-container6 {
+  .gold-container08 {
     flex-direction: column-reverse;
   }
   .gold-navlink03 {
@@ -1030,7 +1030,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .gold-container7 {
+  .gold-container09 {
     align-items: center;
     flex-direction: column;
   }
