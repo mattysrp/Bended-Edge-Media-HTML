@@ -281,7 +281,6 @@
   width: 330px;
   height: 520px;
   position: relative;
-  margin-left: 8%;
 }
 .home-container06 {
   display: contents;
@@ -2205,7 +2204,8 @@
     line-height: 25px;
   }
   .home-container05 {
-    width: 80%;
+    width: 330px;
+    margin-left: 0px;
   }
   .home-container07 {
     display: none;
