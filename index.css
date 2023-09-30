@@ -286,12 +286,6 @@
 .home-container06 {
   display: contents;
 }
-.home-image {
-  width: 50%;
-  display: none;
-  object-fit: cover;
-  margin-bottom: 93px;
-}
 .home-container07 {
   flex: 0 0 auto;
   width: auto;
@@ -345,7 +339,7 @@
   margin-bottom: 150px;
   justify-content: center;
 }
-.home-image1 {
+.home-image {
   width: 589px;
   height: 547px;
   z-index: 100;
@@ -436,7 +430,7 @@
   align-items: center;
   flex-direction: column;
 }
-.home-image2 {
+.home-image1 {
   width: 188px;
   height: 166px;
   object-fit: cover;
@@ -455,7 +449,7 @@
   margin-top: var(--dl-space-space-oneandhalfunits);
   text-align: center;
 }
-.home-image3 {
+.home-image2 {
   width: 10%;
   height: 5%;
   margin-top: 6%;
@@ -476,7 +470,7 @@
   align-items: center;
   flex-direction: column;
 }
-.home-image4 {
+.home-image3 {
   width: 280px;
   height: 230px;
   object-fit: cover;
@@ -495,7 +489,7 @@
   margin-top: var(--dl-space-space-oneandhalfunits);
   text-align: center;
 }
-.home-image5 {
+.home-image4 {
   width: 10%;
   height: 5%;
   margin-top: 6%;
@@ -515,7 +509,7 @@
   align-items: center;
   flex-direction: column;
 }
-.home-image6 {
+.home-image5 {
   width: 213px;
   height: 208px;
   object-fit: cover;
@@ -573,7 +567,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-image7 {
+.home-image6 {
   width: 132px;
   height: 110px;
   object-fit: cover;
@@ -1038,7 +1032,7 @@
   justify-content: space-between;
   background-color: rgb(100, 149, 235);
 }
-.home-image8 {
+.home-image7 {
   width: 90%;
   height: 100%;
   align-self: center;
@@ -1562,7 +1556,7 @@
     height: 989px;
     padding-top: 0px;
   }
-  .home-image1 {
+  .home-image {
     height: 476px;
   }
   .home-text006 {
@@ -1594,7 +1588,7 @@
   .home-message {
     padding-left: 5%;
   }
-  .home-image7 {
+  .home-image6 {
     width: 120%;
     height: 100%;
     margin-right: 5%;
@@ -1673,20 +1667,26 @@
     display: flex;
   }
   .home-header1 {
-    width: 100%;
-    height: 100%;
-    max-width: 1200px;
+    width: 991px;
+    height: 589px;
+    max-width: var(--dl-size-size-maxwidth);
+    margin-bottom: 0%;
   }
   .home-header2 {
     width: 100%;
     max-width: 1200px;
   }
   .home-text004 {
+    color: rgb(238, 233, 254);
     height: fit-content;
+    font-size: 23px;
     max-width: 600px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
   }
   .home-container05 {
-    width: 45%;
+    width: 50%;
   }
   .home-features {
     height: fit-content;
@@ -1697,7 +1697,7 @@
   .home-container08 {
     width: 100%;
   }
-  .home-image1 {
+  .home-image {
     width: 50%;
     height: 70%;
     margin-top: 0px;
@@ -1719,9 +1719,11 @@
   .home-text007 {
     color: rgb(238, 233, 254);
     height: 225px;
-    font-size: 25px;
+    font-size: 20px;
     max-width: 600px;
+    align-self: center;
     font-style: normal;
+    text-align: center;
     font-weight: 700;
     line-height: 40px;
   }
@@ -1736,7 +1738,7 @@
     padding-left: 15%;
     padding-right: 15%;
   }
-  .home-image2 {
+  .home-image1 {
     height: 131px;
   }
   .home-text013 {
@@ -1746,11 +1748,11 @@
     color: rgb(255, 255, 255);
     font-size: 20px;
   }
-  .home-image3 {
+  .home-image2 {
     align-self: center;
     justify-self: center;
   }
-  .home-image4 {
+  .home-image3 {
     width: 247px;
     height: 177px;
   }
@@ -1760,13 +1762,12 @@
   }
   .home-text020 {
     color: rgb(255, 255, 255);
-    font-size: 20px;
   }
-  .home-image5 {
+  .home-image4 {
     align-self: center;
     justify-self: center;
   }
-  .home-image6 {
+  .home-image5 {
     width: 176px;
     height: 173px;
   }
@@ -1797,7 +1798,7 @@
     max-width: 800px;
     padding-left: 5%;
   }
-  .home-image7 {
+  .home-image6 {
     width: 10%;
     height: 80%;
     align-self: flex-start;
@@ -1988,10 +1989,10 @@
   .home-container08 {
     flex-direction: column-reverse;
   }
-  .home-image1 {
+  .home-image {
     left: -22px;
-    width: 767px;
-    height: 595px;
+    width: 613px;
+    height: 485px;
   }
   .home-header3 {
     height: 287px;
@@ -2204,9 +2205,6 @@
     line-height: 25px;
   }
   .home-container05 {
-    width: 100%;
-  }
-  .home-image {
     width: 80%;
   }
   .home-container07 {
@@ -2230,9 +2228,9 @@
     width: 80%;
     flex-direction: column-reverse;
   }
-  .home-image1 {
-    width: 80%;
-    height: 100%;
+  .home-image {
+    width: 479px;
+    height: 395px;
     z-index: 0;
     align-self: center;
     margin-top: 101px;
@@ -2258,9 +2256,8 @@
   }
   .home-text007 {
     color: rgb(238, 233, 254);
-    width: 80%;
+    width: 100%;
     font-size: 13px;
-    max-width: 80%;
     font-style: normal;
     font-weight: 300;
     line-height: 25px;
@@ -2287,13 +2284,17 @@
   .home-stat {
     width: 100%;
   }
-  .home-image3 {
+  .home-image2 {
     display: none;
   }
   .home-stat1 {
     width: 100%;
   }
-  .home-image5 {
+  .home-text020 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  .home-image4 {
     display: none;
   }
   .home-stat2 {
@@ -2304,7 +2305,7 @@
   }
   .home-text024 {
     color: rgb(255, 255, 255);
-    font-size: 1.3rem;
+    font-size: 20px;
   }
   .home-quote-container {
     height: 360px;
@@ -2319,7 +2320,7 @@
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
   }
-  .home-image7 {
+  .home-image6 {
     align-self: flex-start;
   }
   .home-integrations {
@@ -2354,8 +2355,9 @@
     grid-template-columns: 1fr;
   }
   .home-pricing {
-    width: fit-content;
     height: 2000;
+    padding-left: var(--dl-space-space-fourunits);
+    padding-right: var(--dl-space-space-fourunits);
   }
   .home-heading {
     width: fit-content;
@@ -2375,12 +2377,15 @@
   }
   .home-container11 {
     padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
   }
   .home-container13 {
     align-self: center;
+  }
+  .home-text058 {
+    font-size: 12px;
+  }
+  .home-text059 {
+    font-size: 12px;
   }
   .home-pricing-card1 {
     height: 400px;
@@ -2388,11 +2393,32 @@
     padding-top: 8%;
     padding-bottom: 8%;
   }
+  .home-text067 {
+    font-size: 12px;
+  }
+  .home-text068 {
+    font-size: 12px;
+  }
+  .home-text069 {
+    font-size: 12px;
+  }
   .home-pricing-card2 {
     height: 400px;
     padding-top: 8%;
     margin-bottom: 0px;
     padding-bottom: 8%;
+  }
+  .home-text077 {
+    font-size: 12px;
+  }
+  .home-text078 {
+    font-size: 12px;
+  }
+  .home-text079 {
+    font-size: 12px;
+  }
+  .home-text080 {
+    font-size: 12px;
   }
   .home-blog-post-card {
     height: fit-content;
