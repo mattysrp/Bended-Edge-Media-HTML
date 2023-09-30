@@ -536,7 +536,7 @@
   border-style: double;
   border-width: 1px;
   padding-left: 5%;
-  padding-right: 0px;
+  padding-right: 5%;
   flex-direction: column;
   padding-bottom: 127px;
   justify-content: center;
@@ -1548,9 +1548,6 @@
     font-weight: 700;
     line-height: 40px;
   }
-  .home-container05 {
-    width: 40%;
-  }
   .home-features {
     height: 989px;
     padding-top: 0px;
@@ -1584,12 +1581,10 @@
     font-weight: 700;
     line-height: 72px;
   }
-  .home-message {
-    padding-left: 5%;
+  .home-author {
+    width: 60%;
   }
   .home-image6 {
-    width: 120%;
-    height: 100%;
     margin-right: 5%;
   }
   .home-quote1 {
@@ -1674,6 +1669,12 @@
   .home-header2 {
     width: 100%;
     max-width: 1200px;
+  }
+  .home-text003 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
   }
   .home-text004 {
     color: rgb(238, 233, 254);
@@ -1800,7 +1801,7 @@
   .home-image6 {
     width: 10%;
     height: 80%;
-    align-self: flex-start;
+    align-self: flex-end;
   }
   .home-integrations {
     height: fit-content;
@@ -1955,8 +1956,8 @@
     display: none;
   }
   .home-header1 {
+    width: 100%;
     height: fit-content;
-    margin-top: var(--dl-space-space-fourunits);
     flex-direction: column;
     justify-content: center;
   }
@@ -1972,6 +1973,7 @@
     line-height: 24px;
   }
   .home-container05 {
+    width: 330px;
     margin-top: 10%;
   }
   .home-get-started1 {
@@ -1992,6 +1994,7 @@
     left: -22px;
     width: 613px;
     height: 485px;
+    margin-top: 83px;
   }
   .home-header3 {
     height: 287px;
@@ -2234,7 +2237,7 @@
     height: 395px;
     z-index: 0;
     align-self: center;
-    margin-top: 101px;
+    margin-top: 20%;
     margin-right: 0px;
     margin-bottom: 15%;
   }
