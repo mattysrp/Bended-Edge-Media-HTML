@@ -238,39 +238,41 @@
             </header>
             <div class="home-container05">
               <div class="home-container06">
-                <div class="containerCircle">
-                  <div class="skillCircle">
-                    <div class="outerCircle">
-                      <div class="innerCircle">
-                        <div id="numberCircle"></div>
+                <div class="out">
+                  <div class="containerCircle">
+                    <div class="skillCircle">
+                      <div class="outerCircle">
+                        <div class="innerCircle">
+                          <div id="numberCircle"></div>
+                        </div>
                       </div>
-                    </div>
 
-                    <svg
-                      class="svgCircle"
-                      xmlns="http://www.w3.org/2000/svg"
-                      version="1.1"
-                      width="160px"
-                      height="160px"
-                    >
-                      <defs>
-                        <linearGradient id="GradientColor">
-                          <stop offset="0%" stop-color="#e91e63"></stop>
-                          <stop offset="100%" stop-color="#673ab7"></stop>
-                        </linearGradient>
-                      </defs>
-                      <circle
-                        cx="80"
-                        cy="80"
-                        r="70"
-                        stroke-linecap="round"
-                      ></circle>
-                    </svg>
-                  </div>
-                  <div class="descriptionContainerCircle">
-                    Choose Better
-                    <br />
-                    Choose BendEdge
+                      <svg
+                        class="svgCircle"
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="160px"
+                        height="160px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63"></stop>
+                            <stop offset="100%" stop-color="#673ab7"></stop>
+                          </linearGradient>
+                        </defs>
+                        <circle
+                          cx="80"
+                          cy="80"
+                          r="70"
+                          stroke-linecap="round"
+                        ></circle>
+                      </svg>
+                    </div>
+                    <div class="descriptionContainerCircle">
+                      Choose Better
+                      <br />
+                      Choose BendEdge
+                    </div>
                   </div>
                 </div>
 
@@ -279,7 +281,7 @@
                   let counter = 0;
 
                   setInterval(() => {
-                      if (counter == 75) {
+                      if (counter == 50) {
                           clearInterval();
                       }else {
                           counter += 1;
@@ -290,6 +292,38 @@
                 </script>
 
                 <style>
+
+                  @keyframes rotate {
+                  	100% {
+                  		transform: rotate(1turn);
+                  	}
+                  }
+
+                  .out {
+                      position: relative;
+                      z-index: 0;
+                      border-radius: 40px;
+                      width: 315px;
+                      height: 515px;
+                      overflow: hidden;
+
+                      &::before {
+                          content: '';
+                          position: absolute;
+                          z-index: -2;
+                          left: -50%;
+                          top: -50%;
+                          width: 200%;
+                          height: 200%;
+                          background-color: none;
+                          background-repeat: no-repeat;
+                          background-size: 50% 50%, 50% 50%;
+                          background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+                          background-image: linear-gradient(#ffffff6b, #ffffff6b), none, none, none;
+                          animation: rotate 3s linear infinite;
+                      }
+                  }
+
                   .containerCircle {
                       margin: 10px;
                       box-sizing: border-box;
@@ -301,10 +335,7 @@
                       align-items: center;
                       justify-content: center;
                       flex-direction: column;
-                      background-color: rgb(57, 91, 129);
-                      color: white;
-                      box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-                                  -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+                      background-color:#0080ff;
                   }
 
                   .skillCircle {
@@ -363,7 +394,7 @@
 
                   @keyframes anim {
                       100% {
-                          stroke-dashoffset: 118;
+                          stroke-dashoffset: 254;
                       }
                   }
 
