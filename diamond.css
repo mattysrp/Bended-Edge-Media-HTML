@@ -1138,6 +1138,7 @@
   }
   .diamond-image {
     width: 80%;
+    height: 300px;
     align-self: center;
     margin-top: 5%;
     margin-bottom: 28px;
@@ -1148,7 +1149,7 @@
     background-color: #C39BD3;
   }
   .diamond-image1 {
-    width: 70%;
+    width: 300px;
     height: 50%;
     align-self: center;
     margin-top: 0%;
@@ -1198,8 +1199,8 @@
     flex-direction: column-reverse;
   }
   .diamond-image3 {
-    width: 65%;
-    height: 50%;
+    width: 60%;
+    height: 300px;
     align-self: center;
     margin-top: 0%;
     margin-bottom: 5%;
