@@ -676,16 +676,23 @@
   .silver-mobile-menu-button {
     display: flex;
   }
+  .silver-container3 {
+    height: 86px;
+  }
   .silver-pricing {
     height: 300px;
   }
   .silver-text06 {
     color: rgb(255, 255, 255);
-    font-size: 250%;
+    font-size: 170%;
+  }
+  .silver-text07 {
+    color: rgb(255, 255, 255);
+    font-size: 100%;
   }
   .silver-image {
-    width: 350PX;
-    height: 300px;
+    width: 300px;
+    height: 100%;
     margin-bottom: 2px;
   }
   .silver-pricing1 {
@@ -693,13 +700,19 @@
     margin-bottom: 2%;
   }
   .silver-image1 {
-    width: 350PX;
-    height: 300PX;
+    width: 300px;
+    height: 100%;
     margin-bottom: 0px;
   }
   .silver-text12 {
     color: rgb(255, 255, 255);
-    font-size: 250%;
+    font-size: 170%;
+  }
+  .silver-text13 {
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 500;
   }
   .silver-navlink03 {
     width: 20%;
@@ -776,16 +789,16 @@
     color: #ffffff;
   }
   .silver-image {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 100%;
     margin-bottom: 0px;
   }
   .silver-pricing1 {
     margin-bottom: 2%;
   }
   .silver-image1 {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 100%;
     margin-bottom: 0px;
   }
   .silver-text12 {
@@ -877,8 +890,8 @@
     font-size: 12px;
   }
   .silver-image {
-    width: 400px;
-    height: 200px;
+    width: 75%;
+    height: 80%;
     align-self: center;
     margin-bottom: 20px;
   }
