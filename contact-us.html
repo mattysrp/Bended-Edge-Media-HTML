@@ -115,7 +115,7 @@
               <input
                 type="text"
                 id="cCoName"
-                name="cName"
+                name="cCoName"
                 placeholder="Name"
                 class="contact-us-textinput1"
               />
@@ -125,7 +125,7 @@
               <input
                 type="text"
                 id="cEmail"
-                name="cName"
+                name="cEmail"
                 required=""
                 placeholder="Email"
                 class="contact-us-textinput2"
@@ -133,15 +133,13 @@
             </div>
             <div class="contact-us-container06">
               <span class="contact-us-text4">Message:</span>
-              <input
-                type="text"
-                id="cMessage"
-                name="cName"
-                required=""
-                placeholder="Message"
-                class="contact-us-textinput3"
-              />
             </div>
+            <textarea
+              placeholder="Message"
+              id="cMessage"
+              name="cMessage"
+              class="contact-us-textarea"
+            ></textarea>
             <div id="sendButton" class="contact-us-container07">
               <span class="noSelect">
                 <span>Send</span>
@@ -152,16 +150,16 @@
               <div class="contact-us-container09">
                 <script>
                   var sendButton = document.getElementById('sendButton');
-                  var name = document.getElementById('cName');
-                  var coName = document.getElementById('cCoName');
-                  var email = document.getElementById('cEmail');
-                  var message = document.getElementById('cMessage');
+                  var cName = document.getElementById('cName');
+                  var cCoName = document.getElementById('cCoName');
+                  var cEmail = document.getElementById('cEmail');
+                  var cMessage = document.getElementById('cMessage');
                   sendButton.addEventListener('click', function() {
                       console.log('Mandato!');
-                      console.log(name.value)
-                      console.log(coName.value)
-                      console.log(email.value)
-                      console.log(message.value)
+                      console.log(cName.value)
+                      console.log(cCoName.value)
+                      console.log(cEmail.value)
+                      console.log(cMessage.value)
                   })
                 </script>
               </div>
