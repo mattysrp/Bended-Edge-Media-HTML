@@ -236,6 +236,13 @@
   width: 30px;
   height: 30px;
 }
+.noSelect {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
 .Content {
   font-size: 16px;
   font-family: Inter;
