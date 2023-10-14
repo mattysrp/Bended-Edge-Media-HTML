@@ -70,7 +70,7 @@
   height: 40px;
   display: none;
 }
-.contact-us-container1 {
+.contact-us-container01 {
   flex: 0 0 auto;
   width: 100%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -78,7 +78,7 @@
   display: flex;
   align-items: flex-start;
 }
-.contact-us-container2 {
+.contact-us-container02 {
   flex: 0 0 auto;
   width: 100%;
   height: 800px;
@@ -102,7 +102,7 @@
   justify-content: center;
   background-color: rgba(57, 91, 129, 0.6);
 }
-.contact-us-container3 {
+.contact-us-container03 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -125,7 +125,7 @@
   border-width: 2px;
   border-radius: 3px;
 }
-.contact-us-container4 {
+.contact-us-container04 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -148,7 +148,7 @@
   border-width: 2px;
   border-radius: 3px;
 }
-.contact-us-container5 {
+.contact-us-container05 {
   flex: 0 0 auto;
   width: 360px;
   height: auto;
@@ -171,7 +171,7 @@
   border-width: 2px;
   border-radius: 3px;
 }
-.contact-us-container6 {
+.contact-us-container06 {
   flex: 0 0 auto;
   width: 360px;
   height: auto;
@@ -193,16 +193,23 @@
   border-width: 2px;
   border-radius: 3px;
 }
-.contact-us-button {
+.contact-us-container07 {
   color: white;
   width: 26%;
   height: 8%;
+  display: flex;
   font-size: 24px;
   margin-top: 70px;
+  transition: 0.3s;
+  align-items: center;
   border-radius: 4px;
+  justify-content: center;
   background-color: black;
 }
-.contact-us-container8 {
+.contact-us-container07:hover {
+  cursor: pointer;
+}
+.contact-us-container09 {
   display: contents;
 }
 @media(max-width: 1200px) {
@@ -220,11 +227,6 @@
   .contact-us-text4 {
     color: var(--dl-color-gray-black);
     font-size: 20px;
-  }
-  .contact-us-button {
-    color: white;
-    font-size: 24px;
-    background-color: black;
   }
 }
 @media(max-width: 991px) {
