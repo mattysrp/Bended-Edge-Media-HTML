@@ -152,8 +152,16 @@
               <div class="contact-us-container09">
                 <script>
                   var sendButton = document.getElementById('sendButton');
+                  var name = document.getElementById('cName');
+                  var coName = document.getElementById('cCoName');
+                  var email = document.getElementById('cEmail');
+                  var message = document.getElementById('cMessage');
                   sendButton.addEventListener('click', function() {
                       console.log('Mandato!');
+                      console.log(name.value)
+                      console.log(coName.value)
+                      console.log(email.value)
+                      console.log(message.value)
                   })
                 </script>
               </div>
