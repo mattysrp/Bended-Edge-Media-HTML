@@ -548,6 +548,7 @@
 .home-image6 {
   width: 132px;
   height: 110px;
+  display: none;
   object-fit: cover;
   border-radius: 30px;
 }
